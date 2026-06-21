@@ -1427,33 +1427,6 @@
     ]
   },
   {
-    "id": "neil-armstrong",
-    "name": "Neil Armstrong",
-    "birth": {
-      "date": "1930-08-05",
-      "place": "Wapakoneta",
-      "lat": 40.57,
-      "lng": -84.19
-    },
-    "death": {
-      "date": "2012-08-25",
-      "place": "Cincinnati",
-      "lat": 39.1,
-      "lng": -84.51
-    },
-    "hints": {
-      "century": "20th century–21st century",
-      "gender": "male",
-      "nationality": "American",
-      "profession": "Astronaut"
-    },
-    "bio": "",
-    "acceptedAnswers": [
-      "neil armstrong",
-      "armstrong"
-    ]
-  },
-  {
     "id": "charles-de-gaulle",
     "name": "Charles de Gaulle",
     "birth": {
@@ -1506,6 +1479,7 @@
     "acceptedAnswers": [
       "otto von bismarck",
       "bismarck",
+      "bismark",
       "otto bismarck"
     ]
   },
@@ -2230,34 +2204,6 @@
     ]
   },
   {
-    "id": "jimmy-carter",
-    "name": "Jimmy Carter",
-    "birth": {
-      "date": "1924-10-01",
-      "place": "Lillian G. Carter Nursing Center",
-      "lat": 32.04,
-      "lng": -84.39
-    },
-    "death": {
-      "date": "2024-12-29",
-      "place": "Jimmy Carter House",
-      "lat": 32.04,
-      "lng": -84.4
-    },
-    "hints": {
-      "century": "20th century–21st century",
-      "gender": "male",
-      "nationality": "American",
-      "profession": "Politician & president"
-    },
-    "bio": "",
-    "acceptedAnswers": [
-      "jimmy carter",
-      "carter",
-      "james carter"
-    ]
-  },
-  {
     "id": "jean-paul-sartre",
     "name": "Jean-Paul Sartre",
     "birth": {
@@ -2814,33 +2760,6 @@
     ]
   },
   {
-    "id": "john-adams",
-    "name": "John Adams",
-    "birth": {
-      "date": "1735-10-30",
-      "place": "Braintree",
-      "lat": 42.21,
-      "lng": -71
-    },
-    "death": {
-      "date": "1826-07-04",
-      "place": "Quincy",
-      "lat": 42.25,
-      "lng": -71
-    },
-    "hints": {
-      "century": "18th century–19th century",
-      "gender": "male",
-      "nationality": "American",
-      "profession": "US President"
-    },
-    "bio": "",
-    "acceptedAnswers": [
-      "john adams",
-      "adams"
-    ]
-  },
-  {
     "id": "jules-verne",
     "name": "Jules Verne",
     "birth": {
@@ -2894,62 +2813,6 @@
       "hugo chavez",
       "chávez",
       "chavez"
-    ]
-  },
-  {
-    "id": "rosa-luxemburg",
-    "name": "Rosa Luxemburg",
-    "birth": {
-      "date": "1871-03-05",
-      "place": "Zamość",
-      "lat": 50.72,
-      "lng": 23.26
-    },
-    "death": {
-      "date": "1919-01-15",
-      "place": "Berlin",
-      "lat": 52.52,
-      "lng": 13.38
-    },
-    "hints": {
-      "century": "19th century–20th century",
-      "gender": "female",
-      "nationality": "German",
-      "profession": "Political activist"
-    },
-    "bio": "",
-    "acceptedAnswers": [
-      "rosa luxemburg",
-      "luxemburg"
-    ]
-  },
-  {
-    "id": "george-bernard-shaw",
-    "name": "George Bernard Shaw",
-    "birth": {
-      "date": "1856-07-26",
-      "place": "Dublin",
-      "lat": 53.35,
-      "lng": -6.26
-    },
-    "death": {
-      "date": "1950-11-02",
-      "place": "Ayot St Lawrence",
-      "lat": 51.83,
-      "lng": -0.27
-    },
-    "hints": {
-      "century": "19th century–20th century",
-      "gender": "male",
-      "nationality": "Irish",
-      "profession": "Playwright"
-    },
-    "bio": "",
-    "acceptedAnswers": [
-      "george bernard shaw",
-      "shaw",
-      "g.b. shaw",
-      "gb shaw"
     ]
   },
   {
@@ -3339,34 +3202,6 @@
       "leon trotsky",
       "trotsky",
       "lev davidovich bronstein"
-    ]
-  },
-  {
-    "id": "maxim-gorky",
-    "name": "Maxim Gorky",
-    "birth": {
-      "date": "1868-03-28",
-      "place": "Nizhny Novgorod",
-      "lat": 56.33,
-      "lng": 44.01
-    },
-    "death": {
-      "date": "1936-06-18",
-      "place": "Gorki-10",
-      "lat": 55.71,
-      "lng": 37.02
-    },
-    "hints": {
-      "century": "19th century–20th century",
-      "gender": "male",
-      "nationality": "Russian",
-      "profession": "Writer"
-    },
-    "bio": "",
-    "acceptedAnswers": [
-      "maxim gorky",
-      "gorky",
-      "alexei maximovich peshkov"
     ]
   }
 ]
