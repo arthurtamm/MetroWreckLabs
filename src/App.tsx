@@ -11,6 +11,7 @@ import { ModeToggle, type Mode } from './components/ModeToggle'
 import { gameReducer, initGame, wrongCount } from './game/useGame'
 import { findPerson } from './game/match'
 import { revealedHints } from './game/hints'
+import { formatDate } from './game/formatDate'
 import { buildShareText } from './game/share'
 import { dailyIndex, todayISO, dailyNumber } from './game/selectDaily'
 import { EPOCH, MAX_GUESSES } from './game/constants'
@@ -78,16 +79,17 @@ export default function App() {
 
       <MapView birth={person.birth} death={person.death} />
 
+      <div className="date-legend">
+        <span className="chip born">Born · {formatDate(person.birth.date)}</span>
+        <span className="chip died">Died · {formatDate(person.death.date)}</span>
+      </div>
+
       <main className="controls">
         {mode === 'daily' && <p className="puzzle-no">Daily #{daily.number}</p>}
 
         {state.status === 'playing' ? (
           <>
-            <GuessInput
-              names={ALL.map((p) => p.name)}
-              disabled={false}
-              onGuess={handleGuess}
-            />
+            <GuessInput disabled={false} onGuess={handleGuess} />
             {notice && <p className="guess-notice">{notice}</p>}
             <HintPanel
               hints={revealedHints(person, wrongCount(state))}

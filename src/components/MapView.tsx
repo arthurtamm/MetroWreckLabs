@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { MapContainer, GeoJSON, CircleMarker, Tooltip, useMap } from 'react-leaflet'
+import { MapContainer, GeoJSON, CircleMarker, useMap } from 'react-leaflet'
 import type { GeoJsonObject } from 'geojson'
 import type { GeoPoint } from '../data/types'
 import countriesData from '../data/countries.json'
@@ -12,11 +12,6 @@ const landStyle = { color: '#0a2a43', weight: 1, fillColor: '#cbd5e1', fillOpaci
 interface Props {
   birth: GeoPoint
   death: GeoPoint
-}
-
-function fmtDate(iso: string): string {
-  // Show year prominently; ISO already human-enough for v1.
-  return iso
 }
 
 // MapContainer only honors `bounds` on first mount. This re-fits the view
@@ -53,14 +48,12 @@ export function MapView({ birth, death }: Props) {
     >
       <FitBounds birth={birth} death={death} />
       <GeoJSON data={countries} style={landStyle} />
-      <CircleMarker center={[birth.lat, birth.lng]} radius={10}
-        pathOptions={{ color: '#10803a', fillColor: '#34d399', fillOpacity: 0.9 }}>
-        <Tooltip permanent direction="top">🟢 Born {fmtDate(birth.date)}</Tooltip>
-      </CircleMarker>
-      <CircleMarker center={[death.lat, death.lng]} radius={10}
-        pathOptions={{ color: '#991b1b', fillColor: '#f87171', fillOpacity: 0.9 }}>
-        <Tooltip permanent direction="top">🔴 Died {fmtDate(death.date)}</Tooltip>
-      </CircleMarker>
+      {/* Dates are shown as a legend below the map (see App) — the markers stay
+          label-free so they never overlap and the map reads cleanly. */}
+      <CircleMarker center={[birth.lat, birth.lng]} radius={9}
+        pathOptions={{ color: '#ffffff', weight: 2, fillColor: '#34d399', fillOpacity: 1 }} />
+      <CircleMarker center={[death.lat, death.lng]} radius={9}
+        pathOptions={{ color: '#ffffff', weight: 2, fillColor: '#f87171', fillOpacity: 1 }} />
     </MapContainer>
   )
 }

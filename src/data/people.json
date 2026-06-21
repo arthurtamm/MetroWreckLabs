@@ -1033,63 +1033,6 @@
     ]
   },
   {
-    "id": "alexander-pushkin",
-    "name": "Alexander Pushkin",
-    "birth": {
-      "date": "1799-06-06",
-      "place": "Moscow",
-      "lat": 55.75,
-      "lng": 37.62
-    },
-    "death": {
-      "date": "1837-02-10",
-      "place": "Saint Petersburg",
-      "lat": 59.95,
-      "lng": 30.32
-    },
-    "hints": {
-      "century": "18th century–19th century",
-      "gender": "male",
-      "nationality": "Russian",
-      "profession": "Poet"
-    },
-    "bio": "",
-    "acceptedAnswers": [
-      "alexander pushkin",
-      "pushkin",
-      "aleksandr pushkin"
-    ]
-  },
-  {
-    "id": "hans-christian-andersen",
-    "name": "Hans Christian Andersen",
-    "birth": {
-      "date": "1805-04-02",
-      "place": "Odense",
-      "lat": 55.4,
-      "lng": 10.38
-    },
-    "death": {
-      "date": "1875-08-04",
-      "place": "Rolighed",
-      "lat": 55.7,
-      "lng": 12.58
-    },
-    "hints": {
-      "century": "19th century",
-      "gender": "male",
-      "nationality": "Danish",
-      "profession": "Author"
-    },
-    "bio": "",
-    "acceptedAnswers": [
-      "hans christian andersen",
-      "andersen",
-      "h.c. andersen",
-      "hc andersen"
-    ]
-  },
-  {
     "id": "christopher-columbus",
     "name": "Christopher Columbus",
     "birth": {
@@ -1897,33 +1840,6 @@
     ]
   },
   {
-    "id": "albert-camus",
-    "name": "Albert Camus",
-    "birth": {
-      "date": "1913-11-07",
-      "place": "Dréan",
-      "lat": 36.68,
-      "lng": 7.75
-    },
-    "death": {
-      "date": "1960-01-04",
-      "place": "Villeblevin",
-      "lat": 48.32,
-      "lng": 3.08
-    },
-    "hints": {
-      "century": "20th century",
-      "gender": "male",
-      "nationality": "French",
-      "profession": "Philosopher & novelist"
-    },
-    "bio": "",
-    "acceptedAnswers": [
-      "albert camus",
-      "camus"
-    ]
-  },
-  {
     "id": "fidel-castro",
     "name": "Fidel Castro",
     "birth": {
@@ -1949,33 +1865,6 @@
       "fidel castro",
       "castro",
       "fidel"
-    ]
-  },
-  {
-    "id": "richard-wagner",
-    "name": "Richard Wagner",
-    "birth": {
-      "date": "1813-05-22",
-      "place": "Leipzig",
-      "lat": 51.34,
-      "lng": 12.37
-    },
-    "death": {
-      "date": "1883-02-13",
-      "place": "Venice",
-      "lat": 45.44,
-      "lng": 12.33
-    },
-    "hints": {
-      "century": "19th century",
-      "gender": "male",
-      "nationality": "German",
-      "profession": "Composer"
-    },
-    "bio": "",
-    "acceptedAnswers": [
-      "richard wagner",
-      "wagner"
     ]
   },
   {
@@ -2147,33 +2036,6 @@
     ]
   },
   {
-    "id": "jane-austen",
-    "name": "Jane Austen",
-    "birth": {
-      "date": "1775-12-16",
-      "place": "Steventon",
-      "lat": 51.62,
-      "lng": -1.33
-    },
-    "death": {
-      "date": "1817-07-18",
-      "place": "Winchester",
-      "lat": 51.06,
-      "lng": -1.31
-    },
-    "hints": {
-      "century": "18th century–19th century",
-      "gender": "female",
-      "nationality": "British",
-      "profession": "Novelist"
-    },
-    "bio": "",
-    "acceptedAnswers": [
-      "jane austen",
-      "austen"
-    ]
-  },
-  {
     "id": "benedict-xvi",
     "name": "Pope Benedict XVI",
     "birth": {
@@ -2286,33 +2148,6 @@
     ]
   },
   {
-    "id": "marlene-dietrich",
-    "name": "Marlene Dietrich",
-    "birth": {
-      "date": "1901-12-27",
-      "place": "Rote Insel",
-      "lat": 52.48,
-      "lng": 13.36
-    },
-    "death": {
-      "date": "1992-05-06",
-      "place": "8th arrondissement of Paris",
-      "lat": 48.87,
-      "lng": 2.31
-    },
-    "hints": {
-      "century": "20th century",
-      "gender": "female",
-      "nationality": "German",
-      "profession": "Actress & singer"
-    },
-    "bio": "",
-    "acceptedAnswers": [
-      "marlene dietrich",
-      "dietrich"
-    ]
-  },
-  {
     "id": "stephen-hawking",
     "name": "Stephen Hawking",
     "birth": {
@@ -2420,35 +2255,6 @@
       "jimmy carter",
       "carter",
       "james carter"
-    ]
-  },
-  {
-    "id": "le-corbusier",
-    "name": "Le Corbusier",
-    "birth": {
-      "date": "1887-10-06",
-      "place": "La Chaux-de-Fonds",
-      "lat": 47.1,
-      "lng": 6.83
-    },
-    "death": {
-      "date": "1965-08-27",
-      "place": "Roquebrune-Cap-Martin",
-      "lat": 43.76,
-      "lng": 7.47
-    },
-    "hints": {
-      "century": "19th century–20th century",
-      "gender": "male",
-      "nationality": "Swiss-French",
-      "profession": "Architect"
-    },
-    "bio": "",
-    "acceptedAnswers": [
-      "le corbusier",
-      "corbusier",
-      "charles-edouard jeanneret",
-      "charles edouard jeanneret"
     ]
   },
   {
@@ -2675,33 +2481,6 @@
     ]
   },
   {
-    "id": "sarah-bernhardt",
-    "name": "Sarah Bernhardt",
-    "birth": {
-      "date": "1844-10-23",
-      "place": "Paris",
-      "lat": 48.86,
-      "lng": 2.35
-    },
-    "death": {
-      "date": "1923-03-26",
-      "place": "17th arrondissement of Paris",
-      "lat": 48.88,
-      "lng": 2.31
-    },
-    "hints": {
-      "century": "19th century–20th century",
-      "gender": "female",
-      "nationality": "French",
-      "profession": "Actress"
-    },
-    "bio": "",
-    "acceptedAnswers": [
-      "sarah bernhardt",
-      "bernhardt"
-    ]
-  },
-  {
     "id": "raphael",
     "name": "Raphael",
     "birth": {
@@ -2868,61 +2647,6 @@
       "roosevelt",
       "teddy roosevelt",
       "tr"
-    ]
-  },
-  {
-    "id": "jorge-luis-borges",
-    "name": "Jorge Luis Borges",
-    "birth": {
-      "date": "1899-08-24",
-      "place": "Buenos Aires",
-      "lat": -34.6,
-      "lng": -58.38
-    },
-    "death": {
-      "date": "1986-06-14",
-      "place": "Geneva",
-      "lat": 46.2,
-      "lng": 6.15
-    },
-    "hints": {
-      "century": "19th century–20th century",
-      "gender": "male",
-      "nationality": "Argentine",
-      "profession": "Writer"
-    },
-    "bio": "",
-    "acceptedAnswers": [
-      "jorge luis borges",
-      "borges"
-    ]
-  },
-  {
-    "id": "jawaharlal-nehru",
-    "name": "Jawaharlal Nehru",
-    "birth": {
-      "date": "1889-11-14",
-      "place": "Prayagraj",
-      "lat": 25.45,
-      "lng": 81.85
-    },
-    "death": {
-      "date": "1964-05-27",
-      "place": "New Delhi",
-      "lat": 28.61,
-      "lng": 77.21
-    },
-    "hints": {
-      "century": "19th century–20th century",
-      "gender": "male",
-      "nationality": "Indian",
-      "profession": "Politician"
-    },
-    "bio": "",
-    "acceptedAnswers": [
-      "jawaharlal nehru",
-      "nehru",
-      "pandit nehru"
     ]
   },
   {
@@ -3449,34 +3173,6 @@
       "louis xiv of france",
       "louis the fourteenth",
       "the sun king"
-    ]
-  },
-  {
-    "id": "francisco-goya",
-    "name": "Francisco Goya",
-    "birth": {
-      "date": "1746-03-30",
-      "place": "Fuendetodos",
-      "lat": 41.34,
-      "lng": -0.96
-    },
-    "death": {
-      "date": "1828-04-16",
-      "place": "Bordeaux",
-      "lat": 44.84,
-      "lng": -0.58
-    },
-    "hints": {
-      "century": "18th century–19th century",
-      "gender": "male",
-      "nationality": "Spanish",
-      "profession": "Painter"
-    },
-    "bio": "",
-    "acceptedAnswers": [
-      "francisco goya",
-      "goya",
-      "francisco de goya"
     ]
   },
   {
