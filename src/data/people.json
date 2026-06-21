@@ -2,73 +2,457 @@
   {
     "id": "mozart",
     "name": "Wolfgang Amadeus Mozart",
-    "birth": { "date": "1756-01-27", "place": "Salzburg, Austria", "lat": 47.8, "lng": 13.04 },
-    "death": { "date": "1791-12-05", "place": "Vienna, Austria", "lat": 48.21, "lng": 16.37 },
-    "hints": { "century": "18th century", "gender": "Male", "nationality": "Austrian", "profession": "Composer" },
+    "birth": {
+      "date": "1756-01-27",
+      "place": "Salzburg, Austria",
+      "lat": 47.8,
+      "lng": 13.04
+    },
+    "death": {
+      "date": "1791-12-05",
+      "place": "Vienna, Austria",
+      "lat": 48.21,
+      "lng": 16.37
+    },
+    "hints": {
+      "century": "18th century",
+      "gender": "Male",
+      "nationality": "Austrian",
+      "profession": "Composer"
+    },
     "bio": "A prolific and influential composer of the Classical period.",
-    "acceptedAnswers": ["mozart", "wolfgang amadeus mozart"]
+    "acceptedAnswers": [
+      "mozart",
+      "wolfgang amadeus mozart"
+    ]
   },
   {
     "id": "napoleon",
     "name": "Napoleon Bonaparte",
-    "birth": { "date": "1769-08-15", "place": "Ajaccio, Corsica, France", "lat": 41.93, "lng": 8.74 },
-    "death": { "date": "1821-05-05", "place": "Longwood, Saint Helena", "lat": -15.95, "lng": -5.7 },
-    "hints": { "century": "18th-19th century", "gender": "Male", "nationality": "French", "profession": "Military leader & emperor" },
+    "birth": {
+      "date": "1769-08-15",
+      "place": "Ajaccio, Corsica, France",
+      "lat": 41.93,
+      "lng": 8.74
+    },
+    "death": {
+      "date": "1821-05-05",
+      "place": "Longwood, Saint Helena",
+      "lat": -15.95,
+      "lng": -5.7
+    },
+    "hints": {
+      "century": "18th-19th century",
+      "gender": "Male",
+      "nationality": "French",
+      "profession": "Military leader & emperor"
+    },
     "bio": "A French military and political leader who became Emperor of the French.",
-    "acceptedAnswers": ["napoleon", "napoleon bonaparte", "napoleon i"]
+    "acceptedAnswers": [
+      "napoleon",
+      "napoleon bonaparte",
+      "napoleon i"
+    ]
   },
   {
     "id": "curie",
     "name": "Marie Curie",
-    "birth": { "date": "1867-11-07", "place": "Warsaw, Poland", "lat": 52.23, "lng": 21.01 },
-    "death": { "date": "1934-07-04", "place": "Passy, Haute-Savoie, France", "lat": 45.92, "lng": 6.73 },
-    "hints": { "century": "19th-20th century", "gender": "Female", "nationality": "Polish-French", "profession": "Physicist & chemist" },
+    "birth": {
+      "date": "1867-11-07",
+      "place": "Warsaw, Poland",
+      "lat": 52.23,
+      "lng": 21.01
+    },
+    "death": {
+      "date": "1934-07-04",
+      "place": "Passy, Haute-Savoie, France",
+      "lat": 45.92,
+      "lng": 6.73
+    },
+    "hints": {
+      "century": "19th-20th century",
+      "gender": "Female",
+      "nationality": "Polish-French",
+      "profession": "Physicist & chemist"
+    },
     "bio": "A physicist and chemist who conducted pioneering research on radioactivity.",
-    "acceptedAnswers": ["marie curie", "curie", "maria sklodowska", "marie sklodowska curie"]
+    "acceptedAnswers": [
+      "marie curie",
+      "curie",
+      "maria sklodowska",
+      "marie sklodowska curie"
+    ]
   },
   {
     "id": "lincoln",
     "name": "Abraham Lincoln",
-    "birth": { "date": "1809-02-12", "place": "Hodgenville, Kentucky, USA", "lat": 37.57, "lng": -85.74 },
-    "death": { "date": "1865-04-15", "place": "Washington, D.C., USA", "lat": 38.9, "lng": -77.04 },
-    "hints": { "century": "19th century", "gender": "Male", "nationality": "American", "profession": "Politician & president" },
+    "birth": {
+      "date": "1809-02-12",
+      "place": "Hodgenville, Kentucky, USA",
+      "lat": 37.57,
+      "lng": -85.74
+    },
+    "death": {
+      "date": "1865-04-15",
+      "place": "Washington, D.C., USA",
+      "lat": 38.9,
+      "lng": -77.04
+    },
+    "hints": {
+      "century": "19th century",
+      "gender": "Male",
+      "nationality": "American",
+      "profession": "Politician & president"
+    },
     "bio": "The 16th President of the United States, who led the nation through the Civil War.",
-    "acceptedAnswers": ["abraham lincoln", "lincoln"]
+    "acceptedAnswers": [
+      "abraham lincoln",
+      "lincoln"
+    ]
   },
   {
     "id": "gandhi",
     "name": "Mahatma Gandhi",
-    "birth": { "date": "1869-10-02", "place": "Porbandar, Gujarat, India", "lat": 21.64, "lng": 69.6 },
-    "death": { "date": "1948-01-30", "place": "New Delhi, India", "lat": 28.61, "lng": 77.21 },
-    "hints": { "century": "19th-20th century", "gender": "Male", "nationality": "Indian", "profession": "Independence leader" },
+    "birth": {
+      "date": "1869-10-02",
+      "place": "Porbandar, Gujarat, India",
+      "lat": 21.64,
+      "lng": 69.6
+    },
+    "death": {
+      "date": "1948-01-30",
+      "place": "New Delhi, India",
+      "lat": 28.61,
+      "lng": 77.21
+    },
+    "hints": {
+      "century": "19th-20th century",
+      "gender": "Male",
+      "nationality": "Indian",
+      "profession": "Independence leader"
+    },
     "bio": "Leader of the Indian independence movement against British rule.",
-    "acceptedAnswers": ["mahatma gandhi", "gandhi", "mohandas gandhi", "mohandas karamchand gandhi"]
+    "acceptedAnswers": [
+      "mahatma gandhi",
+      "gandhi",
+      "mohandas gandhi",
+      "mohandas karamchand gandhi"
+    ]
   },
   {
     "id": "frida",
     "name": "Frida Kahlo",
-    "birth": { "date": "1907-07-06", "place": "Coyoacán, Mexico City, Mexico", "lat": 19.35, "lng": -99.16 },
-    "death": { "date": "1954-07-13", "place": "Coyoacán, Mexico City, Mexico", "lat": 19.35, "lng": -99.16 },
-    "hints": { "century": "20th century", "gender": "Female", "nationality": "Mexican", "profession": "Painter" },
+    "birth": {
+      "date": "1907-07-06",
+      "place": "Coyoacán, Mexico City, Mexico",
+      "lat": 19.35,
+      "lng": -99.16
+    },
+    "death": {
+      "date": "1954-07-13",
+      "place": "Coyoacán, Mexico City, Mexico",
+      "lat": 19.35,
+      "lng": -99.16
+    },
+    "hints": {
+      "century": "20th century",
+      "gender": "Female",
+      "nationality": "Mexican",
+      "profession": "Painter"
+    },
     "bio": "A Mexican painter known for her many portraits, self-portraits, and works inspired by nature.",
-    "acceptedAnswers": ["frida kahlo", "kahlo", "frida"]
+    "acceptedAnswers": [
+      "frida kahlo",
+      "kahlo",
+      "frida"
+    ]
   },
   {
     "id": "beethoven",
     "name": "Ludwig van Beethoven",
-    "birth": { "date": "1770-12-17", "place": "Bonn, Germany", "lat": 50.73, "lng": 7.1 },
-    "death": { "date": "1827-03-26", "place": "Vienna, Austria", "lat": 48.21, "lng": 16.37 },
-    "hints": { "century": "18th-19th century", "gender": "Male", "nationality": "German", "profession": "Composer" },
+    "birth": {
+      "date": "1770-12-17",
+      "place": "Bonn, Germany",
+      "lat": 50.73,
+      "lng": 7.1
+    },
+    "death": {
+      "date": "1827-03-26",
+      "place": "Vienna, Austria",
+      "lat": 48.21,
+      "lng": 16.37
+    },
+    "hints": {
+      "century": "18th-19th century",
+      "gender": "Male",
+      "nationality": "German",
+      "profession": "Composer"
+    },
     "bio": "A German composer and pianist who is a crucial figure in Western classical music.",
-    "acceptedAnswers": ["beethoven", "ludwig van beethoven"]
+    "acceptedAnswers": [
+      "beethoven",
+      "ludwig van beethoven"
+    ]
   },
   {
     "id": "cleopatra",
     "name": "Cleopatra",
-    "birth": { "date": "0069-01-01", "place": "Alexandria, Egypt", "lat": 31.2, "lng": 29.92 },
-    "death": { "date": "0030-08-12", "place": "Alexandria, Egypt", "lat": 31.2, "lng": 29.92 },
-    "hints": { "century": "1st century BC", "gender": "Female", "nationality": "Egyptian (Ptolemaic)", "profession": "Pharaoh" },
+    "birth": {
+      "date": "0069-01-01",
+      "place": "Alexandria, Egypt",
+      "lat": 31.2,
+      "lng": 29.92
+    },
+    "death": {
+      "date": "0030-08-12",
+      "place": "Alexandria, Egypt",
+      "lat": 31.2,
+      "lng": 29.92
+    },
+    "hints": {
+      "century": "1st century BC",
+      "gender": "Female",
+      "nationality": "Egyptian (Ptolemaic)",
+      "profession": "Pharaoh"
+    },
     "bio": "The last active ruler of the Ptolemaic Kingdom of Egypt.",
-    "acceptedAnswers": ["cleopatra", "cleopatra vii"]
+    "acceptedAnswers": [
+      "cleopatra",
+      "cleopatra vii"
+    ]
+  },
+  {
+    "id": "william-shakespeare",
+    "name": "William Shakespeare",
+    "birth": {
+      "date": "1564-04-01",
+      "place": "Stratford-upon-Avon",
+      "lat": 52.19,
+      "lng": -1.71
+    },
+    "death": {
+      "date": "1616-05-03",
+      "place": "Stratford-upon-Avon",
+      "lat": 52.19,
+      "lng": -1.71
+    },
+    "hints": {
+      "century": "16th century–17th century",
+      "gender": "male",
+      "nationality": "Kingdom of England",
+      "profession": "actor"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "william shakespeare"
+    ]
+  },
+  {
+    "id": "michael-jackson",
+    "name": "Michael Jackson",
+    "birth": {
+      "date": "1958-08-29",
+      "place": "Gary",
+      "lat": 41.58,
+      "lng": -87.35
+    },
+    "death": {
+      "date": "2009-06-25",
+      "place": "Los Angeles",
+      "lat": 34.05,
+      "lng": -118.24
+    },
+    "hints": {
+      "century": "20th century–21st century",
+      "gender": "male",
+      "nationality": "United States",
+      "profession": "singer"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "michael jackson"
+    ]
+  },
+  {
+    "id": "adolf-hitler",
+    "name": "Adolf Hitler",
+    "birth": {
+      "date": "1889-04-20",
+      "place": "Braunau am Inn",
+      "lat": 48.26,
+      "lng": 13.03
+    },
+    "death": {
+      "date": "1945-04-30",
+      "place": "Führerbunker",
+      "lat": 52.51,
+      "lng": 13.38
+    },
+    "hints": {
+      "century": "19th century–20th century",
+      "gender": "male",
+      "nationality": "Austria",
+      "profession": "politician"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "adolf hitler"
+    ]
+  },
+  {
+    "id": "albert-einstein",
+    "name": "Albert Einstein",
+    "birth": {
+      "date": "1879-03-14",
+      "place": "Ulm",
+      "lat": 48.4,
+      "lng": 9.99
+    },
+    "death": {
+      "date": "1955-04-18",
+      "place": "Princeton",
+      "lat": 40.35,
+      "lng": -74.66
+    },
+    "hints": {
+      "century": "19th century–20th century",
+      "gender": "male",
+      "nationality": "United States",
+      "profession": "scientist"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "albert einstein"
+    ]
+  },
+  {
+    "id": "karl-marx",
+    "name": "Karl Marx",
+    "birth": {
+      "date": "1818-05-05",
+      "place": "Trier",
+      "lat": 49.76,
+      "lng": 6.64
+    },
+    "death": {
+      "date": "1883-03-14",
+      "place": "London",
+      "lat": 51.51,
+      "lng": -0.13
+    },
+    "hints": {
+      "century": "19th century",
+      "gender": "male",
+      "nationality": "Kingdom of Prussia",
+      "profession": "writer"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "karl marx"
+    ]
+  },
+  {
+    "id": "leonardo-da-vinci",
+    "name": "Leonardo da Vinci",
+    "birth": {
+      "date": "1452-04-24",
+      "place": "Anchiano",
+      "lat": 43.8,
+      "lng": 10.94
+    },
+    "death": {
+      "date": "1519-05-12",
+      "place": "Clos Lucé",
+      "lat": 47.41,
+      "lng": 0.99
+    },
+    "hints": {
+      "century": "15th century–16th century",
+      "gender": "male",
+      "nationality": "Republic of Florence",
+      "profession": "scientist"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "leonardo da vinci"
+    ]
+  },
+  {
+    "id": "isaac-newton",
+    "name": "Isaac Newton",
+    "birth": {
+      "date": "1643-01-04",
+      "place": "Woolsthorpe Manor",
+      "lat": 52.81,
+      "lng": -0.63
+    },
+    "death": {
+      "date": "1727-03-31",
+      "place": "Kensington",
+      "lat": 51.5,
+      "lng": -0.19
+    },
+    "hints": {
+      "century": "17th century–18th century",
+      "gender": "male",
+      "nationality": "Kingdom of Great Britain",
+      "profession": "mathematician"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "isaac newton"
+    ]
+  },
+  {
+    "id": "vladimir-lenin",
+    "name": "Vladimir Lenin",
+    "birth": {
+      "date": "1870-04-22",
+      "place": "Ulyanovsk",
+      "lat": 54.32,
+      "lng": 48.37
+    },
+    "death": {
+      "date": "1924-01-21",
+      "place": "Bolshiye Gorki",
+      "lat": 55.5,
+      "lng": 37.76
+    },
+    "hints": {
+      "century": "19th century–20th century",
+      "gender": "male",
+      "nationality": "Soviet Union",
+      "profession": "politician"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "vladimir lenin"
+    ]
+  },
+  {
+    "id": "nelson-mandela",
+    "name": "Nelson Mandela",
+    "birth": {
+      "date": "1918-07-18",
+      "place": "Mvezo",
+      "lat": -31.95,
+      "lng": 28.52
+    },
+    "death": {
+      "date": "2013-12-05",
+      "place": "Houghton Estate",
+      "lat": -26.15,
+      "lng": 28.05
+    },
+    "hints": {
+      "century": "20th century–21st century",
+      "gender": "male",
+      "nationality": "South Africa",
+      "profession": "screenwriter"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "nelson mandela"
+    ]
   }
 ]
