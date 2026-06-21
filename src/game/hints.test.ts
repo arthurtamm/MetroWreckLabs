@@ -11,27 +11,31 @@ describe('deriveInitials', () => {
   it('takes first letter of each word, uppercase, dotted', () => {
     expect(deriveInitials('Wolfgang Amadeus Mozart')).toBe('W. A. M.')
   })
+  it('uses the common name (Marie Curie → M. C.)', () => {
+    expect(deriveInitials('Marie Curie')).toBe('M. C.')
+  })
 })
 
 describe('revealedHints', () => {
   it('reveals nothing with zero wrong guesses', () => {
     expect(revealedHints(mozart, 0)).toEqual([])
   })
-  it('reveals century after 1 wrong guess', () => {
-    expect(revealedHints(mozart, 1)).toEqual([{ label: 'Century', value: '18th century' }])
-  })
-  it('reveals in order, accumulating', () => {
-    expect(revealedHints(mozart, 3)).toEqual([
-      { label: 'Century', value: '18th century' },
-      { label: 'Gender', value: 'Male' },
-      { label: 'Nationality', value: 'Austrian' },
+  it('reveals gender + nationality after 1 wrong guess', () => {
+    expect(revealedHints(mozart, 1)).toEqual([
+      { label: 'Gender & nationality', value: 'Male, Austrian' },
     ])
   })
-  it('reveals initials as the 5th hint', () => {
-    const all = revealedHints(mozart, 5)
-    expect(all[4]).toEqual({ label: 'Initials', value: 'W. A. M.' })
+  it('reveals in order, accumulating', () => {
+    expect(revealedHints(mozart, 2)).toEqual([
+      { label: 'Gender & nationality', value: 'Male, Austrian' },
+      { label: 'Profession', value: 'Composer' },
+    ])
   })
-  it('caps at the number of available hints', () => {
-    expect(revealedHints(mozart, 99).length).toBe(5)
+  it('reveals initials as the 3rd hint', () => {
+    const all = revealedHints(mozart, 3)
+    expect(all[2]).toEqual({ label: 'Initials', value: 'W. A. M.' })
+  })
+  it('caps at the number of available hints (3)', () => {
+    expect(revealedHints(mozart, 99).length).toBe(3)
   })
 })

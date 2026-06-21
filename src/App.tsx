@@ -9,6 +9,7 @@ import { GuessHistory } from './components/GuessHistory'
 import { ResultScreen } from './components/ResultScreen'
 import { ModeToggle, type Mode } from './components/ModeToggle'
 import { gameReducer, initGame, wrongCount } from './game/useGame'
+import { findPerson } from './game/match'
 import { revealedHints } from './game/hints'
 import { buildShareText } from './game/share'
 import { dailyIndex, todayISO, dailyNumber } from './game/selectDaily'
@@ -35,6 +36,28 @@ export default function App() {
 
   const person = mode === 'daily' ? daily.person : endlessPerson
   const [state, dispatch] = useReducer(gameReducer, person, initGame)
+  const [notice, setNotice] = useState('')
+
+  // Resolve a typed/clicked guess to a real person, rejecting unknown names and
+  // already-guessed people (neither consumes a guess).
+  function handleGuess(text: string) {
+    const matched = findPerson(text, ALL)
+    if (!matched) {
+      setNotice(`"${text.trim()}" isn't in the list — pick a name from the suggestions.`)
+      return
+    }
+    if (state.guesses.some((g) => g.id === matched.id)) {
+      setNotice(`You already guessed ${matched.name}.`)
+      return
+    }
+    setNotice('')
+    dispatch({
+      type: 'guess',
+      id: matched.id,
+      name: matched.name,
+      correct: matched.id === person.id,
+    })
+  }
 
   // Mode switches and "Play again" call dispatch({ type: 'reset', person })
   // explicitly (see handlers below) to re-init the round for the new person.
@@ -46,6 +69,7 @@ export default function App() {
           mode={mode}
           onChange={(m) => {
             setMode(m)
+            setNotice('')
             const next = m === 'daily' ? daily.person : endlessPerson
             dispatch({ type: 'reset', person: next })
           }}
@@ -62,8 +86,9 @@ export default function App() {
             <GuessInput
               names={ALL.map((p) => p.name)}
               disabled={false}
-              onGuess={(name) => dispatch({ type: 'guess', name })}
+              onGuess={handleGuess}
             />
+            {notice && <p className="guess-notice">{notice}</p>}
             <HintPanel
               hints={revealedHints(person, wrongCount(state))}
               guessesLeft={MAX_GUESSES - state.guesses.length}
@@ -85,6 +110,7 @@ export default function App() {
                 ? () => {
                     const next = pickRandom()
                     setEndlessPerson(next)
+                    setNotice('')
                     dispatch({ type: 'reset', person: next })
                   }
                 : null
