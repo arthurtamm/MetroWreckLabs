@@ -430,32 +430,6 @@
     ]
   },
   {
-    "id": "abraham-lincoln",
-    "name": "Abraham Lincoln",
-    "birth": {
-      "date": "1809-02-12",
-      "place": "Sinking Spring Farm",
-      "lat": 37.53,
-      "lng": -85.73
-    },
-    "death": {
-      "date": "1865-04-15",
-      "place": "Petersen House",
-      "lat": 38.9,
-      "lng": -77.03
-    },
-    "hints": {
-      "century": "19th century",
-      "gender": "male",
-      "nationality": "United States",
-      "profession": "Statesperson"
-    },
-    "bio": "",
-    "acceptedAnswers": [
-      "abraham lincoln"
-    ]
-  },
-  {
     "id": "nelson-mandela",
     "name": "Nelson Mandela",
     "birth": {
@@ -479,32 +453,6 @@
     "bio": "",
     "acceptedAnswers": [
       "nelson mandela"
-    ]
-  },
-  {
-    "id": "mahatma-gandhi",
-    "name": "Mahatma Gandhi",
-    "birth": {
-      "date": "1869-10-02",
-      "place": "Porbandar",
-      "lat": 21.64,
-      "lng": 69.6
-    },
-    "death": {
-      "date": "1948-01-30",
-      "place": "Gandhi Smriti",
-      "lat": 28.6,
-      "lng": 77.21
-    },
-    "hints": {
-      "century": "19th century–20th century",
-      "gender": "male",
-      "nationality": "India",
-      "profession": "Philosopher"
-    },
-    "bio": "",
-    "acceptedAnswers": [
-      "mahatma gandhi"
     ]
   },
   {
@@ -583,58 +531,6 @@
     "bio": "",
     "acceptedAnswers": [
       "johann wolfgang von goethe"
-    ]
-  },
-  {
-    "id": "wolfgang-amadeus-mozart",
-    "name": "Wolfgang Amadeus Mozart",
-    "birth": {
-      "date": "1756-01-27",
-      "place": "Salzburg",
-      "lat": 47.8,
-      "lng": 13.04
-    },
-    "death": {
-      "date": "1791-12-05",
-      "place": "Vienna",
-      "lat": 48.21,
-      "lng": 16.37
-    },
-    "hints": {
-      "century": "18th century",
-      "gender": "male",
-      "nationality": "Prince-Archbishopric of Salzburg",
-      "profession": "Composer"
-    },
-    "bio": "",
-    "acceptedAnswers": [
-      "wolfgang amadeus mozart"
-    ]
-  },
-  {
-    "id": "ludwig-van-beethoven",
-    "name": "Ludwig van Beethoven",
-    "birth": {
-      "date": "1770-12-16",
-      "place": "Bonn",
-      "lat": 50.74,
-      "lng": 7.1
-    },
-    "death": {
-      "date": "1827-03-26",
-      "place": "Vienna",
-      "lat": 48.21,
-      "lng": 16.37
-    },
-    "hints": {
-      "century": "18th century–19th century",
-      "gender": "male",
-      "nationality": "Austrian Empire",
-      "profession": "Composer"
-    },
-    "bio": "",
-    "acceptedAnswers": [
-      "ludwig van beethoven"
     ]
   },
   {
@@ -3183,32 +3079,6 @@
     "bio": "",
     "acceptedAnswers": [
       "woodrow wilson"
-    ]
-  },
-  {
-    "id": "roald-amundsen",
-    "name": "Roald Amundsen",
-    "birth": {
-      "date": "1872-07-16",
-      "place": "Borge Municipality",
-      "lat": 59.23,
-      "lng": 11.04
-    },
-    "death": {
-      "date": "1928-06-18",
-      "place": "Arctic Ocean",
-      "lat": 90,
-      "lng": 0
-    },
-    "hints": {
-      "century": "19th century–20th century",
-      "gender": "male",
-      "nationality": "Norway",
-      "profession": "Explorer"
-    },
-    "bio": "",
-    "acceptedAnswers": [
-      "roald amundsen"
     ]
   },
   {
