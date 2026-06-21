@@ -22,8 +22,8 @@
     },
     "bio": "A prolific and influential composer of the Classical period.",
     "acceptedAnswers": [
-      "mozart",
-      "wolfgang amadeus mozart"
+      "wolfgang amadeus mozart",
+      "mozart"
     ]
   },
   {
@@ -79,8 +79,11 @@
     "acceptedAnswers": [
       "marie curie",
       "curie",
-      "maria sklodowska",
-      "marie sklodowska curie"
+      "madame curie",
+      "marie sklodowska-curie",
+      "maria sklodowska-curie",
+      "marie sklodowska curie",
+      "maria sklodowska"
     ]
   },
   {
@@ -102,7 +105,7 @@
       "century": "19th century",
       "gender": "Male",
       "nationality": "American",
-      "profession": "Politician & president"
+      "profession": "President"
     },
     "bio": "The 16th President of the United States, who led the nation through the Civil War.",
     "acceptedAnswers": [
@@ -140,34 +143,6 @@
     ]
   },
   {
-    "id": "frida",
-    "name": "Frida Kahlo",
-    "birth": {
-      "date": "1907-07-06",
-      "place": "Coyoacán, Mexico City, Mexico",
-      "lat": 19.35,
-      "lng": -99.16
-    },
-    "death": {
-      "date": "1954-07-13",
-      "place": "Coyoacán, Mexico City, Mexico",
-      "lat": 19.35,
-      "lng": -99.16
-    },
-    "hints": {
-      "century": "20th century",
-      "gender": "Female",
-      "nationality": "Mexican",
-      "profession": "Painter"
-    },
-    "bio": "A Mexican painter known for her many portraits, self-portraits, and works inspired by nature.",
-    "acceptedAnswers": [
-      "frida kahlo",
-      "kahlo",
-      "frida"
-    ]
-  },
-  {
     "id": "beethoven",
     "name": "Ludwig van Beethoven",
     "birth": {
@@ -195,59 +170,6 @@
     ]
   },
   {
-    "id": "cleopatra",
-    "name": "Cleopatra",
-    "birth": {
-      "date": "0069-01-01",
-      "place": "Alexandria, Egypt",
-      "lat": 31.2,
-      "lng": 29.92
-    },
-    "death": {
-      "date": "0030-08-12",
-      "place": "Alexandria, Egypt",
-      "lat": 31.2,
-      "lng": 29.92
-    },
-    "hints": {
-      "century": "1st century BC",
-      "gender": "Female",
-      "nationality": "Egyptian (Ptolemaic)",
-      "profession": "Pharaoh"
-    },
-    "bio": "The last active ruler of the Ptolemaic Kingdom of Egypt.",
-    "acceptedAnswers": [
-      "cleopatra",
-      "cleopatra vii"
-    ]
-  },
-  {
-    "id": "william-shakespeare",
-    "name": "William Shakespeare",
-    "birth": {
-      "date": "1564-04-01",
-      "place": "Stratford-upon-Avon",
-      "lat": 52.19,
-      "lng": -1.71
-    },
-    "death": {
-      "date": "1616-05-03",
-      "place": "Stratford-upon-Avon",
-      "lat": 52.19,
-      "lng": -1.71
-    },
-    "hints": {
-      "century": "16th century–17th century",
-      "gender": "male",
-      "nationality": "Kingdom of England",
-      "profession": "Poet"
-    },
-    "bio": "",
-    "acceptedAnswers": [
-      "william shakespeare"
-    ]
-  },
-  {
     "id": "michael-jackson",
     "name": "Michael Jackson",
     "birth": {
@@ -265,12 +187,14 @@
     "hints": {
       "century": "20th century–21st century",
       "gender": "male",
-      "nationality": "United States",
-      "profession": "Singer"
+      "nationality": "American",
+      "profession": "Singer & entertainer"
     },
     "bio": "",
     "acceptedAnswers": [
-      "michael jackson"
+      "michael jackson",
+      "jackson",
+      "the king of pop"
     ]
   },
   {
@@ -291,12 +215,13 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "Austria",
-      "profession": "Politician"
+      "nationality": "German",
+      "profession": "Dictator"
     },
     "bio": "",
     "acceptedAnswers": [
-      "adolf hitler"
+      "adolf hitler",
+      "hitler"
     ]
   },
   {
@@ -317,12 +242,13 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "United States",
+      "nationality": "German",
       "profession": "Physicist"
     },
     "bio": "",
     "acceptedAnswers": [
-      "albert einstein"
+      "albert einstein",
+      "einstein"
     ]
   },
   {
@@ -343,12 +269,13 @@
     "hints": {
       "century": "19th century",
       "gender": "male",
-      "nationality": "Kingdom of Prussia",
-      "profession": "Economist"
+      "nationality": "German",
+      "profession": "Philosopher & economist"
     },
     "bio": "",
     "acceptedAnswers": [
-      "karl marx"
+      "karl marx",
+      "marx"
     ]
   },
   {
@@ -369,12 +296,14 @@
     "hints": {
       "century": "15th century–16th century",
       "gender": "male",
-      "nationality": "Republic of Florence",
-      "profession": "Painter"
+      "nationality": "Italian",
+      "profession": "Painter & inventor"
     },
     "bio": "",
     "acceptedAnswers": [
-      "leonardo da vinci"
+      "leonardo da vinci",
+      "da vinci",
+      "leonardo"
     ]
   },
   {
@@ -395,12 +324,13 @@
     "hints": {
       "century": "17th century–18th century",
       "gender": "male",
-      "nationality": "Kingdom of Great Britain",
-      "profession": "Mathematician"
+      "nationality": "British",
+      "profession": "Physicist & mathematician"
     },
     "bio": "",
     "acceptedAnswers": [
-      "isaac newton"
+      "isaac newton",
+      "newton"
     ]
   },
   {
@@ -421,12 +351,13 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "Soviet Union",
-      "profession": "Politician"
+      "nationality": "Russian",
+      "profession": "Revolutionary leader"
     },
     "bio": "",
     "acceptedAnswers": [
-      "vladimir lenin"
+      "vladimir lenin",
+      "lenin"
     ]
   },
   {
@@ -447,12 +378,13 @@
     "hints": {
       "century": "20th century–21st century",
       "gender": "male",
-      "nationality": "South Africa",
-      "profession": "Politician"
+      "nationality": "South African",
+      "profession": "President & activist"
     },
     "bio": "",
     "acceptedAnswers": [
-      "nelson mandela"
+      "nelson mandela",
+      "mandela"
     ]
   },
   {
@@ -473,12 +405,14 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "Russian Empire",
-      "profession": "Philosopher"
+      "nationality": "Russian",
+      "profession": "Novelist"
     },
     "bio": "",
     "acceptedAnswers": [
-      "leo tolstoy"
+      "leo tolstoy",
+      "tolstoy",
+      "lev tolstoy"
     ]
   },
   {
@@ -499,12 +433,13 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "Soviet Union",
-      "profession": "Statesperson"
+      "nationality": "Soviet",
+      "profession": "Dictator"
     },
     "bio": "",
     "acceptedAnswers": [
-      "joseph stalin"
+      "joseph stalin",
+      "stalin"
     ]
   },
   {
@@ -525,12 +460,13 @@
     "hints": {
       "century": "18th century–19th century",
       "gender": "male",
-      "nationality": "Saxe-Weimar-Eisenach",
-      "profession": "Painter"
+      "nationality": "German",
+      "profession": "Poet & writer"
     },
     "bio": "",
     "acceptedAnswers": [
-      "johann wolfgang von goethe"
+      "johann wolfgang von goethe",
+      "goethe"
     ]
   },
   {
@@ -551,12 +487,13 @@
     "hints": {
       "century": "16th century–17th century",
       "gender": "male",
-      "nationality": "Grand Duchy of Tuscany",
-      "profession": "Physicist"
+      "nationality": "Italian",
+      "profession": "Astronomer & physicist"
     },
     "bio": "",
     "acceptedAnswers": [
-      "galileo galilei"
+      "galileo galilei",
+      "galileo"
     ]
   },
   {
@@ -577,12 +514,13 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "Spain",
+      "nationality": "Spanish",
       "profession": "Painter"
     },
     "bio": "",
     "acceptedAnswers": [
-      "pablo picasso"
+      "pablo picasso",
+      "picasso"
     ]
   },
   {
@@ -603,12 +541,13 @@
     "hints": {
       "century": "19th century",
       "gender": "male",
-      "nationality": "Kingdom of the Netherlands",
+      "nationality": "Dutch",
       "profession": "Painter"
     },
     "bio": "",
     "acceptedAnswers": [
-      "vincent van gogh"
+      "vincent van gogh",
+      "van gogh"
     ]
   },
   {
@@ -629,12 +568,13 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "United Kingdom",
-      "profession": "Composer"
+      "nationality": "British",
+      "profession": "Actor & filmmaker"
     },
     "bio": "",
     "acceptedAnswers": [
-      "charlie chaplin"
+      "charlie chaplin",
+      "chaplin"
     ]
   },
   {
@@ -655,12 +595,13 @@
     "hints": {
       "century": "15th century–16th century",
       "gender": "male",
-      "nationality": "Republic of Florence",
-      "profession": "Painter"
+      "nationality": "Italian",
+      "profession": "Sculptor & painter"
     },
     "bio": "",
     "acceptedAnswers": [
-      "michelangelo"
+      "michelangelo",
+      "michelangelo buonarroti"
     ]
   },
   {
@@ -681,38 +622,15 @@
     "hints": {
       "century": "17th century–18th century",
       "gender": "male",
-      "nationality": "Holy Roman Empire",
+      "nationality": "German",
       "profession": "Composer"
     },
     "bio": "",
     "acceptedAnswers": [
-      "johann sebastian bach"
-    ]
-  },
-  {
-    "id": "martin-luther",
-    "name": "Martin Luther",
-    "birth": {
-      "date": "1483-11-19",
-      "place": "Eisleben",
-      "lat": 51.52,
-      "lng": 11.55
-    },
-    "death": {
-      "date": "1546-02-28",
-      "place": "Eisleben",
-      "lat": 51.52,
-      "lng": 11.55
-    },
-    "hints": {
-      "century": "15th century–16th century",
-      "gender": "male",
-      "nationality": "Holy Roman Empire",
-      "profession": "Composer"
-    },
-    "bio": "",
-    "acceptedAnswers": [
-      "martin luther"
+      "johann sebastian bach",
+      "bach",
+      "j.s. bach",
+      "js bach"
     ]
   },
   {
@@ -733,12 +651,13 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "United Kingdom",
-      "profession": "Historian"
+      "nationality": "British",
+      "profession": "Prime Minister"
     },
     "bio": "",
     "acceptedAnswers": [
-      "winston churchill"
+      "winston churchill",
+      "churchill"
     ]
   },
   {
@@ -759,43 +678,18 @@
     "hints": {
       "century": "19th century",
       "gender": "male",
-      "nationality": "Kingdom of Prussia",
-      "profession": "Composer"
-    },
-    "bio": "",
-    "acceptedAnswers": [
-      "friedrich nietzsche"
-    ]
-  },
-  {
-    "id": "voltaire",
-    "name": "Voltaire",
-    "birth": {
-      "date": "1694-11-21",
-      "place": "Paris",
-      "lat": 48.86,
-      "lng": 2.35
-    },
-    "death": {
-      "date": "1778-05-30",
-      "place": "Paris",
-      "lat": 48.86,
-      "lng": 2.35
-    },
-    "hints": {
-      "century": "17th century–18th century",
-      "gender": "male",
-      "nationality": "Kingdom of France",
+      "nationality": "German",
       "profession": "Philosopher"
     },
     "bio": "",
     "acceptedAnswers": [
-      "voltaire"
+      "friedrich nietzsche",
+      "nietzsche"
     ]
   },
   {
     "id": "elizabeth-ii",
-    "name": "Elizabeth II",
+    "name": "Queen Elizabeth II",
     "birth": {
       "date": "1926-04-21",
       "place": "17 Bruton Street, Mayfair",
@@ -811,12 +705,15 @@
     "hints": {
       "century": "20th century–21st century",
       "gender": "female",
-      "nationality": "United Kingdom",
+      "nationality": "British",
       "profession": "Monarch"
     },
     "bio": "",
     "acceptedAnswers": [
-      "elizabeth ii"
+      "queen elizabeth ii",
+      "elizabeth ii",
+      "queen elizabeth",
+      "elizabeth"
     ]
   },
   {
@@ -837,12 +734,16 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "Turkey",
-      "profession": "Statesperson"
+      "nationality": "Turkish",
+      "profession": "President & general"
     },
     "bio": "",
     "acceptedAnswers": [
-      "mustafa kemal atatürk"
+      "mustafa kemal atatürk",
+      "ataturk",
+      "atatürk",
+      "mustafa kemal ataturk",
+      "kemal ataturk"
     ]
   },
   {
@@ -863,12 +764,16 @@
     "hints": {
       "century": "19th century",
       "gender": "male",
-      "nationality": "Russian Empire",
-      "profession": "Philosopher"
+      "nationality": "Russian",
+      "profession": "Novelist"
     },
     "bio": "",
     "acceptedAnswers": [
-      "fyodor dostoyevsky"
+      "fyodor dostoyevsky",
+      "dostoyevsky",
+      "dostoevsky",
+      "fyodor dostoevsky",
+      "dostoyevski"
     ]
   },
   {
@@ -889,12 +794,14 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "United States",
-      "profession": "Physicist"
+      "nationality": "American",
+      "profession": "Inventor"
     },
     "bio": "",
     "acceptedAnswers": [
-      "thomas edison"
+      "thomas edison",
+      "edison",
+      "thomas alva edison"
     ]
   },
   {
@@ -915,38 +822,15 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "United States",
+      "nationality": "American",
       "profession": "Novelist"
     },
     "bio": "",
     "acceptedAnswers": [
-      "mark twain"
-    ]
-  },
-  {
-    "id": "immanuel-kant",
-    "name": "Immanuel Kant",
-    "birth": {
-      "date": "1724-04-22",
-      "place": "Königsberg",
-      "lat": 54.71,
-      "lng": 20.51
-    },
-    "death": {
-      "date": "1804-02-12",
-      "place": "Königsberg",
-      "lat": 54.71,
-      "lng": 20.51
-    },
-    "hints": {
-      "century": "18th century–19th century",
-      "gender": "male",
-      "nationality": "Kingdom of Prussia",
-      "profession": "Physicist"
-    },
-    "bio": "",
-    "acceptedAnswers": [
-      "immanuel kant"
+      "mark twain",
+      "twain",
+      "samuel clemens",
+      "samuel langhorne clemens"
     ]
   },
   {
@@ -967,12 +851,16 @@
     "hints": {
       "century": "20th century",
       "gender": "male",
-      "nationality": "United States",
-      "profession": "Journalist"
+      "nationality": "American",
+      "profession": "President"
     },
     "bio": "",
     "acceptedAnswers": [
-      "john f. kennedy"
+      "john f. kennedy",
+      "john f kennedy",
+      "kennedy",
+      "jfk",
+      "john kennedy"
     ]
   },
   {
@@ -993,12 +881,13 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "Austria",
-      "profession": "Essayist"
+      "nationality": "Austrian",
+      "profession": "Psychoanalyst"
     },
     "bio": "",
     "acceptedAnswers": [
-      "sigmund freud"
+      "sigmund freud",
+      "freud"
     ]
   },
   {
@@ -1019,12 +908,14 @@
     "hints": {
       "century": "16th century–17th century",
       "gender": "male",
-      "nationality": "France",
-      "profession": "Physicist"
+      "nationality": "French",
+      "profession": "Philosopher & mathematician"
     },
     "bio": "",
     "acceptedAnswers": [
-      "rené descartes"
+      "rené descartes",
+      "rene descartes",
+      "descartes"
     ]
   },
   {
@@ -1045,38 +936,13 @@
     "hints": {
       "century": "16th century–17th century",
       "gender": "male",
-      "nationality": "Crown of Castile",
-      "profession": "Poet"
+      "nationality": "Spanish",
+      "profession": "Novelist"
     },
     "bio": "",
     "acceptedAnswers": [
-      "miguel de cervantes"
-    ]
-  },
-  {
-    "id": "salvador-dali",
-    "name": "Salvador Dalí",
-    "birth": {
-      "date": "1904-05-11",
-      "place": "Figueres",
-      "lat": 42.27,
-      "lng": 2.95
-    },
-    "death": {
-      "date": "1989-01-23",
-      "place": "Figueres",
-      "lat": 42.27,
-      "lng": 2.95
-    },
-    "hints": {
-      "century": "20th century",
-      "gender": "male",
-      "nationality": "Spain",
-      "profession": "Painter"
-    },
-    "bio": "",
-    "acceptedAnswers": [
-      "salvador dalí"
+      "miguel de cervantes",
+      "cervantes"
     ]
   },
   {
@@ -1097,12 +963,13 @@
     "hints": {
       "century": "19th century",
       "gender": "male",
-      "nationality": "United Kingdom of Great Britain and Ireland",
+      "nationality": "British",
       "profession": "Novelist"
     },
     "bio": "",
     "acceptedAnswers": [
-      "charles dickens"
+      "charles dickens",
+      "dickens"
     ]
   },
   {
@@ -1123,17 +990,21 @@
     "hints": {
       "century": "20th century",
       "gender": "male",
-      "nationality": "United States",
-      "profession": "Politician"
+      "nationality": "American",
+      "profession": "Civil rights leader"
     },
     "bio": "",
     "acceptedAnswers": [
-      "martin luther king jr."
+      "martin luther king jr.",
+      "martin luther king jr",
+      "martin luther king",
+      "mlk",
+      "king"
     ]
   },
   {
     "id": "franklin-delano-roosevelt",
-    "name": "Franklin Delano Roosevelt",
+    "name": "Franklin D. Roosevelt",
     "birth": {
       "date": "1882-01-30",
       "place": "Hyde Park",
@@ -1149,38 +1020,16 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "United States",
-      "profession": "Statesperson"
+      "nationality": "American",
+      "profession": "President"
     },
     "bio": "",
     "acceptedAnswers": [
-      "franklin delano roosevelt"
-    ]
-  },
-  {
-    "id": "marie-sklodowska-curie",
-    "name": "Marie Sklodowska-Curie",
-    "birth": {
-      "date": "1867-11-07",
-      "place": "Warsaw",
-      "lat": 52.23,
-      "lng": 21.01
-    },
-    "death": {
-      "date": "1934-07-04",
-      "place": "Sancellemoz",
-      "lat": 45.94,
-      "lng": 6.72
-    },
-    "hints": {
-      "century": "19th century–20th century",
-      "gender": "female",
-      "nationality": "France",
-      "profession": "Physicist"
-    },
-    "bio": "",
-    "acceptedAnswers": [
-      "marie sklodowska-curie"
+      "franklin d. roosevelt",
+      "franklin delano roosevelt",
+      "fdr",
+      "roosevelt",
+      "franklin roosevelt"
     ]
   },
   {
@@ -1201,38 +1050,14 @@
     "hints": {
       "century": "18th century–19th century",
       "gender": "male",
-      "nationality": "Russian Empire",
+      "nationality": "Russian",
       "profession": "Poet"
     },
     "bio": "",
     "acceptedAnswers": [
-      "alexander pushkin"
-    ]
-  },
-  {
-    "id": "rabindranath-tagore",
-    "name": "Rabindranath Tagore",
-    "birth": {
-      "date": "1861-05-07",
-      "place": "Kolkata",
-      "lat": 22.57,
-      "lng": 88.37
-    },
-    "death": {
-      "date": "1941-08-07",
-      "place": "Kolkata",
-      "lat": 22.57,
-      "lng": 88.37
-    },
-    "hints": {
-      "century": "19th century–20th century",
-      "gender": "male",
-      "nationality": "British Raj",
-      "profession": "Painter"
-    },
-    "bio": "",
-    "acceptedAnswers": [
-      "rabindranath tagore"
+      "alexander pushkin",
+      "pushkin",
+      "aleksandr pushkin"
     ]
   },
   {
@@ -1253,12 +1078,15 @@
     "hints": {
       "century": "19th century",
       "gender": "male",
-      "nationality": "Kingdom of Denmark",
-      "profession": "Poet"
+      "nationality": "Danish",
+      "profession": "Author"
     },
     "bio": "",
     "acceptedAnswers": [
-      "hans christian andersen"
+      "hans christian andersen",
+      "andersen",
+      "h.c. andersen",
+      "hc andersen"
     ]
   },
   {
@@ -1279,12 +1107,15 @@
     "hints": {
       "century": "15th century–16th century",
       "gender": "male",
-      "nationality": "Republic of Genoa",
-      "profession": "Inventor"
+      "nationality": "Italian",
+      "profession": "Explorer"
     },
     "bio": "",
     "acceptedAnswers": [
-      "christopher columbus"
+      "christopher columbus",
+      "columbus",
+      "cristoforo colombo",
+      "cristóbal colón"
     ]
   },
   {
@@ -1305,12 +1136,15 @@
     "hints": {
       "century": "20th century",
       "gender": "female",
-      "nationality": "United States",
-      "profession": "Singer"
+      "nationality": "American",
+      "profession": "Actress"
     },
     "bio": "",
     "acceptedAnswers": [
-      "marilyn monroe"
+      "marilyn monroe",
+      "monroe",
+      "norma jeane baker",
+      "norma jeane"
     ]
   },
   {
@@ -1331,12 +1165,13 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "Czechoslovakia",
-      "profession": "Poet"
+      "nationality": "Austrian",
+      "profession": "Novelist"
     },
     "bio": "",
     "acceptedAnswers": [
-      "franz kafka"
+      "franz kafka",
+      "kafka"
     ]
   },
   {
@@ -1357,12 +1192,15 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "Russian Empire",
+      "nationality": "Russian",
       "profession": "Playwright"
     },
     "bio": "",
     "acceptedAnswers": [
-      "anton chekhov"
+      "anton chekhov",
+      "chekhov",
+      "chekov",
+      "anton chekov"
     ]
   },
   {
@@ -1383,12 +1221,15 @@
     "hints": {
       "century": "20th century–21st century",
       "gender": "male",
-      "nationality": "Argentina",
-      "profession": "Philosopher"
+      "nationality": "Argentine",
+      "profession": "Pope"
     },
     "bio": "",
     "acceptedAnswers": [
-      "pope francis"
+      "pope francis",
+      "francis",
+      "jorge bergoglio",
+      "jorge mario bergoglio"
     ]
   },
   {
@@ -1409,12 +1250,16 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "People's Republic of China",
-      "profession": "Philosopher"
+      "nationality": "Chinese",
+      "profession": "Revolutionary leader"
     },
     "bio": "",
     "acceptedAnswers": [
-      "mao zedong"
+      "mao zedong",
+      "zedong",
+      "mao tse-tung",
+      "mao tsetung",
+      "chairman mao"
     ]
   },
   {
@@ -1435,12 +1280,14 @@
     "hints": {
       "century": "18th century",
       "gender": "male",
-      "nationality": "Republic of Geneva",
-      "profession": "Composer"
+      "nationality": "French",
+      "profession": "Philosopher & writer"
     },
     "bio": "",
     "acceptedAnswers": [
-      "jean-jacques rousseau"
+      "jean-jacques rousseau",
+      "rousseau",
+      "jean jacques rousseau"
     ]
   },
   {
@@ -1461,12 +1308,13 @@
     "hints": {
       "century": "20th century–21st century",
       "gender": "male",
-      "nationality": "United States",
-      "profession": "Inventor"
+      "nationality": "American",
+      "profession": "Tech entrepreneur"
     },
     "bio": "",
     "acceptedAnswers": [
-      "steve jobs"
+      "steve jobs",
+      "jobs"
     ]
   },
   {
@@ -1487,12 +1335,14 @@
     "hints": {
       "century": "19th century",
       "gender": "male",
-      "nationality": "United States",
-      "profession": "Poet"
+      "nationality": "American",
+      "profession": "Writer & poet"
     },
     "bio": "",
     "acceptedAnswers": [
-      "edgar allan poe"
+      "edgar allan poe",
+      "poe",
+      "edgar poe"
     ]
   },
   {
@@ -1513,38 +1363,15 @@
     "hints": {
       "century": "20th century",
       "gender": "male",
-      "nationality": "Cuba",
-      "profession": "Physician"
+      "nationality": "Argentine",
+      "profession": "Revolutionary"
     },
     "bio": "",
     "acceptedAnswers": [
-      "che guevara"
-    ]
-  },
-  {
-    "id": "moliere",
-    "name": "Molière",
-    "birth": {
-      "date": "1622-01-15",
-      "place": "Paris",
-      "lat": 48.86,
-      "lng": 2.35
-    },
-    "death": {
-      "date": "1673-02-17",
-      "place": "Paris",
-      "lat": 48.86,
-      "lng": 2.35
-    },
-    "hints": {
-      "century": "17th century",
-      "gender": "male",
-      "nationality": "Kingdom of France",
-      "profession": "Poet"
-    },
-    "bio": "",
-    "acceptedAnswers": [
-      "molière"
+      "che guevara",
+      "guevara",
+      "ernesto guevara",
+      "ernesto che guevara"
     ]
   },
   {
@@ -1565,12 +1392,14 @@
     "hints": {
       "century": "15th century–16th century",
       "gender": "male",
-      "nationality": "Republic of Florence",
-      "profession": "Philosopher"
+      "nationality": "Italian",
+      "profession": "Political philosopher"
     },
     "bio": "",
     "acceptedAnswers": [
-      "niccolò machiavelli"
+      "niccolò machiavelli",
+      "niccolo machiavelli",
+      "machiavelli"
     ]
   },
   {
@@ -1591,12 +1420,13 @@
     "hints": {
       "century": "18th century–19th century",
       "gender": "male",
-      "nationality": "United States",
-      "profession": "Architect"
+      "nationality": "American",
+      "profession": "Founding Father & president"
     },
     "bio": "",
     "acceptedAnswers": [
-      "thomas jefferson"
+      "thomas jefferson",
+      "jefferson"
     ]
   },
   {
@@ -1617,12 +1447,13 @@
     "hints": {
       "century": "19th century",
       "gender": "male",
-      "nationality": "Ireland",
-      "profession": "Poet"
+      "nationality": "Irish",
+      "profession": "Playwright & poet"
     },
     "bio": "",
     "acceptedAnswers": [
-      "oscar wilde"
+      "oscar wilde",
+      "wilde"
     ]
   },
   {
@@ -1643,12 +1474,13 @@
     "hints": {
       "century": "18th century",
       "gender": "male",
-      "nationality": "Kingdom of Great Britain",
+      "nationality": "British",
       "profession": "Economist"
     },
     "bio": "",
     "acceptedAnswers": [
-      "adam smith"
+      "adam smith",
+      "smith"
     ]
   },
   {
@@ -1669,12 +1501,13 @@
     "hints": {
       "century": "20th century–21st century",
       "gender": "male",
-      "nationality": "United States",
+      "nationality": "American",
       "profession": "Astronaut"
     },
     "bio": "",
     "acceptedAnswers": [
-      "neil armstrong"
+      "neil armstrong",
+      "armstrong"
     ]
   },
   {
@@ -1695,12 +1528,14 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "France",
-      "profession": "Statesperson"
+      "nationality": "French",
+      "profession": "General & president"
     },
     "bio": "",
     "acceptedAnswers": [
-      "charles de gaulle"
+      "charles de gaulle",
+      "de gaulle",
+      "degaulle"
     ]
   },
   {
@@ -1721,12 +1556,14 @@
     "hints": {
       "century": "19th century",
       "gender": "male",
-      "nationality": "Kingdom of Prussia",
-      "profession": "Politician"
+      "nationality": "German",
+      "profession": "Statesman"
     },
     "bio": "",
     "acceptedAnswers": [
-      "otto von bismarck"
+      "otto von bismarck",
+      "bismarck",
+      "otto bismarck"
     ]
   },
   {
@@ -1747,12 +1584,14 @@
     "hints": {
       "century": "18th century–19th century",
       "gender": "male",
-      "nationality": "Kingdom of Great Britain",
+      "nationality": "British",
       "profession": "Poet"
     },
     "bio": "",
     "acceptedAnswers": [
-      "lord byron"
+      "lord byron",
+      "byron",
+      "george gordon byron"
     ]
   },
   {
@@ -1773,12 +1612,14 @@
     "hints": {
       "century": "18th century",
       "gender": "male",
-      "nationality": "United States",
-      "profession": "Politician"
+      "nationality": "American",
+      "profession": "Statesman & inventor"
     },
     "bio": "",
     "acceptedAnswers": [
-      "benjamin franklin"
+      "benjamin franklin",
+      "franklin",
+      "ben franklin"
     ]
   },
   {
@@ -1799,12 +1640,14 @@
     "hints": {
       "century": "20th century",
       "gender": "male",
-      "nationality": "United States",
+      "nationality": "American",
       "profession": "Singer"
     },
     "bio": "",
     "acceptedAnswers": [
-      "elvis presley"
+      "elvis presley",
+      "elvis",
+      "presley"
     ]
   },
   {
@@ -1825,12 +1668,13 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "United States",
-      "profession": "Physicist"
+      "nationality": "Serbian-American",
+      "profession": "Inventor & engineer"
     },
     "bio": "",
     "acceptedAnswers": [
-      "nikola tesla"
+      "nikola tesla",
+      "tesla"
     ]
   },
   {
@@ -1851,12 +1695,14 @@
     "hints": {
       "century": "18th century",
       "gender": "male",
-      "nationality": "Sweden",
-      "profession": "Biologist"
+      "nationality": "Swedish",
+      "profession": "Botanist & taxonomist"
     },
     "bio": "",
     "acceptedAnswers": [
-      "carl linnaeus"
+      "carl linnaeus",
+      "linnaeus",
+      "carolus linnaeus"
     ]
   },
   {
@@ -1877,12 +1723,13 @@
     "hints": {
       "century": "15th century–16th century",
       "gender": "male",
-      "nationality": "Kingdom of Poland",
-      "profession": "Physicist"
+      "nationality": "Polish",
+      "profession": "Astronomer"
     },
     "bio": "",
     "acceptedAnswers": [
-      "nicolaus copernicus"
+      "nicolaus copernicus",
+      "copernicus"
     ]
   },
   {
@@ -1903,12 +1750,13 @@
     "hints": {
       "century": "20th century",
       "gender": "male",
-      "nationality": "United States",
-      "profession": "Painter"
+      "nationality": "American",
+      "profession": "Animator & film producer"
     },
     "bio": "",
     "acceptedAnswers": [
-      "walt disney"
+      "walt disney",
+      "disney"
     ]
   },
   {
@@ -1929,12 +1777,13 @@
     "hints": {
       "century": "19th century",
       "gender": "male",
-      "nationality": "France",
-      "profession": "Chemist"
+      "nationality": "French",
+      "profession": "Scientist & microbiologist"
     },
     "bio": "",
     "acceptedAnswers": [
-      "louis pasteur"
+      "louis pasteur",
+      "pasteur"
     ]
   },
   {
@@ -1955,12 +1804,14 @@
     "hints": {
       "century": "20th century",
       "gender": "male",
-      "nationality": "France",
-      "profession": "Writer"
+      "nationality": "British",
+      "profession": "Novelist"
     },
     "bio": "",
     "acceptedAnswers": [
-      "george orwell"
+      "george orwell",
+      "orwell",
+      "eric blair"
     ]
   },
   {
@@ -1981,12 +1832,13 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "United States",
-      "profession": "Poet"
+      "nationality": "American",
+      "profession": "Novelist"
     },
     "bio": "",
     "acceptedAnswers": [
-      "ernest hemingway"
+      "ernest hemingway",
+      "hemingway"
     ]
   },
   {
@@ -2007,12 +1859,14 @@
     "hints": {
       "century": "20th century–21st century",
       "gender": "female",
-      "nationality": "United Kingdom",
-      "profession": "Chemist"
+      "nationality": "British",
+      "profession": "Politician"
     },
     "bio": "",
     "acceptedAnswers": [
-      "margaret thatcher"
+      "margaret thatcher",
+      "thatcher",
+      "iron lady"
     ]
   },
   {
@@ -2033,12 +1887,13 @@
     "hints": {
       "century": "17th century–18th century",
       "gender": "male",
-      "nationality": "Kingdom of England",
+      "nationality": "British",
       "profession": "Philosopher"
     },
     "bio": "",
     "acceptedAnswers": [
-      "john locke"
+      "john locke",
+      "locke"
     ]
   },
   {
@@ -2059,12 +1914,13 @@
     "hints": {
       "century": "20th century",
       "gender": "male",
-      "nationality": "France",
-      "profession": "Philosopher"
+      "nationality": "French",
+      "profession": "Philosopher & novelist"
     },
     "bio": "",
     "acceptedAnswers": [
-      "albert camus"
+      "albert camus",
+      "camus"
     ]
   },
   {
@@ -2085,12 +1941,14 @@
     "hints": {
       "century": "20th century–21st century",
       "gender": "male",
-      "nationality": "Cuba",
-      "profession": "Journalist"
+      "nationality": "Cuban",
+      "profession": "Revolutionary leader"
     },
     "bio": "",
     "acceptedAnswers": [
-      "fidel castro"
+      "fidel castro",
+      "castro",
+      "fidel"
     ]
   },
   {
@@ -2111,12 +1969,13 @@
     "hints": {
       "century": "19th century",
       "gender": "male",
-      "nationality": "Kingdom of Saxony",
+      "nationality": "German",
       "profession": "Composer"
     },
     "bio": "",
     "acceptedAnswers": [
-      "richard wagner"
+      "richard wagner",
+      "wagner"
     ]
   },
   {
@@ -2137,12 +1996,13 @@
     "hints": {
       "century": "17th century",
       "gender": "male",
-      "nationality": "Dutch Republic",
+      "nationality": "Dutch",
       "profession": "Painter"
     },
     "bio": "",
     "acceptedAnswers": [
-      "rembrandt"
+      "rembrandt",
+      "rembrandt van rijn"
     ]
   },
   {
@@ -2163,12 +2023,13 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "Ireland",
-      "profession": "Poet"
+      "nationality": "Irish",
+      "profession": "Novelist"
     },
     "bio": "",
     "acceptedAnswers": [
-      "james joyce"
+      "james joyce",
+      "joyce"
     ]
   },
   {
@@ -2189,17 +2050,19 @@
     "hints": {
       "century": "17th century–18th century",
       "gender": "male",
-      "nationality": "Electorate of Saxony",
-      "profession": "Physicist"
+      "nationality": "German",
+      "profession": "Philosopher & mathematician"
     },
     "bio": "",
     "acceptedAnswers": [
-      "gottfried wilhelm leibniz"
+      "gottfried wilhelm leibniz",
+      "leibniz",
+      "gottfried leibniz"
     ]
   },
   {
     "id": "john-paul-ii",
-    "name": "John Paul II",
+    "name": "Pope John Paul II",
     "birth": {
       "date": "1920-05-18",
       "place": "Wadowice",
@@ -2215,12 +2078,15 @@
     "hints": {
       "century": "20th century–21st century",
       "gender": "male",
-      "nationality": "Poland",
-      "profession": "Philosopher"
+      "nationality": "Polish",
+      "profession": "Pope"
     },
     "bio": "",
     "acceptedAnswers": [
-      "john paul ii"
+      "pope john paul ii",
+      "john paul ii",
+      "karol wojtyla",
+      "karol józef wojtyła"
     ]
   },
   {
@@ -2241,12 +2107,16 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "United Kingdom",
-      "profession": "Poet"
+      "nationality": "British",
+      "profession": "Author"
     },
     "bio": "",
     "acceptedAnswers": [
-      "j. r. r. tolkien"
+      "j. r. r. tolkien",
+      "tolkien",
+      "jrr tolkien",
+      "j.r.r. tolkien",
+      "john tolkien"
     ]
   },
   {
@@ -2267,12 +2137,13 @@
     "hints": {
       "century": "20th century",
       "gender": "male",
-      "nationality": "Soviet Union",
-      "profession": "Politician"
+      "nationality": "Russian",
+      "profession": "Astronaut"
     },
     "bio": "",
     "acceptedAnswers": [
-      "yuri gagarin"
+      "yuri gagarin",
+      "gagarin"
     ]
   },
   {
@@ -2293,17 +2164,18 @@
     "hints": {
       "century": "18th century–19th century",
       "gender": "female",
-      "nationality": "United Kingdom of Great Britain and Ireland",
+      "nationality": "British",
       "profession": "Novelist"
     },
     "bio": "",
     "acceptedAnswers": [
-      "jane austen"
+      "jane austen",
+      "austen"
     ]
   },
   {
     "id": "benedict-xvi",
-    "name": "Benedict XVI",
+    "name": "Pope Benedict XVI",
     "birth": {
       "date": "1927-04-16",
       "place": "Marktl",
@@ -2319,12 +2191,15 @@
     "hints": {
       "century": "20th century–21st century",
       "gender": "male",
-      "nationality": "Italy",
-      "profession": "Philosopher"
+      "nationality": "German",
+      "profession": "Pope"
     },
     "bio": "",
     "acceptedAnswers": [
-      "benedict xvi"
+      "pope benedict xvi",
+      "benedict xvi",
+      "joseph ratzinger",
+      "ratzinger"
     ]
   },
   {
@@ -2345,12 +2220,14 @@
     "hints": {
       "century": "19th century",
       "gender": "male",
-      "nationality": "France",
+      "nationality": "Polish",
       "profession": "Composer"
     },
     "bio": "",
     "acceptedAnswers": [
-      "frédéric chopin"
+      "frédéric chopin",
+      "frederic chopin",
+      "chopin"
     ]
   },
   {
@@ -2371,12 +2248,13 @@
     "hints": {
       "century": "20th century–21st century",
       "gender": "male",
-      "nationality": "Russia",
-      "profession": "Economist"
+      "nationality": "Russian",
+      "profession": "Politician"
     },
     "bio": "",
     "acceptedAnswers": [
-      "mikhail gorbachev"
+      "mikhail gorbachev",
+      "gorbachev"
     ]
   },
   {
@@ -2397,12 +2275,14 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "Italian Social Republic",
-      "profession": "Journalist"
+      "nationality": "Italian",
+      "profession": "Dictator"
     },
     "bio": "",
     "acceptedAnswers": [
-      "benito mussolini"
+      "benito mussolini",
+      "mussolini",
+      "il duce"
     ]
   },
   {
@@ -2423,12 +2303,13 @@
     "hints": {
       "century": "20th century",
       "gender": "female",
-      "nationality": "United States",
-      "profession": "Singer"
+      "nationality": "German",
+      "profession": "Actress & singer"
     },
     "bio": "",
     "acceptedAnswers": [
-      "marlene dietrich"
+      "marlene dietrich",
+      "dietrich"
     ]
   },
   {
@@ -2449,12 +2330,13 @@
     "hints": {
       "century": "20th century–21st century",
       "gender": "male",
-      "nationality": "United Kingdom",
-      "profession": "Writer"
+      "nationality": "British",
+      "profession": "Physicist"
     },
     "bio": "",
     "acceptedAnswers": [
-      "stephen hawking"
+      "stephen hawking",
+      "hawking"
     ]
   },
   {
@@ -2475,12 +2357,14 @@
     "hints": {
       "century": "18th century–19th century",
       "gender": "male",
-      "nationality": "Confederation of the Rhine",
-      "profession": "Physicist"
+      "nationality": "German",
+      "profession": "Mathematician"
     },
     "bio": "",
     "acceptedAnswers": [
-      "carl friedrich gauss"
+      "carl friedrich gauss",
+      "gauss",
+      "carl gauss"
     ]
   },
   {
@@ -2501,12 +2385,13 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "United States",
-      "profession": "Inventor"
+      "nationality": "American",
+      "profession": "Industrialist"
     },
     "bio": "",
     "acceptedAnswers": [
-      "henry ford"
+      "henry ford",
+      "ford"
     ]
   },
   {
@@ -2527,12 +2412,14 @@
     "hints": {
       "century": "20th century–21st century",
       "gender": "male",
-      "nationality": "United States",
-      "profession": "Engineer"
+      "nationality": "American",
+      "profession": "Politician & president"
     },
     "bio": "",
     "acceptedAnswers": [
-      "jimmy carter"
+      "jimmy carter",
+      "carter",
+      "james carter"
     ]
   },
   {
@@ -2553,12 +2440,15 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "Switzerland",
-      "profession": "Painter"
+      "nationality": "Swiss-French",
+      "profession": "Architect"
     },
     "bio": "",
     "acceptedAnswers": [
-      "le corbusier"
+      "le corbusier",
+      "corbusier",
+      "charles-edouard jeanneret",
+      "charles edouard jeanneret"
     ]
   },
   {
@@ -2579,12 +2469,14 @@
     "hints": {
       "century": "20th century",
       "gender": "male",
-      "nationality": "France",
+      "nationality": "French",
       "profession": "Philosopher"
     },
     "bio": "",
     "acceptedAnswers": [
-      "jean-paul sartre"
+      "jean-paul sartre",
+      "sartre",
+      "jean paul sartre"
     ]
   },
   {
@@ -2605,12 +2497,15 @@
     "hints": {
       "century": "20th century",
       "gender": "female",
-      "nationality": "Albania",
-      "profession": "Musician"
+      "nationality": "Albanian",
+      "profession": "Humanitarian"
     },
     "bio": "",
     "acceptedAnswers": [
-      "mother teresa"
+      "mother teresa",
+      "teresa",
+      "agnes gonxha bojaxhiu",
+      "saint teresa of calcutta"
     ]
   },
   {
@@ -2631,12 +2526,13 @@
     "hints": {
       "century": "19th century",
       "gender": "male",
-      "nationality": "United Kingdom",
-      "profession": "Economist"
+      "nationality": "German",
+      "profession": "Political philosopher"
     },
     "bio": "",
     "acceptedAnswers": [
-      "friedrich engels"
+      "friedrich engels",
+      "engels"
     ]
   },
   {
@@ -2657,12 +2553,14 @@
     "hints": {
       "century": "15th century–16th century",
       "gender": "male",
-      "nationality": "Kingdom of Portugal",
+      "nationality": "Portuguese",
       "profession": "Explorer"
     },
     "bio": "",
     "acceptedAnswers": [
-      "ferdinand magellan"
+      "ferdinand magellan",
+      "magellan",
+      "fernão de magalhães"
     ]
   },
   {
@@ -2683,12 +2581,14 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "United States",
-      "profession": "Politician"
+      "nationality": "American",
+      "profession": "US President"
     },
     "bio": "",
     "acceptedAnswers": [
-      "harry s. truman"
+      "harry s. truman",
+      "harry truman",
+      "truman"
     ]
   },
   {
@@ -2709,12 +2609,15 @@
     "hints": {
       "century": "20th century–21st century",
       "gender": "male",
-      "nationality": "United States",
-      "profession": "Statesperson"
+      "nationality": "American",
+      "profession": "US President"
     },
     "bio": "",
     "acceptedAnswers": [
-      "george h. w. bush"
+      "george h. w. bush",
+      "george hw bush",
+      "george herbert walker bush",
+      "bush"
     ]
   },
   {
@@ -2735,12 +2638,13 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "female",
-      "nationality": "United Kingdom",
-      "profession": "Novelist"
+      "nationality": "British",
+      "profession": "Crime writer"
     },
     "bio": "",
     "acceptedAnswers": [
-      "agatha christie"
+      "agatha christie",
+      "christie"
     ]
   },
   {
@@ -2761,12 +2665,13 @@
     "hints": {
       "century": "17th century",
       "gender": "male",
-      "nationality": "Kingdom of France",
-      "profession": "Physicist"
+      "nationality": "French",
+      "profession": "Mathematician & physicist"
     },
     "bio": "",
     "acceptedAnswers": [
-      "blaise pascal"
+      "blaise pascal",
+      "pascal"
     ]
   },
   {
@@ -2787,12 +2692,13 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "female",
-      "nationality": "France",
-      "profession": "Painter"
+      "nationality": "French",
+      "profession": "Actress"
     },
     "bio": "",
     "acceptedAnswers": [
-      "sarah bernhardt"
+      "sarah bernhardt",
+      "bernhardt"
     ]
   },
   {
@@ -2813,12 +2719,14 @@
     "hints": {
       "century": "15th century–16th century",
       "gender": "male",
-      "nationality": "Holy Roman Empire",
+      "nationality": "Italian",
       "profession": "Painter"
     },
     "bio": "",
     "acceptedAnswers": [
-      "raphael"
+      "raphael",
+      "raffaello sanzio",
+      "raffaello"
     ]
   },
   {
@@ -2839,12 +2747,14 @@
     "hints": {
       "century": "19th century",
       "gender": "male",
-      "nationality": "Russian Empire",
+      "nationality": "Russian",
       "profession": "Composer"
     },
     "bio": "",
     "acceptedAnswers": [
-      "pyotr ilyich tchaikovsky"
+      "pyotr ilyich tchaikovsky",
+      "tchaikovsky",
+      "peter tchaikovsky"
     ]
   },
   {
@@ -2865,12 +2775,13 @@
     "hints": {
       "century": "19th century",
       "gender": "male",
-      "nationality": "Sweden",
-      "profession": "Chemist"
+      "nationality": "Swedish",
+      "profession": "Inventor & chemist"
     },
     "bio": "",
     "acceptedAnswers": [
-      "alfred nobel"
+      "alfred nobel",
+      "nobel"
     ]
   },
   {
@@ -2891,12 +2802,14 @@
     "hints": {
       "century": "18th century–19th century",
       "gender": "male",
-      "nationality": "Kingdom of Württemberg",
+      "nationality": "German",
       "profession": "Philosopher"
     },
     "bio": "",
     "acceptedAnswers": [
-      "georg wilhelm friedrich hegel"
+      "georg wilhelm friedrich hegel",
+      "hegel",
+      "g.w.f. hegel"
     ]
   },
   {
@@ -2917,12 +2830,15 @@
     "hints": {
       "century": "15th century",
       "gender": "female",
-      "nationality": "Kingdom of France",
-      "profession": "Religious leader"
+      "nationality": "French",
+      "profession": "Military leader"
     },
     "bio": "",
     "acceptedAnswers": [
-      "joan of arc"
+      "joan of arc",
+      "jeanne d'arc",
+      "jeanne darc",
+      "the maid of orleans"
     ]
   },
   {
@@ -2943,12 +2859,15 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "United States",
-      "profession": "Historian"
+      "nationality": "American",
+      "profession": "US President"
     },
     "bio": "",
     "acceptedAnswers": [
-      "theodore roosevelt"
+      "theodore roosevelt",
+      "roosevelt",
+      "teddy roosevelt",
+      "tr"
     ]
   },
   {
@@ -2969,12 +2888,13 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "Argentina",
-      "profession": "Poet"
+      "nationality": "Argentine",
+      "profession": "Writer"
     },
     "bio": "",
     "acceptedAnswers": [
-      "jorge luis borges"
+      "jorge luis borges",
+      "borges"
     ]
   },
   {
@@ -2995,12 +2915,14 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "India",
+      "nationality": "Indian",
       "profession": "Politician"
     },
     "bio": "",
     "acceptedAnswers": [
-      "jawaharlal nehru"
+      "jawaharlal nehru",
+      "nehru",
+      "pandit nehru"
     ]
   },
   {
@@ -3021,12 +2943,13 @@
     "hints": {
       "century": "20th century",
       "gender": "male",
-      "nationality": "United States",
-      "profession": "Statesperson"
+      "nationality": "American",
+      "profession": "US President"
     },
     "bio": "",
     "acceptedAnswers": [
-      "richard nixon"
+      "richard nixon",
+      "nixon"
     ]
   },
   {
@@ -3047,12 +2970,13 @@
     "hints": {
       "century": "20th century",
       "gender": "male",
-      "nationality": "United Kingdom",
-      "profession": "Cryptographer"
+      "nationality": "British",
+      "profession": "Mathematician & codebreaker"
     },
     "bio": "",
     "acceptedAnswers": [
-      "alan turing"
+      "alan turing",
+      "turing"
     ]
   },
   {
@@ -3073,12 +2997,13 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "United States",
-      "profession": "Historian"
+      "nationality": "American",
+      "profession": "US President"
     },
     "bio": "",
     "acceptedAnswers": [
-      "woodrow wilson"
+      "woodrow wilson",
+      "wilson"
     ]
   },
   {
@@ -3099,38 +3024,15 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "United States",
-      "profession": "Statesperson"
+      "nationality": "American",
+      "profession": "US President"
     },
     "bio": "",
     "acceptedAnswers": [
-      "dwight d. eisenhower"
-    ]
-  },
-  {
-    "id": "marcel-proust",
-    "name": "Marcel Proust",
-    "birth": {
-      "date": "1871-07-10",
-      "place": "16th arrondissement of Paris",
-      "lat": 48.86,
-      "lng": 2.28
-    },
-    "death": {
-      "date": "1922-11-18",
-      "place": "16th arrondissement of Paris",
-      "lat": 48.86,
-      "lng": 2.28
-    },
-    "hints": {
-      "century": "19th century–20th century",
-      "gender": "male",
-      "nationality": "France",
-      "profession": "Poet"
-    },
-    "bio": "",
-    "acceptedAnswers": [
-      "marcel proust"
+      "dwight d. eisenhower",
+      "eisenhower",
+      "ike",
+      "dwight eisenhower"
     ]
   },
   {
@@ -3151,38 +3053,13 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "United Kingdom",
-      "profession": "Poet"
+      "nationality": "British",
+      "profession": "Writer"
     },
     "bio": "",
     "acceptedAnswers": [
-      "rudyard kipling"
-    ]
-  },
-  {
-    "id": "sung-jae-gi",
-    "name": "Sung Jae-gi",
-    "birth": {
-      "date": "1967-09-11",
-      "place": "Daegu",
-      "lat": 35.87,
-      "lng": 128.6
-    },
-    "death": {
-      "date": "2013-07-26",
-      "place": "Seoul",
-      "lat": 37.56,
-      "lng": 126.99
-    },
-    "hints": {
-      "century": "20th century–21st century",
-      "gender": "male",
-      "nationality": "South Korea",
-      "profession": "Autobiographer"
-    },
-    "bio": "",
-    "acceptedAnswers": [
-      "sung jae-gi"
+      "rudyard kipling",
+      "kipling"
     ]
   },
   {
@@ -3203,38 +3080,13 @@
     "hints": {
       "century": "18th century",
       "gender": "male",
-      "nationality": "Kingdom of Prussia",
-      "profession": "Physicist"
+      "nationality": "Swiss",
+      "profession": "Mathematician"
     },
     "bio": "",
     "acceptedAnswers": [
-      "leonhard euler"
-    ]
-  },
-  {
-    "id": "albrecht-durer",
-    "name": "Albrecht Dürer",
-    "birth": {
-      "date": "1471-05-30",
-      "place": "Nuremberg",
-      "lat": 49.45,
-      "lng": 11.08
-    },
-    "death": {
-      "date": "1528-04-16",
-      "place": "Nuremberg",
-      "lat": 49.45,
-      "lng": 11.08
-    },
-    "hints": {
-      "century": "15th century–16th century",
-      "gender": "male",
-      "nationality": "Duchy of Bavaria",
-      "profession": "Painter"
-    },
-    "bio": "",
-    "acceptedAnswers": [
-      "albrecht dürer"
+      "leonhard euler",
+      "euler"
     ]
   },
   {
@@ -3255,12 +3107,13 @@
     "hints": {
       "century": "18th century–19th century",
       "gender": "male",
-      "nationality": "United States",
-      "profession": "Statesperson"
+      "nationality": "American",
+      "profession": "US President"
     },
     "bio": "",
     "acceptedAnswers": [
-      "john adams"
+      "john adams",
+      "adams"
     ]
   },
   {
@@ -3281,12 +3134,13 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "France",
-      "profession": "Poet"
+      "nationality": "French",
+      "profession": "Writer"
     },
     "bio": "",
     "acceptedAnswers": [
-      "jules verne"
+      "jules verne",
+      "verne"
     ]
   },
   {
@@ -3307,12 +3161,15 @@
     "hints": {
       "century": "20th century–21st century",
       "gender": "male",
-      "nationality": "Venezuela",
+      "nationality": "Venezuelan",
       "profession": "Politician"
     },
     "bio": "",
     "acceptedAnswers": [
-      "hugo chávez"
+      "hugo chávez",
+      "hugo chavez",
+      "chávez",
+      "chavez"
     ]
   },
   {
@@ -3333,12 +3190,13 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "female",
-      "nationality": "Germany",
-      "profession": "Economist"
+      "nationality": "German",
+      "profession": "Political activist"
     },
     "bio": "",
     "acceptedAnswers": [
-      "rosa luxemburg"
+      "rosa luxemburg",
+      "luxemburg"
     ]
   },
   {
@@ -3359,12 +3217,15 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "Ireland",
+      "nationality": "Irish",
       "profession": "Playwright"
     },
     "bio": "",
     "acceptedAnswers": [
-      "george bernard shaw"
+      "george bernard shaw",
+      "shaw",
+      "g.b. shaw",
+      "gb shaw"
     ]
   },
   {
@@ -3385,17 +3246,19 @@
     "hints": {
       "century": "18th century",
       "gender": "male",
-      "nationality": "Kingdom of Great Britain",
+      "nationality": "British",
       "profession": "Explorer"
     },
     "bio": "",
     "acceptedAnswers": [
-      "james cook"
+      "james cook",
+      "cook",
+      "captain cook"
     ]
   },
   {
     "id": "elizabeth-i-of-england",
-    "name": "Elizabeth I of England",
+    "name": "Queen Elizabeth I",
     "birth": {
       "date": "1533-09-17",
       "place": "Palace of Placentia",
@@ -3411,12 +3274,15 @@
     "hints": {
       "century": "16th century–17th century",
       "gender": "female",
-      "nationality": "Kingdom of England",
-      "profession": "Queen"
+      "nationality": "English",
+      "profession": "Monarch"
     },
     "bio": "",
     "acceptedAnswers": [
-      "elizabeth i of england"
+      "queen elizabeth i",
+      "elizabeth i",
+      "elizabeth i of england",
+      "elizabeth the first"
     ]
   },
   {
@@ -3437,12 +3303,13 @@
     "hints": {
       "century": "16th century–17th century",
       "gender": "male",
-      "nationality": "Kingdom of England",
+      "nationality": "English",
       "profession": "Philosopher"
     },
     "bio": "",
     "acceptedAnswers": [
-      "francis bacon"
+      "francis bacon",
+      "bacon"
     ]
   },
   {
@@ -3463,12 +3330,13 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "United States",
+      "nationality": "British",
       "profession": "Film director"
     },
     "bio": "",
     "acceptedAnswers": [
-      "alfred hitchcock"
+      "alfred hitchcock",
+      "hitchcock"
     ]
   },
   {
@@ -3489,12 +3357,13 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "United Kingdom",
-      "profession": "Mathematician"
+      "nationality": "British",
+      "profession": "Philosopher & mathematician"
     },
     "bio": "",
     "acceptedAnswers": [
-      "bertrand russell"
+      "bertrand russell",
+      "russell"
     ]
   },
   {
@@ -3515,12 +3384,15 @@
     "hints": {
       "century": "20th century–21st century",
       "gender": "male",
-      "nationality": "Kingdom of Libya",
-      "profession": "Politician"
+      "nationality": "Libyan",
+      "profession": "Dictator"
     },
     "bio": "",
     "acceptedAnswers": [
-      "muammar gaddafi"
+      "muammar gaddafi",
+      "gaddafi",
+      "muammar al-gaddafi",
+      "muammar qadhafi"
     ]
   },
   {
@@ -3541,17 +3413,18 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "United Kingdom",
-      "profession": "Mathematician"
+      "nationality": "British",
+      "profession": "Economist"
     },
     "bio": "",
     "acceptedAnswers": [
-      "john maynard keynes"
+      "john maynard keynes",
+      "keynes"
     ]
   },
   {
     "id": "louis-xiv-of-france",
-    "name": "Louis XIV of France",
+    "name": "Louis XIV",
     "birth": {
       "date": "1638-09-05",
       "place": "Château de Saint-Germain-en-Laye",
@@ -3567,12 +3440,15 @@
     "hints": {
       "century": "17th century–18th century",
       "gender": "male",
-      "nationality": "Kingdom of France",
+      "nationality": "French",
       "profession": "Monarch"
     },
     "bio": "",
     "acceptedAnswers": [
-      "louis xiv of france"
+      "louis xiv",
+      "louis xiv of france",
+      "louis the fourteenth",
+      "the sun king"
     ]
   },
   {
@@ -3593,12 +3469,14 @@
     "hints": {
       "century": "18th century–19th century",
       "gender": "male",
-      "nationality": "Spain",
+      "nationality": "Spanish",
       "profession": "Painter"
     },
     "bio": "",
     "acceptedAnswers": [
-      "francisco goya"
+      "francisco goya",
+      "goya",
+      "francisco de goya"
     ]
   },
   {
@@ -3619,12 +3497,14 @@
     "hints": {
       "century": "20th century",
       "gender": "female",
-      "nationality": "France",
-      "profession": "Philosopher"
+      "nationality": "French",
+      "profession": "Philosopher & writer"
     },
     "bio": "",
     "acceptedAnswers": [
-      "simone de beauvoir"
+      "simone de beauvoir",
+      "beauvoir",
+      "de beauvoir"
     ]
   },
   {
@@ -3645,12 +3525,14 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "United Kingdom",
-      "profession": "Novelist"
+      "nationality": "British",
+      "profession": "Writer"
     },
     "bio": "",
     "acceptedAnswers": [
-      "arthur conan doyle"
+      "arthur conan doyle",
+      "conan doyle",
+      "a. conan doyle"
     ]
   },
   {
@@ -3671,12 +3553,13 @@
     "hints": {
       "century": "20th century",
       "gender": "male",
-      "nationality": "United Kingdom",
-      "profession": "Composer"
+      "nationality": "British",
+      "profession": "Musician"
     },
     "bio": "",
     "acceptedAnswers": [
-      "john lennon"
+      "john lennon",
+      "lennon"
     ]
   },
   {
@@ -3697,12 +3580,13 @@
     "hints": {
       "century": "16th century–17th century",
       "gender": "male",
-      "nationality": "Holy Roman Empire",
-      "profession": "Physicist"
+      "nationality": "German",
+      "profession": "Astronomer"
     },
     "bio": "",
     "acceptedAnswers": [
-      "johannes kepler"
+      "johannes kepler",
+      "kepler"
     ]
   },
   {
@@ -3723,12 +3607,14 @@
     "hints": {
       "century": "20th century–21st century",
       "gender": "male",
-      "nationality": "United States",
+      "nationality": "American",
       "profession": "Boxer"
     },
     "bio": "",
     "acceptedAnswers": [
-      "muhammad ali"
+      "muhammad ali",
+      "ali",
+      "cassius clay"
     ]
   },
   {
@@ -3749,12 +3635,14 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "Mexico",
-      "profession": "Philosopher"
+      "nationality": "Russian",
+      "profession": "Revolutionary politician"
     },
     "bio": "",
     "acceptedAnswers": [
-      "leon trotsky"
+      "leon trotsky",
+      "trotsky",
+      "lev davidovich bronstein"
     ]
   },
   {
@@ -3775,12 +3663,14 @@
     "hints": {
       "century": "19th century–20th century",
       "gender": "male",
-      "nationality": "Soviet Union",
-      "profession": "Poet"
+      "nationality": "Russian",
+      "profession": "Writer"
     },
     "bio": "",
     "acceptedAnswers": [
-      "maxim gorky"
+      "maxim gorky",
+      "gorky",
+      "alexei maximovich peshkov"
     ]
   }
 ]

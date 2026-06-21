@@ -14,20 +14,20 @@ export function deriveInitials(name: string): string {
     .join(' ')
 }
 
-const LABELS: Record<string, string> = {
-  century: 'Century',
-  gender: 'Gender',
-  nationality: 'Nationality',
-  profession: 'Profession',
-  initials: 'Initials',
-}
-
 /** All hints unlocked given a number of wrong guesses, in reveal order. */
 export function revealedHints(person: Person, wrongGuesses: number): RevealedHint[] {
   const count = Math.min(wrongGuesses, HINT_ORDER.length)
-  return HINT_ORDER.slice(0, count).map((key) => {
-    const value =
-      key === 'initials' ? deriveInitials(person.name) : person.hints[key]
-    return { label: LABELS[key], value }
+  return HINT_ORDER.slice(0, count).map((key): RevealedHint => {
+    switch (key) {
+      case 'origin':
+        return {
+          label: 'Gender & nationality',
+          value: `${person.hints.gender}, ${person.hints.nationality}`,
+        }
+      case 'profession':
+        return { label: 'Profession', value: person.hints.profession }
+      case 'initials':
+        return { label: 'Initials', value: deriveInitials(person.name) }
+    }
   })
 }
