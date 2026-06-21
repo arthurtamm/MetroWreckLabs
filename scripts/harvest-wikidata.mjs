@@ -1,75 +1,85 @@
 // Run with: node scripts/harvest-wikidata.mjs
-// One-time data harvest, batched across fame bands. Review output before committing.
+// One-time batched Wikidata harvest. Review output before committing.
 import { readFileSync, writeFileSync } from 'node:fs'
 
 const ENDPOINT = 'https://query.wikidata.org/sparql'
-
-// Bands ordered by descending fame; each fetches LIMIT 200 unique people.
-// More bands = more coverage if we need them.
 const BANDS = [
-  { min: 200, max: null },
-  { min: 150, max: 200 },
-  { min: 130, max: 150 },
-  { min: 115, max: 130 },
-  { min: 100, max: 115 },
-  { min: 90,  max: 100 },
-  { min: 80,  max: 90  },
+  'FILTER(?sitelinks > 200)',
+  'FILTER(?sitelinks > 150 && ?sitelinks <= 200)',
+  'FILTER(?sitelinks > 120 && ?sitelinks <= 150)',
+  'FILTER(?sitelinks > 100 && ?sitelinks <= 120)',
 ]
 const TARGET = 150
 
-// Use a subquery to get one row per person with a SAMPLE for optional fields.
-// This avoids the cartesian explosion from multiple P106/P27 values.
-const buildQuery = ({ min, max }) => {
-  const bandFilter = max
-    ? `FILTER(?sitelinks > ${min} && ?sitelinks <= ${max})`
-    : `FILTER(?sitelinks > ${min})`
-  return `
-SELECT ?person ?personLabel
-       (SAMPLE(?birthDate) AS ?birthDate) (SAMPLE(?deathDate) AS ?deathDate)
-       (SAMPLE(?birthPlaceLabel) AS ?birthPlaceLabel)
-       (SAMPLE(?bLat) AS ?bLat) (SAMPLE(?bLng) AS ?bLng)
-       (SAMPLE(?deathPlaceLabel) AS ?deathPlaceLabel)
-       (SAMPLE(?dLat) AS ?dLat) (SAMPLE(?dLng) AS ?dLng)
-       (SAMPLE(?genderLabel) AS ?genderLabel)
-       (SAMPLE(?occupationLabel) AS ?occupationLabel)
-       (SAMPLE(?nationalityLabel) AS ?nationalityLabel)
-       ?sitelinks WHERE {
+// Headline occupations in rough priority order (specific before generic).
+const PRIORITY = [
+  'painter','sculptor','architect','composer','physicist','chemist','mathematician',
+  'astronomer','biologist','inventor','engineer','economist','philosopher','theologian',
+  'poet','novelist','playwright','journalist','historian','physician','psychologist',
+  'emperor','empress','king','queen','monarch','pharaoh','president','prime minister',
+  'statesperson','politician','diplomat','military officer','general','admiral','revolutionary',
+  'explorer','footballer','basketball player','tennis player','boxer','racing driver','chess player',
+  'singer','musician','conductor','film director','actor','filmmaker','photographer','designer',
+  'astronaut','aviator','businessperson','lawyer','jurist','nurse','activist','writer','artist',
+]
+
+const buildQuery = (bandFilter) => `
+SELECT ?person ?personLabel ?birthDate ?deathDate
+       ?birthPlaceLabel ?bLat ?bLng ?deathPlaceLabel ?dLat ?dLng ?genderLabel ?sitelinks
+       (GROUP_CONCAT(DISTINCT ?occLabel; separator="|") AS ?occupations)
+       (GROUP_CONCAT(DISTINCT ?natLabel; separator="|") AS ?nationalities)
+WHERE {
   ?person wdt:P31 wd:Q5 ;
           wikibase:sitelinks ?sitelinks ;
           wdt:P569 ?birthDate ; wdt:P570 ?deathDate ;
-          wdt:P19 ?birthPlace ; wdt:P20 ?deathPlace .
-  ?birthPlace wdt:P625 ?bCoord . ?deathPlace wdt:P625 ?dCoord .
+          wdt:P19 ?birthPlace ; wdt:P20 ?deathPlace ;
+          rdfs:label ?personLabel .
+  FILTER(LANG(?personLabel) = "en")
+  ?birthPlace wdt:P625 ?bCoord ; rdfs:label ?birthPlaceLabel .
+  FILTER(LANG(?birthPlaceLabel) = "en")
+  ?deathPlace wdt:P625 ?dCoord ; rdfs:label ?deathPlaceLabel .
+  FILTER(LANG(?deathPlaceLabel) = "en")
   BIND(geof:latitude(?bCoord) AS ?bLat) BIND(geof:longitude(?bCoord) AS ?bLng)
   BIND(geof:latitude(?dCoord) AS ?dLat) BIND(geof:longitude(?dCoord) AS ?dLng)
-  OPTIONAL { ?person wdt:P21 ?gender. }
-  OPTIONAL { ?person wdt:P106 ?occupation. }
-  OPTIONAL { ?person wdt:P27 ?nationality. }
+  OPTIONAL { ?person wdt:P21 ?gender. ?gender rdfs:label ?genderLabel. FILTER(LANG(?genderLabel)="en") }
+  OPTIONAL { ?person wdt:P106 ?occ. ?occ rdfs:label ?occLabel. FILTER(LANG(?occLabel)="en") }
+  OPTIONAL { ?person wdt:P27 ?nat. ?nat rdfs:label ?natLabel. FILTER(LANG(?natLabel)="en") }
   ${bandFilter}
   FILTER(YEAR(?birthDate) >= 1400)
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "en".
-    ?birthPlace rdfs:label ?birthPlaceLabel.
-    ?deathPlace rdfs:label ?deathPlaceLabel.
-    ?gender rdfs:label ?genderLabel.
-    ?occupation rdfs:label ?occupationLabel.
-    ?nationality rdfs:label ?nationalityLabel.
-    ?person rdfs:label ?personLabel.
-  }
 }
-GROUP BY ?person ?personLabel ?sitelinks
+GROUP BY ?person ?personLabel ?birthDate ?deathDate ?birthPlaceLabel ?bLat ?bLng ?deathPlaceLabel ?dLat ?dLng ?genderLabel ?sitelinks
 ORDER BY DESC(?sitelinks)
 LIMIT 200
 `
-}
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
 
+function pickProfession(occCsv) {
+  const occs = (occCsv || '').split('|').map((s) => s.trim()).filter(Boolean)
+  if (occs.length === 0) return 'Unknown'
+  const lower = occs.map((o) => o.toLowerCase())
+  // Exact-match pass first, then substring pass — prevents "stage painter" winning over "painter"
+  for (const p of PRIORITY) {
+    const idx = lower.findIndex((o) => o === p)
+    if (idx !== -1) return occs[idx].charAt(0).toUpperCase() + occs[idx].slice(1)
+  }
+  for (const p of PRIORITY) {
+    const idx = lower.findIndex((o) => o.includes(p))
+    if (idx !== -1) return occs[idx].charAt(0).toUpperCase() + occs[idx].slice(1)
+  }
+  return occs[0].charAt(0).toUpperCase() + occs[0].slice(1)
+}
+
+function firstOf(csv) {
+  const v = (csv || '').split('|').map((s) => s.trim()).filter(Boolean)
+  return v[0] || 'Unknown'
+}
+
 function sanitizeDate(raw) {
-  // raw like "1452-04-15T00:00:00Z"; guard month/day "00"
-  let d = raw.slice(0, 10)
-  let [y, m, day] = d.split('-')
+  let [y, m, d] = raw.slice(0, 10).split('-')
   if (m === '00') m = '01'
-  if (day === '00') day = '01'
-  return `${y}-${m}-${day}`
+  if (d === '00') d = '01'
+  return `${y}-${m}-${d}`
 }
 
 function centuryLabel(birthISO, deathISO) {
@@ -90,26 +100,17 @@ function slug(name) {
     .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
 }
 
-async function fetchBand(band) {
-  const query = buildQuery(band)
+async function fetchBand(bandFilter) {
   for (let attempt = 0; attempt < 3; attempt++) {
     try {
-      const res = await fetch(`${ENDPOINT}?query=${encodeURIComponent(query)}&format=json`,
+      const res = await fetch(`${ENDPOINT}?query=${encodeURIComponent(buildQuery(bandFilter))}&format=json`,
         { headers: { 'User-Agent': 'MetroWreckLabs/1.0 (harvest script)', 'Accept': 'application/sparql-results+json' } })
-      if (res.status === 429 || res.status === 504) {
-        console.warn(`  Got ${res.status}, retrying after 4s (attempt ${attempt + 1}/3)...`)
-        await sleep(4000)
-        continue
-      }
+      if (res.status === 429 || res.status === 504) { await sleep(3000); continue }
       if (!res.ok) throw new Error(`Wikidata ${res.status}`)
       return (await res.json()).results.bindings
     } catch (e) {
-      if (attempt === 2) {
-        console.warn(`  Band failed after 3 attempts: ${e.message}`)
-        return []
-      }
-      console.warn(`  Error on attempt ${attempt + 1}: ${e.message}, retrying...`)
-      await sleep(4000)
+      if (attempt === 2) throw e
+      await sleep(3000)
     }
   }
   return []
@@ -117,19 +118,10 @@ async function fetchBand(band) {
 
 async function main() {
   const byId = new Map()
-  const bandResults = []
-
   for (const band of BANDS) {
-    const label = band.max ? `${band.min}–${band.max}` : `>${band.min}`
-    if (byId.size >= TARGET + 30) {
-      console.log(`  Have ${byId.size} candidates, done.`)
-      bandResults.push({ label, rows: 0, added: 0, skipped: true })
-      continue
-    }
-    console.log(`Fetching band sitelinks ${label}...`)
+    if (byId.size >= TARGET + 60) break
     const rows = await fetchBand(band)
-    console.log(`  Got ${rows.length} rows`)
-    let added = 0
+    console.log(`band ${band}: ${rows.length} rows`)
     for (const b of rows) {
       const name = b.personLabel?.value
       if (!name || /^Q\d+$/.test(name)) continue
@@ -139,54 +131,27 @@ async function main() {
       const deathDate = sanitizeDate(b.deathDate.value)
       byId.set(id, {
         id, name,
-        birth: {
-          date: birthDate,
-          place: b.birthPlaceLabel?.value ?? 'Unknown',
-          lat: +(+b.bLat.value).toFixed(2),
-          lng: +(+b.bLng.value).toFixed(2),
-        },
-        death: {
-          date: deathDate,
-          place: b.deathPlaceLabel?.value ?? 'Unknown',
-          lat: +(+b.dLat.value).toFixed(2),
-          lng: +(+b.dLng.value).toFixed(2),
-        },
+        birth: { date: birthDate, place: b.birthPlaceLabel?.value ?? 'Unknown', lat: +(+b.bLat.value).toFixed(2), lng: +(+b.bLng.value).toFixed(2) },
+        death: { date: deathDate, place: b.deathPlaceLabel?.value ?? 'Unknown', lat: +(+b.dLat.value).toFixed(2), lng: +(+b.dLng.value).toFixed(2) },
         hints: {
           century: centuryLabel(birthDate, deathDate),
           gender: b.genderLabel?.value ?? 'Unknown',
-          nationality: b.nationalityLabel?.value ?? 'Unknown',
-          profession: b.occupationLabel?.value ?? 'Unknown',
+          nationality: firstOf(b.nationalities?.value),
+          profession: pickProfession(b.occupations?.value),
         },
         bio: '', acceptedAnswers: [name.toLowerCase()],
       })
-      added++
     }
-    bandResults.push({ label, rows: rows.length, added })
-    console.log(`  Added ${added} new people (total candidates: ${byId.size})`)
-    await sleep(1500)
+    await sleep(1000)
   }
 
-  // Load existing hand-verified entries (existing ids win).
   const existing = JSON.parse(readFileSync('src/data/people.json', 'utf8'))
-  const existingIds = new Set(existing.map((p) => p.id))
-
-  // Also block slug-alias duplicates of originals (match on normalized name).
-  const existingNamesNorm = new Set(existing.map((p) => p.name.toLowerCase().trim()))
-
-  const harvested = [...byId.values()].filter((p) =>
-    !existingIds.has(p.id) && !existingNamesNorm.has(p.name.toLowerCase().trim())
-  )
-
-  const merged = [...existing, ...harvested].slice(0, TARGET)
-
+  const original = existing.slice(0, 8) // the 8 hand-verified originals
+  const originalIds = new Set(original.map((p) => p.id))
+  const harvested = [...byId.values()].filter((p) => !originalIds.has(p.id))
+  const merged = [...original, ...harvested].slice(0, TARGET)
   writeFileSync('src/data/people.json', JSON.stringify(merged, null, 2) + '\n')
-  console.log(`\nBand summary:`)
-  for (const r of bandResults) {
-    const note = r.skipped ? '(skipped — enough candidates)' : `${r.rows} rows -> ${r.added} added`
-    console.log(`  sitelinks ${r.label}: ${note}`)
-  }
-  console.log(`\nWrote ${merged.length} people total (${harvested.length} newly harvested).`)
-  console.log('REVIEW before committing: spot-check dates, coords, and that names are recognizable.')
+  console.log(`Wrote ${merged.length} people (${harvested.length} harvested).`)
 }
 
 main().catch((e) => { console.error(e); process.exit(1) })
