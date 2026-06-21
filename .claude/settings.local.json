@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(scripts/start-server.sh --project-dir /Users/arthur/workplace/MetroWreckLabs)",
+      "Bash(scripts/start-server.sh --project-dir /Users/arthur/workplace/MetroWreckLabs --foreground)",
+      "Bash(/opt/homebrew/bin/node --version)",
+      "Bash(command -v node)",
+      "Bash(echo \"PATH has node: $\\(command -v node || echo no\\)\")",
+      "Bash(git checkout *)"
+    ]
+  }
+}
