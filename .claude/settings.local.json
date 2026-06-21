@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(scripts/start-server.sh --project-dir /Users/arthur/workplace/MetroWreckLabs)",
+      "Bash(scripts/start-server.sh --project-dir /Users/arthur/workplace/MetroWreckLabs --foreground)",
+      "Bash(/opt/homebrew/bin/node --version)",
+      "Bash(command -v node)",
+      "Bash(echo \"PATH has node: $\\(command -v node || echo no\\)\")",
+      "Bash(git checkout *)",
+      "Bash(/opt/homebrew/bin/node -e \"const d=require\\('./src/data/people.json'\\); console.log\\('entries:',d.length\\); console.log\\('ids:',d.map\\(p=>p.id\\).join\\(', '\\)\\); const bad=d.filter\\(p=>!p.id||!p.name||!p.birth||!p.death||!p.hints||!p.acceptedAnswers\\); console.log\\('malformed:',bad.length\\)\")",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ]
+  }
+}

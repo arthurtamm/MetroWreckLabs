@@ -1,0 +1,18 @@
+:root {
+  --bg: #0b1f33;
+  --panel: #0f2942;
+  --panel-2: #13314f;
+  --border: #1e3a5f;
+  --text: #e2e8f0;
+  --muted: #94a3b8;
+  --green: #34d399;
+  --red: #f87171;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+button { font: inherit; cursor: pointer; }

@@ -117,6 +117,10 @@ The `initials` hint is derived from `name` at runtime (no separate field needed)
   Future mitigations: hash/encode answers (deters casual peeking), or a small
   serverless function that validates guesses and gates hints (defeats inspection
   properly, adds a backend).
+- **Bios are best-effort.** Only the 8 hand-curated entries have a one-line
+  `bio`; the ~137 Wikidata-harvested entries ship with an empty bio, so the
+  result screen shows no description for most puzzles. Accepted for v1; can be
+  backfilled later from Wikidata `schema:description`.
 
 ## Out of scope for v1
 
