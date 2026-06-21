@@ -1,6 +1,12 @@
 import { useEffect } from 'react'
-import { MapContainer, TileLayer, CircleMarker, Tooltip, useMap } from 'react-leaflet'
+import { MapContainer, GeoJSON, CircleMarker, Tooltip, useMap } from 'react-leaflet'
+import type { GeoJsonObject } from 'geojson'
 import type { GeoPoint } from '../data/types'
+import landData from '../data/land.json'
+
+// Solid landmasses, no borders/labels — the location itself is the puzzle.
+const land = landData as unknown as GeoJsonObject
+const landStyle = { color: '#2c5476', weight: 0, fillColor: '#cbd5e1', fillOpacity: 1 }
 
 interface Props {
   birth: GeoPoint
@@ -17,12 +23,14 @@ function fmtDate(iso: string): string {
 function FitBounds({ birth, death }: Props) {
   const map = useMap()
   useEffect(() => {
+    // Cap zoom so the view always shows recognizable coastlines/continents for
+    // context — without labels, tightly-zoomed land would be a featureless field.
     map.fitBounds(
       [
         [birth.lat, birth.lng],
         [death.lat, death.lng],
       ],
-      { padding: [60, 60] },
+      { padding: [60, 60], maxZoom: 4 },
     )
   }, [map, birth.lat, birth.lng, death.lat, death.lng])
   return null
@@ -40,12 +48,10 @@ export function MapView({ birth, death }: Props) {
       scrollWheelZoom
       className="map"
       worldCopyJump
+      attributionControl={false}
     >
       <FitBounds birth={birth} death={death} />
-      <TileLayer
-        attribution='&copy; OpenStreetMap contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-      />
+      <GeoJSON data={land} style={landStyle} />
       <CircleMarker center={[birth.lat, birth.lng]} radius={10}
         pathOptions={{ color: '#10803a', fillColor: '#34d399', fillOpacity: 0.9 }}>
         <Tooltip permanent direction="top">🟢 Born {fmtDate(birth.date)}</Tooltip>
