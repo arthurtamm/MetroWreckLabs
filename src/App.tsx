@@ -1,4 +1,5 @@
 import { useMemo, useReducer, useState } from 'react'
+import './App.css'
 import people from './data/people.json'
 import type { Person } from './data/types'
 import { MapView } from './components/MapView'
