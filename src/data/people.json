@@ -1,0 +1,74 @@
+[
+  {
+    "id": "mozart",
+    "name": "Wolfgang Amadeus Mozart",
+    "birth": { "date": "1756-01-27", "place": "Salzburg, Austria", "lat": 47.8, "lng": 13.04 },
+    "death": { "date": "1791-12-05", "place": "Vienna, Austria", "lat": 48.21, "lng": 16.37 },
+    "hints": { "century": "18th century", "gender": "Male", "nationality": "Austrian", "profession": "Composer" },
+    "bio": "A prolific and influential composer of the Classical period.",
+    "acceptedAnswers": ["mozart", "wolfgang amadeus mozart"]
+  },
+  {
+    "id": "napoleon",
+    "name": "Napoleon Bonaparte",
+    "birth": { "date": "1769-08-15", "place": "Ajaccio, Corsica, France", "lat": 41.93, "lng": 8.74 },
+    "death": { "date": "1821-05-05", "place": "Longwood, Saint Helena", "lat": -15.95, "lng": -5.7 },
+    "hints": { "century": "18th-19th century", "gender": "Male", "nationality": "French", "profession": "Military leader & emperor" },
+    "bio": "A French military and political leader who became Emperor of the French.",
+    "acceptedAnswers": ["napoleon", "napoleon bonaparte", "napoleon i"]
+  },
+  {
+    "id": "curie",
+    "name": "Marie Curie",
+    "birth": { "date": "1867-11-07", "place": "Warsaw, Poland", "lat": 52.23, "lng": 21.01 },
+    "death": { "date": "1934-07-04", "place": "Passy, Haute-Savoie, France", "lat": 45.92, "lng": 6.73 },
+    "hints": { "century": "19th-20th century", "gender": "Female", "nationality": "Polish-French", "profession": "Physicist & chemist" },
+    "bio": "A physicist and chemist who conducted pioneering research on radioactivity.",
+    "acceptedAnswers": ["marie curie", "curie", "maria sklodowska", "marie sklodowska curie"]
+  },
+  {
+    "id": "lincoln",
+    "name": "Abraham Lincoln",
+    "birth": { "date": "1809-02-12", "place": "Hodgenville, Kentucky, USA", "lat": 37.57, "lng": -85.74 },
+    "death": { "date": "1865-04-15", "place": "Washington, D.C., USA", "lat": 38.9, "lng": -77.04 },
+    "hints": { "century": "19th century", "gender": "Male", "nationality": "American", "profession": "Politician & president" },
+    "bio": "The 16th President of the United States, who led the nation through the Civil War.",
+    "acceptedAnswers": ["abraham lincoln", "lincoln"]
+  },
+  {
+    "id": "gandhi",
+    "name": "Mahatma Gandhi",
+    "birth": { "date": "1869-10-02", "place": "Porbandar, Gujarat, India", "lat": 21.64, "lng": 69.6 },
+    "death": { "date": "1948-01-30", "place": "New Delhi, India", "lat": 28.61, "lng": 77.21 },
+    "hints": { "century": "19th-20th century", "gender": "Male", "nationality": "Indian", "profession": "Independence leader" },
+    "bio": "Leader of the Indian independence movement against British rule.",
+    "acceptedAnswers": ["mahatma gandhi", "gandhi", "mohandas gandhi", "mohandas karamchand gandhi"]
+  },
+  {
+    "id": "frida",
+    "name": "Frida Kahlo",
+    "birth": { "date": "1907-07-06", "place": "Coyoacán, Mexico City, Mexico", "lat": 19.35, "lng": -99.16 },
+    "death": { "date": "1954-07-13", "place": "Coyoacán, Mexico City, Mexico", "lat": 19.35, "lng": -99.16 },
+    "hints": { "century": "20th century", "gender": "Female", "nationality": "Mexican", "profession": "Painter" },
+    "bio": "A Mexican painter known for her many portraits, self-portraits, and works inspired by nature.",
+    "acceptedAnswers": ["frida kahlo", "kahlo", "frida"]
+  },
+  {
+    "id": "beethoven",
+    "name": "Ludwig van Beethoven",
+    "birth": { "date": "1770-12-17", "place": "Bonn, Germany", "lat": 50.73, "lng": 7.1 },
+    "death": { "date": "1827-03-26", "place": "Vienna, Austria", "lat": 48.21, "lng": 16.37 },
+    "hints": { "century": "18th-19th century", "gender": "Male", "nationality": "German", "profession": "Composer" },
+    "bio": "A German composer and pianist who is a crucial figure in Western classical music.",
+    "acceptedAnswers": ["beethoven", "ludwig van beethoven"]
+  },
+  {
+    "id": "cleopatra",
+    "name": "Cleopatra",
+    "birth": { "date": "0069-01-01", "place": "Alexandria, Egypt", "lat": 31.2, "lng": 29.92 },
+    "death": { "date": "0030-08-12", "place": "Alexandria, Egypt", "lat": 31.2, "lng": 29.92 },
+    "hints": { "century": "1st century BC", "gender": "Female", "nationality": "Egyptian (Ptolemaic)", "profession": "Pharaoh" },
+    "bio": "The last active ruler of the Ptolemaic Kingdom of Egypt.",
+    "acceptedAnswers": ["cleopatra", "cleopatra vii"]
+  }
+]
