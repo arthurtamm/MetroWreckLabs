@@ -2,11 +2,12 @@ import { useEffect } from 'react'
 import { MapContainer, GeoJSON, CircleMarker, Tooltip, useMap } from 'react-leaflet'
 import type { GeoJsonObject } from 'geojson'
 import type { GeoPoint } from '../data/types'
-import landData from '../data/land.json'
+import countriesData from '../data/countries.json'
 
-// Solid landmasses, no borders/labels — the location itself is the puzzle.
-const land = landData as unknown as GeoJsonObject
-const landStyle = { color: '#2c5476', weight: 0, fillColor: '#cbd5e1', fillOpacity: 1 }
+// Flat-color countries with borders but no labels — players read the country
+// from its shape, borders, and position rather than from place names.
+const countries = countriesData as unknown as GeoJsonObject
+const landStyle = { color: '#0a2a43', weight: 1, fillColor: '#cbd5e1', fillOpacity: 1 }
 
 interface Props {
   birth: GeoPoint
@@ -51,7 +52,7 @@ export function MapView({ birth, death }: Props) {
       attributionControl={false}
     >
       <FitBounds birth={birth} death={death} />
-      <GeoJSON data={land} style={landStyle} />
+      <GeoJSON data={countries} style={landStyle} />
       <CircleMarker center={[birth.lat, birth.lng]} radius={10}
         pathOptions={{ color: '#10803a', fillColor: '#34d399', fillOpacity: 0.9 }}>
         <Tooltip permanent direction="top">🟢 Born {fmtDate(birth.date)}</Tooltip>
