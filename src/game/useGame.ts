@@ -1,4 +1,3 @@
-import { useReducer } from 'react'
 import type { Person } from '../data/types'
 import { isCorrectGuess } from './match'
 import { MAX_GUESSES } from './constants'
@@ -40,12 +39,6 @@ export function gameReducer(state: GameState, action: GameAction): GameState {
     default:
       return state
   }
-}
-
-/** Convenience hook wrapping the reducer. */
-export function useGame(person: Person) {
-  const [state, dispatch] = useReducer(gameReducer, person, initGame)
-  return { state, dispatch }
 }
 
 /** Count of wrong guesses so far (drives hint reveal). */
