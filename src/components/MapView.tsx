@@ -1,4 +1,5 @@
-import { MapContainer, TileLayer, CircleMarker, Tooltip } from 'react-leaflet'
+import { useEffect } from 'react'
+import { MapContainer, TileLayer, CircleMarker, Tooltip, useMap } from 'react-leaflet'
 import type { GeoPoint } from '../data/types'
 
 interface Props {
@@ -9,6 +10,22 @@ interface Props {
 function fmtDate(iso: string): string {
   // Show year prominently; ISO already human-enough for v1.
   return iso
+}
+
+// MapContainer only honors `bounds` on first mount. This re-fits the view
+// whenever the person (and thus the coordinates) changes — mode switch, play again.
+function FitBounds({ birth, death }: Props) {
+  const map = useMap()
+  useEffect(() => {
+    map.fitBounds(
+      [
+        [birth.lat, birth.lng],
+        [death.lat, death.lng],
+      ],
+      { padding: [60, 60] },
+    )
+  }, [map, birth.lat, birth.lng, death.lat, death.lng])
+  return null
 }
 
 export function MapView({ birth, death }: Props) {
@@ -24,6 +41,7 @@ export function MapView({ birth, death }: Props) {
       className="map"
       worldCopyJump
     >
+      <FitBounds birth={birth} death={death} />
       <TileLayer
         attribution='&copy; OpenStreetMap contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
