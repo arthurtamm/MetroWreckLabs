@@ -6,13 +6,15 @@
       "date": "1756-01-27",
       "place": "Salzburg, Austria",
       "lat": 47.8,
-      "lng": 13.04
+      "lng": 13.04,
+      "country": "Austria"
     },
     "death": {
       "date": "1791-12-05",
       "place": "Vienna, Austria",
       "lat": 48.21,
-      "lng": 16.37
+      "lng": 16.37,
+      "country": "Austria"
     },
     "hints": {
       "century": "18th century",
@@ -33,13 +35,15 @@
       "date": "1769-08-15",
       "place": "Ajaccio, Corsica, France",
       "lat": 41.93,
-      "lng": 8.74
+      "lng": 8.74,
+      "country": "France"
     },
     "death": {
       "date": "1821-05-05",
       "place": "Longwood, Saint Helena",
       "lat": -15.95,
-      "lng": -5.7
+      "lng": -5.7,
+      "country": "Saint Helena"
     },
     "hints": {
       "century": "18th-19th century",
@@ -61,13 +65,15 @@
       "date": "1867-11-07",
       "place": "Warsaw, Poland",
       "lat": 52.23,
-      "lng": 21.01
+      "lng": 21.01,
+      "country": "Poland"
     },
     "death": {
       "date": "1934-07-04",
       "place": "Passy, Haute-Savoie, France",
       "lat": 45.92,
-      "lng": 6.73
+      "lng": 6.73,
+      "country": "France"
     },
     "hints": {
       "century": "19th-20th century",
@@ -93,13 +99,15 @@
       "date": "1809-02-12",
       "place": "Hodgenville, Kentucky, USA",
       "lat": 37.57,
-      "lng": -85.74
+      "lng": -85.74,
+      "country": "United States of America"
     },
     "death": {
       "date": "1865-04-15",
       "place": "Washington, D.C., USA",
       "lat": 38.9,
-      "lng": -77.04
+      "lng": -77.04,
+      "country": "United States of America"
     },
     "hints": {
       "century": "19th century",
@@ -120,13 +128,15 @@
       "date": "1869-10-02",
       "place": "Porbandar, Gujarat, India",
       "lat": 21.64,
-      "lng": 69.6
+      "lng": 69.6,
+      "country": "India"
     },
     "death": {
       "date": "1948-01-30",
       "place": "New Delhi, India",
       "lat": 28.61,
-      "lng": 77.21
+      "lng": 77.21,
+      "country": "India"
     },
     "hints": {
       "century": "19th-20th century",
@@ -149,13 +159,15 @@
       "date": "1770-12-17",
       "place": "Bonn, Germany",
       "lat": 50.73,
-      "lng": 7.1
+      "lng": 7.1,
+      "country": "Germany"
     },
     "death": {
       "date": "1827-03-26",
       "place": "Vienna, Austria",
       "lat": 48.21,
-      "lng": 16.37
+      "lng": 16.37,
+      "country": "Austria"
     },
     "hints": {
       "century": "18th-19th century",
@@ -176,13 +188,15 @@
       "date": "1958-08-29",
       "place": "Gary",
       "lat": 41.58,
-      "lng": -87.35
+      "lng": -87.35,
+      "country": "United States of America"
     },
     "death": {
       "date": "2009-06-25",
       "place": "Los Angeles",
       "lat": 34.05,
-      "lng": -118.24
+      "lng": -118.24,
+      "country": "United States of America"
     },
     "hints": {
       "century": "20th century–21st century",
@@ -204,13 +218,15 @@
       "date": "1889-04-20",
       "place": "Braunau am Inn",
       "lat": 48.26,
-      "lng": 13.03
+      "lng": 13.03,
+      "country": "Austria"
     },
     "death": {
       "date": "1945-04-30",
       "place": "Führerbunker",
       "lat": 52.51,
-      "lng": 13.38
+      "lng": 13.38,
+      "country": "Germany"
     },
     "hints": {
       "century": "19th century–20th century",
@@ -231,13 +247,15 @@
       "date": "1879-03-14",
       "place": "Ulm",
       "lat": 48.4,
-      "lng": 9.99
+      "lng": 9.99,
+      "country": "Germany"
     },
     "death": {
       "date": "1955-04-18",
       "place": "Princeton",
       "lat": 40.35,
-      "lng": -74.66
+      "lng": -74.66,
+      "country": "United States of America"
     },
     "hints": {
       "century": "19th century–20th century",
@@ -258,13 +276,15 @@
       "date": "1818-05-05",
       "place": "Trier",
       "lat": 49.76,
-      "lng": 6.64
+      "lng": 6.64,
+      "country": "Germany"
     },
     "death": {
       "date": "1883-03-14",
       "place": "London",
       "lat": 51.51,
-      "lng": -0.13
+      "lng": -0.13,
+      "country": "United Kingdom"
     },
     "hints": {
       "century": "19th century",
@@ -285,13 +305,15 @@
       "date": "1452-04-24",
       "place": "Anchiano",
       "lat": 43.8,
-      "lng": 10.94
+      "lng": 10.94,
+      "country": "Italy"
     },
     "death": {
       "date": "1519-05-12",
       "place": "Clos Lucé",
       "lat": 47.41,
-      "lng": 0.99
+      "lng": 0.99,
+      "country": "France"
     },
     "hints": {
       "century": "15th century–16th century",
@@ -313,13 +335,15 @@
       "date": "1643-01-04",
       "place": "Woolsthorpe Manor",
       "lat": 52.81,
-      "lng": -0.63
+      "lng": -0.63,
+      "country": "United Kingdom"
     },
     "death": {
       "date": "1727-03-31",
       "place": "Kensington",
       "lat": 51.5,
-      "lng": -0.19
+      "lng": -0.19,
+      "country": "United Kingdom"
     },
     "hints": {
       "century": "17th century–18th century",
@@ -340,13 +364,15 @@
       "date": "1870-04-22",
       "place": "Ulyanovsk",
       "lat": 54.32,
-      "lng": 48.37
+      "lng": 48.37,
+      "country": "Russia"
     },
     "death": {
       "date": "1924-01-21",
       "place": "Bolshiye Gorki",
       "lat": 55.5,
-      "lng": 37.76
+      "lng": 37.76,
+      "country": "Russia"
     },
     "hints": {
       "century": "19th century–20th century",
@@ -367,13 +393,15 @@
       "date": "1918-07-18",
       "place": "Mvezo",
       "lat": -31.95,
-      "lng": 28.52
+      "lng": 28.52,
+      "country": "South Africa"
     },
     "death": {
       "date": "2013-12-05",
       "place": "Houghton Estate",
       "lat": -26.15,
-      "lng": 28.05
+      "lng": 28.05,
+      "country": "South Africa"
     },
     "hints": {
       "century": "20th century–21st century",
@@ -394,13 +422,15 @@
       "date": "1828-09-09",
       "place": "Yasnaya Polyana",
       "lat": 54.08,
-      "lng": 37.53
+      "lng": 37.53,
+      "country": "Russia"
     },
     "death": {
       "date": "1910-11-20",
       "place": "Astapovo",
       "lat": 53.21,
-      "lng": 39.54
+      "lng": 39.54,
+      "country": "Russia"
     },
     "hints": {
       "century": "19th century–20th century",
@@ -422,13 +452,15 @@
       "date": "1878-12-18",
       "place": "Gori",
       "lat": 41.98,
-      "lng": 44.11
+      "lng": 44.11,
+      "country": "Georgia"
     },
     "death": {
       "date": "1953-03-05",
       "place": "Kuntsevo Dacha",
       "lat": 55.72,
-      "lng": 37.49
+      "lng": 37.49,
+      "country": "Russia"
     },
     "hints": {
       "century": "19th century–20th century",
@@ -449,13 +481,15 @@
       "date": "1749-08-28",
       "place": "Frankfurt",
       "lat": 50.11,
-      "lng": 8.68
+      "lng": 8.68,
+      "country": "Germany"
     },
     "death": {
       "date": "1832-03-22",
       "place": "Weimar",
       "lat": 50.98,
-      "lng": 11.33
+      "lng": 11.33,
+      "country": "Germany"
     },
     "hints": {
       "century": "18th century–19th century",
@@ -476,13 +510,15 @@
       "date": "1564-02-25",
       "place": "Pisa",
       "lat": 43.72,
-      "lng": 10.4
+      "lng": 10.4,
+      "country": "Italy"
     },
     "death": {
       "date": "1642-01-08",
       "place": "Arcetri",
       "lat": 43.75,
-      "lng": 11.25
+      "lng": 11.25,
+      "country": "Italy"
     },
     "hints": {
       "century": "16th century–17th century",
@@ -503,13 +539,15 @@
       "date": "1881-10-25",
       "place": "Málaga",
       "lat": 36.72,
-      "lng": -4.42
+      "lng": -4.42,
+      "country": "Spain"
     },
     "death": {
       "date": "1973-04-08",
       "place": "Mas Notre-Dame-de-Vie de Mougins",
       "lat": 43.59,
-      "lng": 7.01
+      "lng": 7.01,
+      "country": "France"
     },
     "hints": {
       "century": "19th century–20th century",
@@ -530,13 +568,15 @@
       "date": "1853-03-30",
       "place": "Zundert",
       "lat": 51.47,
-      "lng": 4.66
+      "lng": 4.66,
+      "country": "Netherlands"
     },
     "death": {
       "date": "1890-07-29",
       "place": "Auvers-sur-Oise",
       "lat": 49.07,
-      "lng": 2.17
+      "lng": 2.17,
+      "country": "France"
     },
     "hints": {
       "century": "19th century",
@@ -557,13 +597,15 @@
       "date": "1889-04-16",
       "place": "Walworth",
       "lat": 51.49,
-      "lng": -0.09
+      "lng": -0.09,
+      "country": "United Kingdom"
     },
     "death": {
       "date": "1977-12-25",
       "place": "Corsier-sur-Vevey",
       "lat": 46.47,
-      "lng": 6.85
+      "lng": 6.85,
+      "country": "Switzerland"
     },
     "hints": {
       "century": "19th century–20th century",
@@ -584,13 +626,15 @@
       "date": "1475-03-15",
       "place": "Caprese Michelangelo",
       "lat": 43.64,
-      "lng": 11.99
+      "lng": 11.99,
+      "country": "Italy"
     },
     "death": {
       "date": "1564-02-28",
       "place": "Rome",
       "lat": 41.89,
-      "lng": 12.48
+      "lng": 12.48,
+      "country": "Italy"
     },
     "hints": {
       "century": "15th century–16th century",
@@ -611,13 +655,15 @@
       "date": "1685-03-31",
       "place": "Eisenach",
       "lat": 50.97,
-      "lng": 10.32
+      "lng": 10.32,
+      "country": "Germany"
     },
     "death": {
       "date": "1750-07-28",
       "place": "Leipzig",
       "lat": 51.34,
-      "lng": 12.37
+      "lng": 12.37,
+      "country": "Germany"
     },
     "hints": {
       "century": "17th century–18th century",
@@ -640,13 +686,15 @@
       "date": "1874-11-30",
       "place": "Blenheim Palace",
       "lat": 51.84,
-      "lng": -1.36
+      "lng": -1.36,
+      "country": "United Kingdom"
     },
     "death": {
       "date": "1965-01-24",
       "place": "Hyde Park Gate",
       "lat": 51.5,
-      "lng": -0.18
+      "lng": -0.18,
+      "country": "United Kingdom"
     },
     "hints": {
       "century": "19th century–20th century",
@@ -667,13 +715,15 @@
       "date": "1844-10-15",
       "place": "Röcken",
       "lat": 51.24,
-      "lng": 12.12
+      "lng": 12.12,
+      "country": "Germany"
     },
     "death": {
       "date": "1900-08-25",
       "place": "Weimar",
       "lat": 50.98,
-      "lng": 11.33
+      "lng": 11.33,
+      "country": "Germany"
     },
     "hints": {
       "century": "19th century",
@@ -694,13 +744,15 @@
       "date": "1926-04-21",
       "place": "17 Bruton Street, Mayfair",
       "lat": 51.51,
-      "lng": -0.15
+      "lng": -0.15,
+      "country": "United Kingdom"
     },
     "death": {
       "date": "2022-09-08",
       "place": "Balmoral Castle",
       "lat": 57.04,
-      "lng": -3.23
+      "lng": -3.23,
+      "country": "United Kingdom"
     },
     "hints": {
       "century": "20th century–21st century",
@@ -723,13 +775,15 @@
       "date": "1881-01-01",
       "place": "Thessaloniki",
       "lat": 40.64,
-      "lng": 22.94
+      "lng": 22.94,
+      "country": "Greece"
     },
     "death": {
       "date": "1938-11-10",
       "place": "Dolmabahçe Palace",
       "lat": 41.04,
-      "lng": 29
+      "lng": 29,
+      "country": "Turkey"
     },
     "hints": {
       "century": "19th century–20th century",
@@ -753,13 +807,15 @@
       "date": "1821-11-11",
       "place": "Mariinsky Hospital for the Poor",
       "lat": 55.78,
-      "lng": 37.61
+      "lng": 37.61,
+      "country": "Russia"
     },
     "death": {
       "date": "1881-02-09",
       "place": "Saint Petersburg",
       "lat": 59.95,
-      "lng": 30.32
+      "lng": 30.32,
+      "country": "Russia"
     },
     "hints": {
       "century": "19th century",
@@ -783,13 +839,15 @@
       "date": "1847-02-11",
       "place": "Milan",
       "lat": 41.29,
-      "lng": -82.6
+      "lng": -82.6,
+      "country": "United States of America"
     },
     "death": {
       "date": "1931-10-18",
       "place": "West Orange",
       "lat": 40.8,
-      "lng": -74.24
+      "lng": -74.24,
+      "country": "United States of America"
     },
     "hints": {
       "century": "19th century–20th century",
@@ -811,13 +869,15 @@
       "date": "1835-11-30",
       "place": "Florida",
       "lat": 39.49,
-      "lng": -91.79
+      "lng": -91.79,
+      "country": "United States of America"
     },
     "death": {
       "date": "1910-04-21",
       "place": "Redding",
       "lat": 41.3,
-      "lng": -73.39
+      "lng": -73.39,
+      "country": "United States of America"
     },
     "hints": {
       "century": "19th century–20th century",
@@ -840,13 +900,15 @@
       "date": "1917-05-29",
       "place": "Brookline",
       "lat": 42.33,
-      "lng": -71.12
+      "lng": -71.12,
+      "country": "United States of America"
     },
     "death": {
       "date": "1963-11-22",
       "place": "Parkland Memorial Hospital",
       "lat": 32.81,
-      "lng": -96.84
+      "lng": -96.84,
+      "country": "United States of America"
     },
     "hints": {
       "century": "20th century",
@@ -870,13 +932,15 @@
       "date": "1856-05-06",
       "place": "Příbor",
       "lat": 49.64,
-      "lng": 18.15
+      "lng": 18.15,
+      "country": "Czechia"
     },
     "death": {
       "date": "1939-09-23",
       "place": "London",
       "lat": 51.51,
-      "lng": -0.13
+      "lng": -0.13,
+      "country": "United Kingdom"
     },
     "hints": {
       "century": "19th century–20th century",
@@ -897,13 +961,15 @@
       "date": "1596-03-31",
       "place": "Descartes",
       "lat": 46.97,
-      "lng": 0.7
+      "lng": 0.7,
+      "country": "France"
     },
     "death": {
       "date": "1650-02-11",
       "place": "Stockholm",
       "lat": 59.33,
-      "lng": 18.07
+      "lng": 18.07,
+      "country": "Sweden"
     },
     "hints": {
       "century": "16th century–17th century",
@@ -925,13 +991,15 @@
       "date": "1547-10-09",
       "place": "Alcalá de Henares",
       "lat": 40.48,
-      "lng": -3.36
+      "lng": -3.36,
+      "country": "Spain"
     },
     "death": {
       "date": "1616-04-22",
       "place": "Madrid",
       "lat": 40.42,
-      "lng": -3.7
+      "lng": -3.7,
+      "country": "Spain"
     },
     "hints": {
       "century": "16th century–17th century",
@@ -952,13 +1020,15 @@
       "date": "1812-02-07",
       "place": "Landport",
       "lat": 50.8,
-      "lng": -1.09
+      "lng": -1.09,
+      "country": "United Kingdom"
     },
     "death": {
       "date": "1870-06-09",
       "place": "Gads Hill Place",
       "lat": 51.41,
-      "lng": 0.46
+      "lng": 0.46,
+      "country": "United Kingdom"
     },
     "hints": {
       "century": "19th century",
@@ -979,13 +1049,15 @@
       "date": "1929-01-15",
       "place": "Atlanta",
       "lat": 33.75,
-      "lng": -84.39
+      "lng": -84.39,
+      "country": "United States of America"
     },
     "death": {
       "date": "1968-04-04",
       "place": "St. Joseph's Hospital",
       "lat": 35.13,
-      "lng": -89.86
+      "lng": -89.86,
+      "country": "United States of America"
     },
     "hints": {
       "century": "20th century",
@@ -1009,13 +1081,15 @@
       "date": "1882-01-30",
       "place": "Hyde Park",
       "lat": 41.78,
-      "lng": -73.93
+      "lng": -73.93,
+      "country": "United States of America"
     },
     "death": {
       "date": "1945-04-12",
       "place": "Little White House",
       "lat": 32.88,
-      "lng": -84.69
+      "lng": -84.69,
+      "country": "United States of America"
     },
     "hints": {
       "century": "19th century–20th century",
@@ -1039,13 +1113,15 @@
       "date": "1451-01-01",
       "place": "Genoa",
       "lat": 44.41,
-      "lng": 8.93
+      "lng": 8.93,
+      "country": "Italy"
     },
     "death": {
       "date": "1506-05-30",
       "place": "Valladolid",
       "lat": 41.65,
-      "lng": -4.73
+      "lng": -4.73,
+      "country": "Spain"
     },
     "hints": {
       "century": "15th century–16th century",
@@ -1068,13 +1144,15 @@
       "date": "1926-06-01",
       "place": "Los Angeles",
       "lat": 34.05,
-      "lng": -118.24
+      "lng": -118.24,
+      "country": "United States of America"
     },
     "death": {
       "date": "1962-08-05",
       "place": "Brentwood",
       "lat": 34.05,
-      "lng": -118.47
+      "lng": -118.47,
+      "country": "United States of America"
     },
     "hints": {
       "century": "20th century",
@@ -1097,13 +1175,15 @@
       "date": "1883-07-03",
       "place": "Prague",
       "lat": 50.09,
-      "lng": 14.42
+      "lng": 14.42,
+      "country": "Czechia"
     },
     "death": {
       "date": "1924-06-03",
       "place": "Kafka Sterbehaus",
       "lat": 48.31,
-      "lng": 16.27
+      "lng": 16.27,
+      "country": "Austria"
     },
     "hints": {
       "century": "19th century–20th century",
@@ -1124,13 +1204,15 @@
       "date": "1860-01-29",
       "place": "Taganrog",
       "lat": 47.23,
-      "lng": 38.9
+      "lng": 38.9,
+      "country": "Russia"
     },
     "death": {
       "date": "1904-07-15",
       "place": "Badenweiler",
       "lat": 47.8,
-      "lng": 7.67
+      "lng": 7.67,
+      "country": "Germany"
     },
     "hints": {
       "century": "19th century–20th century",
@@ -1153,13 +1235,15 @@
       "date": "1936-12-17",
       "place": "Flores",
       "lat": -34.63,
-      "lng": -58.47
+      "lng": -58.47,
+      "country": "Argentina"
     },
     "death": {
       "date": "2025-04-21",
       "place": "Domus Sanctae Marthae",
       "lat": 41.9,
-      "lng": 12.45
+      "lng": 12.45,
+      "country": "Italy"
     },
     "hints": {
       "century": "20th century–21st century",
@@ -1182,13 +1266,15 @@
       "date": "1893-12-26",
       "place": "Shaoshan",
       "lat": 27.91,
-      "lng": 112.48
+      "lng": 112.48,
+      "country": "China"
     },
     "death": {
       "date": "1976-09-09",
       "place": "Zhongnanhai",
       "lat": 39.91,
-      "lng": 116.38
+      "lng": 116.38,
+      "country": "China"
     },
     "hints": {
       "century": "19th century–20th century",
@@ -1212,13 +1298,15 @@
       "date": "1712-06-28",
       "place": "Geneva",
       "lat": 46.2,
-      "lng": 6.15
+      "lng": 6.15,
+      "country": "France"
     },
     "death": {
       "date": "1778-07-02",
       "place": "Ermenonville",
       "lat": 49.13,
-      "lng": 2.7
+      "lng": 2.7,
+      "country": "France"
     },
     "hints": {
       "century": "18th century",
@@ -1240,13 +1328,15 @@
       "date": "1955-02-24",
       "place": "San Francisco",
       "lat": 37.77,
-      "lng": -122.42
+      "lng": -122.42,
+      "country": "United States of America"
     },
     "death": {
       "date": "2011-10-05",
       "place": "Palo Alto",
       "lat": 37.43,
-      "lng": -122.14
+      "lng": -122.14,
+      "country": "United States of America"
     },
     "hints": {
       "century": "20th century–21st century",
@@ -1267,13 +1357,15 @@
       "date": "1809-01-19",
       "place": "Boston",
       "lat": 42.36,
-      "lng": -71.06
+      "lng": -71.06,
+      "country": "United States of America"
     },
     "death": {
       "date": "1849-10-07",
       "place": "Baltimore",
       "lat": 39.29,
-      "lng": -76.61
+      "lng": -76.61,
+      "country": "United States of America"
     },
     "hints": {
       "century": "19th century",
@@ -1295,13 +1387,15 @@
       "date": "1928-06-14",
       "place": "Rosario",
       "lat": -32.96,
-      "lng": -60.64
+      "lng": -60.64,
+      "country": "Argentina"
     },
     "death": {
       "date": "1967-10-09",
       "place": "La Higuera",
       "lat": -18.8,
-      "lng": -64.2
+      "lng": -64.2,
+      "country": "Bolivia"
     },
     "hints": {
       "century": "20th century",
@@ -1324,13 +1418,15 @@
       "date": "1469-05-12",
       "place": "Florence",
       "lat": 43.77,
-      "lng": 11.25
+      "lng": 11.25,
+      "country": "Italy"
     },
     "death": {
       "date": "1527-07-01",
       "place": "Sant'Andrea in Percussina",
       "lat": 43.68,
-      "lng": 11.2
+      "lng": 11.2,
+      "country": "Italy"
     },
     "hints": {
       "century": "15th century–16th century",
@@ -1352,13 +1448,15 @@
       "date": "1743-04-13",
       "place": "Shadwell",
       "lat": 38.01,
-      "lng": -78.4
+      "lng": -78.4,
+      "country": "United States of America"
     },
     "death": {
       "date": "1826-07-04",
       "place": "Monticello",
       "lat": 38.01,
-      "lng": -78.45
+      "lng": -78.45,
+      "country": "United States of America"
     },
     "hints": {
       "century": "18th century–19th century",
@@ -1379,13 +1477,15 @@
       "date": "1854-10-16",
       "place": "Dublin",
       "lat": 53.35,
-      "lng": -6.26
+      "lng": -6.26,
+      "country": "Ireland"
     },
     "death": {
       "date": "1900-11-30",
       "place": "6th arrondissement of Paris",
       "lat": 48.85,
-      "lng": 2.33
+      "lng": 2.33,
+      "country": "France"
     },
     "hints": {
       "century": "19th century",
@@ -1406,13 +1506,15 @@
       "date": "1723-06-01",
       "place": "Kirkcaldy",
       "lat": 56.11,
-      "lng": -3.17
+      "lng": -3.17,
+      "country": "United Kingdom"
     },
     "death": {
       "date": "1790-07-17",
       "place": "Edinburgh",
       "lat": 55.95,
-      "lng": -3.19
+      "lng": -3.19,
+      "country": "United Kingdom"
     },
     "hints": {
       "century": "18th century",
@@ -1433,13 +1535,15 @@
       "date": "1890-11-22",
       "place": "Lille",
       "lat": 50.63,
-      "lng": 3.06
+      "lng": 3.06,
+      "country": "France"
     },
     "death": {
       "date": "1970-11-09",
       "place": "Colombey-les-Deux-Églises",
       "lat": 48.22,
-      "lng": 4.89
+      "lng": 4.89,
+      "country": "France"
     },
     "hints": {
       "century": "19th century–20th century",
@@ -1461,13 +1565,15 @@
       "date": "1815-04-01",
       "place": "Schönhausen (Elbe)",
       "lat": 52.58,
-      "lng": 12.04
+      "lng": 12.04,
+      "country": "Germany"
     },
     "death": {
       "date": "1898-07-30",
       "place": "Friedrichsruh",
       "lat": 53.53,
-      "lng": 10.34
+      "lng": 10.34,
+      "country": "Germany"
     },
     "hints": {
       "century": "19th century",
@@ -1490,13 +1596,15 @@
       "date": "1788-01-22",
       "place": "City of Westminster",
       "lat": 51.5,
-      "lng": -0.14
+      "lng": -0.14,
+      "country": "United Kingdom"
     },
     "death": {
       "date": "1824-04-19",
       "place": "Missolonghi",
       "lat": 38.37,
-      "lng": 21.43
+      "lng": 21.43,
+      "country": "Greece"
     },
     "hints": {
       "century": "18th century–19th century",
@@ -1518,13 +1626,15 @@
       "date": "1706-01-17",
       "place": "Boston",
       "lat": 42.36,
-      "lng": -71.06
+      "lng": -71.06,
+      "country": "United States of America"
     },
     "death": {
       "date": "1790-04-17",
       "place": "Philadelphia",
       "lat": 39.95,
-      "lng": -75.16
+      "lng": -75.16,
+      "country": "United States of America"
     },
     "hints": {
       "century": "18th century",
@@ -1546,13 +1656,15 @@
       "date": "1935-01-08",
       "place": "Tupelo",
       "lat": 34.26,
-      "lng": -88.7
+      "lng": -88.7,
+      "country": "United States of America"
     },
     "death": {
       "date": "1977-08-16",
       "place": "Memphis",
       "lat": 35.15,
-      "lng": -90.05
+      "lng": -90.05,
+      "country": "United States of America"
     },
     "hints": {
       "century": "20th century",
@@ -1574,13 +1686,15 @@
       "date": "1856-07-10",
       "place": "Smiljan",
       "lat": 44.56,
-      "lng": 15.32
+      "lng": 15.32,
+      "country": "Croatia"
     },
     "death": {
       "date": "1943-01-07",
       "place": "New York City",
       "lat": 40.71,
-      "lng": -74.01
+      "lng": -74.01,
+      "country": "United States of America"
     },
     "hints": {
       "century": "19th century–20th century",
@@ -1601,13 +1715,15 @@
       "date": "1707-05-23",
       "place": "Råshult",
       "lat": 56.62,
-      "lng": 14.2
+      "lng": 14.2,
+      "country": "Sweden"
     },
     "death": {
       "date": "1778-01-10",
       "place": "Linnaeus Hammarby",
       "lat": 59.82,
-      "lng": 17.78
+      "lng": 17.78,
+      "country": "Sweden"
     },
     "hints": {
       "century": "18th century",
@@ -1629,13 +1745,15 @@
       "date": "1473-02-28",
       "place": "Toruń",
       "lat": 53.02,
-      "lng": 18.62
+      "lng": 18.62,
+      "country": "Poland"
     },
     "death": {
       "date": "1543-06-03",
       "place": "Frombork",
       "lat": 54.36,
-      "lng": 19.68
+      "lng": 19.68,
+      "country": "Poland"
     },
     "hints": {
       "century": "15th century–16th century",
@@ -1656,13 +1774,15 @@
       "date": "1901-12-05",
       "place": "Chicago",
       "lat": 41.88,
-      "lng": -87.63
+      "lng": -87.63,
+      "country": "United States of America"
     },
     "death": {
       "date": "1966-12-15",
       "place": "Burbank",
       "lat": 34.18,
-      "lng": -118.33
+      "lng": -118.33,
+      "country": "United States of America"
     },
     "hints": {
       "century": "20th century",
@@ -1683,13 +1803,15 @@
       "date": "1822-12-27",
       "place": "Dole",
       "lat": 47.09,
-      "lng": 5.49
+      "lng": 5.49,
+      "country": "France"
     },
     "death": {
       "date": "1895-09-28",
       "place": "Castle of Villeneuve-l'Étang",
       "lat": 48.83,
-      "lng": 2.18
+      "lng": 2.18,
+      "country": "France"
     },
     "hints": {
       "century": "19th century",
@@ -1710,13 +1832,15 @@
       "date": "1903-06-25",
       "place": "Motihari",
       "lat": 26.65,
-      "lng": 84.92
+      "lng": 84.92,
+      "country": "India"
     },
     "death": {
       "date": "1950-01-21",
       "place": "London",
       "lat": 51.51,
-      "lng": -0.13
+      "lng": -0.13,
+      "country": "United Kingdom"
     },
     "hints": {
       "century": "20th century",
@@ -1738,13 +1862,15 @@
       "date": "1899-07-21",
       "place": "Oak Park",
       "lat": 41.89,
-      "lng": -87.79
+      "lng": -87.79,
+      "country": "United States of America"
     },
     "death": {
       "date": "1961-07-02",
       "place": "Ketchum",
       "lat": 43.67,
-      "lng": -114.37
+      "lng": -114.37,
+      "country": "United States of America"
     },
     "hints": {
       "century": "19th century–20th century",
@@ -1765,13 +1891,15 @@
       "date": "1925-10-13",
       "place": "Grantham",
       "lat": 52.92,
-      "lng": -0.64
+      "lng": -0.64,
+      "country": "United Kingdom"
     },
     "death": {
       "date": "2013-04-08",
       "place": "The Ritz London",
       "lat": 51.51,
-      "lng": -0.14
+      "lng": -0.14,
+      "country": "United Kingdom"
     },
     "hints": {
       "century": "20th century–21st century",
@@ -1793,13 +1921,15 @@
       "date": "1632-09-08",
       "place": "Wrington",
       "lat": 51.36,
-      "lng": -2.76
+      "lng": -2.76,
+      "country": "United Kingdom"
     },
     "death": {
       "date": "1704-11-08",
       "place": "High Laver",
       "lat": 51.76,
-      "lng": 0.21
+      "lng": 0.21,
+      "country": "United Kingdom"
     },
     "hints": {
       "century": "17th century–18th century",
@@ -1820,13 +1950,15 @@
       "date": "1926-08-13",
       "place": "Birán",
       "lat": 20.53,
-      "lng": -75.89
+      "lng": -75.89,
+      "country": "Cuba"
     },
     "death": {
       "date": "2016-11-25",
       "place": "Havana",
       "lat": 23.14,
-      "lng": -82.36
+      "lng": -82.36,
+      "country": "Cuba"
     },
     "hints": {
       "century": "20th century–21st century",
@@ -1848,13 +1980,15 @@
       "date": "1606-07-15",
       "place": "Leiden",
       "lat": 52.16,
-      "lng": 4.49
+      "lng": 4.49,
+      "country": "Netherlands"
     },
     "death": {
       "date": "1669-10-04",
       "place": "Amsterdam",
       "lat": 52.37,
-      "lng": 4.88
+      "lng": 4.88,
+      "country": "Netherlands"
     },
     "hints": {
       "century": "17th century",
@@ -1875,13 +2009,15 @@
       "date": "1882-02-02",
       "place": "Dublin",
       "lat": 53.35,
-      "lng": -6.26
+      "lng": -6.26,
+      "country": "Ireland"
     },
     "death": {
       "date": "1941-01-13",
       "place": "Zurich",
       "lat": 47.37,
-      "lng": 8.54
+      "lng": 8.54,
+      "country": "Switzerland"
     },
     "hints": {
       "century": "19th century–20th century",
@@ -1902,13 +2038,15 @@
       "date": "1646-07-01",
       "place": "Leipzig",
       "lat": 51.34,
-      "lng": 12.37
+      "lng": 12.37,
+      "country": "Germany"
     },
     "death": {
       "date": "1716-11-14",
       "place": "Hanover",
       "lat": 52.37,
-      "lng": 9.74
+      "lng": 9.74,
+      "country": "Germany"
     },
     "hints": {
       "century": "17th century–18th century",
@@ -1930,13 +2068,15 @@
       "date": "1920-05-18",
       "place": "Wadowice",
       "lat": 49.88,
-      "lng": 19.5
+      "lng": 19.5,
+      "country": "Poland"
     },
     "death": {
       "date": "2005-04-02",
       "place": "Rome",
       "lat": 41.89,
-      "lng": 12.48
+      "lng": 12.48,
+      "country": "Italy"
     },
     "hints": {
       "century": "20th century–21st century",
@@ -1959,13 +2099,15 @@
       "date": "1892-01-03",
       "place": "Bloemfontein",
       "lat": -29.1,
-      "lng": 26.22
+      "lng": 26.22,
+      "country": "South Africa"
     },
     "death": {
       "date": "1973-09-02",
       "place": "Bournemouth",
       "lat": 50.72,
-      "lng": -1.88
+      "lng": -1.88,
+      "country": "United Kingdom"
     },
     "hints": {
       "century": "19th century–20th century",
@@ -1989,13 +2131,15 @@
       "date": "1934-03-09",
       "place": "Klushino",
       "lat": 55.67,
-      "lng": 35.05
+      "lng": 35.05,
+      "country": "Russia"
     },
     "death": {
       "date": "1968-03-27",
       "place": "Novosyolovo",
       "lat": 56.07,
-      "lng": 39.05
+      "lng": 39.05,
+      "country": "Russia"
     },
     "hints": {
       "century": "20th century",
@@ -2016,13 +2160,15 @@
       "date": "1927-04-16",
       "place": "Marktl",
       "lat": 48.25,
-      "lng": 12.84
+      "lng": 12.84,
+      "country": "Germany"
     },
     "death": {
       "date": "2022-12-31",
       "place": "Vatican City",
       "lat": 41.9,
-      "lng": 12.45
+      "lng": 12.45,
+      "country": "Italy"
     },
     "hints": {
       "century": "20th century–21st century",
@@ -2045,13 +2191,15 @@
       "date": "1810-03-01",
       "place": "Żelazowa Wola",
       "lat": 52.25,
-      "lng": 20.32
+      "lng": 20.32,
+      "country": "Poland"
     },
     "death": {
       "date": "1849-10-17",
       "place": "Paris",
       "lat": 48.86,
-      "lng": 2.35
+      "lng": 2.35,
+      "country": "France"
     },
     "hints": {
       "century": "19th century",
@@ -2073,13 +2221,15 @@
       "date": "1931-03-02",
       "place": "Privolnoye",
       "lat": 45.92,
-      "lng": 41.31
+      "lng": 41.31,
+      "country": "Russia"
     },
     "death": {
       "date": "2022-08-30",
       "place": "Central Clinical Hospital",
       "lat": 55.75,
-      "lng": 37.39
+      "lng": 37.39,
+      "country": "Russia"
     },
     "hints": {
       "century": "20th century–21st century",
@@ -2100,13 +2250,15 @@
       "date": "1883-07-29",
       "place": "Predappio",
       "lat": 44.1,
-      "lng": 11.98
+      "lng": 11.98,
+      "country": "Italy"
     },
     "death": {
       "date": "1945-04-28",
       "place": "Giulino",
       "lat": 45.98,
-      "lng": 9.2
+      "lng": 9.2,
+      "country": "Italy"
     },
     "hints": {
       "century": "19th century–20th century",
@@ -2128,13 +2280,15 @@
       "date": "1942-01-08",
       "place": "Oxford",
       "lat": 51.75,
-      "lng": -1.26
+      "lng": -1.26,
+      "country": "United Kingdom"
     },
     "death": {
       "date": "2018-03-14",
       "place": "Cambridge",
       "lat": 52.21,
-      "lng": 0.12
+      "lng": 0.12,
+      "country": "United Kingdom"
     },
     "hints": {
       "century": "20th century–21st century",
@@ -2155,13 +2309,15 @@
       "date": "1777-04-30",
       "place": "Brunswick",
       "lat": 52.27,
-      "lng": 10.52
+      "lng": 10.52,
+      "country": "Germany"
     },
     "death": {
       "date": "1855-02-23",
       "place": "Göttingen",
       "lat": 51.53,
-      "lng": 9.94
+      "lng": 9.94,
+      "country": "Germany"
     },
     "hints": {
       "century": "18th century–19th century",
@@ -2183,13 +2339,15 @@
       "date": "1863-07-30",
       "place": "Springwells Township",
       "lat": 42.32,
-      "lng": -83.15
+      "lng": -83.15,
+      "country": "United States of America"
     },
     "death": {
       "date": "1947-04-07",
       "place": "Dearborn",
       "lat": 42.31,
-      "lng": -83.21
+      "lng": -83.21,
+      "country": "United States of America"
     },
     "hints": {
       "century": "19th century–20th century",
@@ -2210,13 +2368,15 @@
       "date": "1905-06-21",
       "place": "Paris",
       "lat": 48.86,
-      "lng": 2.35
+      "lng": 2.35,
+      "country": "France"
     },
     "death": {
       "date": "1980-04-15",
       "place": "14th arrondissement of Paris",
       "lat": 48.83,
-      "lng": 2.33
+      "lng": 2.33,
+      "country": "France"
     },
     "hints": {
       "century": "20th century",
@@ -2238,13 +2398,15 @@
       "date": "1910-08-26",
       "place": "Skopje",
       "lat": 42,
-      "lng": 21.43
+      "lng": 21.43,
+      "country": "North Macedonia"
     },
     "death": {
       "date": "1997-09-05",
       "place": "Kolkata",
       "lat": 22.57,
-      "lng": 88.37
+      "lng": 88.37,
+      "country": "India"
     },
     "hints": {
       "century": "20th century",
@@ -2267,13 +2429,15 @@
       "date": "1820-11-28",
       "place": "Barmen",
       "lat": 51.27,
-      "lng": 7.2
+      "lng": 7.2,
+      "country": "Germany"
     },
     "death": {
       "date": "1895-08-05",
       "place": "London",
       "lat": 51.51,
-      "lng": -0.13
+      "lng": -0.13,
+      "country": "United Kingdom"
     },
     "hints": {
       "century": "19th century",
@@ -2294,13 +2458,15 @@
       "date": "1480-01-01",
       "place": "Ponte da Barca",
       "lat": 41.8,
-      "lng": -8.42
+      "lng": -8.42,
+      "country": "Portugal"
     },
     "death": {
       "date": "1521-05-07",
       "place": "Mactan",
       "lat": 10.3,
-      "lng": 123.97
+      "lng": 123.97,
+      "country": "Philippines"
     },
     "hints": {
       "century": "15th century–16th century",
@@ -2322,13 +2488,15 @@
       "date": "1884-05-08",
       "place": "Lamar",
       "lat": 37.49,
-      "lng": -94.27
+      "lng": -94.27,
+      "country": "United States of America"
     },
     "death": {
       "date": "1972-12-26",
       "place": "Kansas City",
       "lat": 39.05,
-      "lng": -94.58
+      "lng": -94.58,
+      "country": "United States of America"
     },
     "hints": {
       "century": "19th century–20th century",
@@ -2350,13 +2518,15 @@
       "date": "1924-06-12",
       "place": "Milton",
       "lat": 42.25,
-      "lng": -71.07
+      "lng": -71.07,
+      "country": "United States of America"
     },
     "death": {
       "date": "2018-11-30",
       "place": "Houston",
       "lat": 29.76,
-      "lng": -95.38
+      "lng": -95.38,
+      "country": "United States of America"
     },
     "hints": {
       "century": "20th century–21st century",
@@ -2379,13 +2549,15 @@
       "date": "1890-09-15",
       "place": "Ashfield",
       "lat": 50.47,
-      "lng": -3.54
+      "lng": -3.54,
+      "country": "United Kingdom"
     },
     "death": {
       "date": "1976-01-12",
       "place": "Winterbrook",
       "lat": 51.58,
-      "lng": -1.13
+      "lng": -1.13,
+      "country": "United Kingdom"
     },
     "hints": {
       "century": "19th century–20th century",
@@ -2406,13 +2578,15 @@
       "date": "1623-06-19",
       "place": "birth house of Blaise Pascal",
       "lat": 45.78,
-      "lng": 3.09
+      "lng": 3.09,
+      "country": "France"
     },
     "death": {
       "date": "1662-08-19",
       "place": "Paris",
       "lat": 48.86,
-      "lng": 2.35
+      "lng": 2.35,
+      "country": "France"
     },
     "hints": {
       "century": "17th century",
@@ -2433,13 +2607,15 @@
       "date": "1483-04-15",
       "place": "Urbino",
       "lat": 43.73,
-      "lng": 12.64
+      "lng": 12.64,
+      "country": "Italy"
     },
     "death": {
       "date": "1520-04-17",
       "place": "Rome",
       "lat": 41.89,
-      "lng": 12.48
+      "lng": 12.48,
+      "country": "Italy"
     },
     "hints": {
       "century": "15th century–16th century",
@@ -2461,13 +2637,15 @@
       "date": "1840-05-07",
       "place": "Votkinsk",
       "lat": 57.05,
-      "lng": 54
+      "lng": 54,
+      "country": "Russia"
     },
     "death": {
       "date": "1893-11-06",
       "place": "Malaya Morskaya Street, 13",
       "lat": 59.94,
-      "lng": 30.31
+      "lng": 30.31,
+      "country": "Russia"
     },
     "hints": {
       "century": "19th century",
@@ -2489,13 +2667,15 @@
       "date": "1833-10-21",
       "place": "Jakob and Johannes parish",
       "lat": 59.33,
-      "lng": 18.07
+      "lng": 18.07,
+      "country": "Sweden"
     },
     "death": {
       "date": "1896-12-10",
       "place": "Sanremo",
       "lat": 43.82,
-      "lng": 7.78
+      "lng": 7.78,
+      "country": "Italy"
     },
     "hints": {
       "century": "19th century",
@@ -2516,13 +2696,15 @@
       "date": "1770-08-27",
       "place": "Stuttgart",
       "lat": 48.78,
-      "lng": 9.18
+      "lng": 9.18,
+      "country": "Germany"
     },
     "death": {
       "date": "1831-11-14",
       "place": "Berlin",
       "lat": 52.52,
-      "lng": 13.38
+      "lng": 13.38,
+      "country": "Germany"
     },
     "hints": {
       "century": "18th century–19th century",
@@ -2544,13 +2726,15 @@
       "date": "1412-01-01",
       "place": "Domrémy-la-Pucelle",
       "lat": 48.44,
-      "lng": 5.67
+      "lng": 5.67,
+      "country": "France"
     },
     "death": {
       "date": "1431-06-08",
       "place": "Rouen",
       "lat": 49.44,
-      "lng": 1.1
+      "lng": 1.1,
+      "country": "France"
     },
     "hints": {
       "century": "15th century",
@@ -2573,13 +2757,15 @@
       "date": "1858-10-27",
       "place": "Manhattan",
       "lat": 40.73,
-      "lng": -73.99
+      "lng": -73.99,
+      "country": "United States of America"
     },
     "death": {
       "date": "1919-01-06",
       "place": "Sagamore Hill",
       "lat": 40.89,
-      "lng": -73.5
+      "lng": -73.5,
+      "country": "United States of America"
     },
     "hints": {
       "century": "19th century–20th century",
@@ -2602,13 +2788,15 @@
       "date": "1913-01-09",
       "place": "Yorba Linda",
       "lat": 33.89,
-      "lng": -117.81
+      "lng": -117.81,
+      "country": "United States of America"
     },
     "death": {
       "date": "1994-04-22",
       "place": "Manhattan",
       "lat": 40.73,
-      "lng": -73.99
+      "lng": -73.99,
+      "country": "United States of America"
     },
     "hints": {
       "century": "20th century",
@@ -2629,13 +2817,15 @@
       "date": "1912-06-23",
       "place": "Maida Vale",
       "lat": 51.53,
-      "lng": -0.19
+      "lng": -0.19,
+      "country": "United Kingdom"
     },
     "death": {
       "date": "1954-06-07",
       "place": "Wilmslow",
       "lat": 53.33,
-      "lng": -2.24
+      "lng": -2.24,
+      "country": "United Kingdom"
     },
     "hints": {
       "century": "20th century",
@@ -2656,13 +2846,15 @@
       "date": "1856-12-28",
       "place": "Staunton",
       "lat": 38.16,
-      "lng": -79.08
+      "lng": -79.08,
+      "country": "United States of America"
     },
     "death": {
       "date": "1924-02-03",
       "place": "Washington, D.C.",
       "lat": 38.9,
-      "lng": -77.04
+      "lng": -77.04,
+      "country": "United States of America"
     },
     "hints": {
       "century": "19th century–20th century",
@@ -2683,13 +2875,15 @@
       "date": "1890-10-14",
       "place": "Denison",
       "lat": 33.75,
-      "lng": -96.56
+      "lng": -96.56,
+      "country": "United States of America"
     },
     "death": {
       "date": "1969-03-28",
       "place": "Walter Reed Army Medical Center",
       "lat": 38.98,
-      "lng": -77.03
+      "lng": -77.03,
+      "country": "United States of America"
     },
     "hints": {
       "century": "19th century–20th century",
@@ -2712,13 +2906,15 @@
       "date": "1865-12-30",
       "place": "Mumbai",
       "lat": 19.08,
-      "lng": 72.88
+      "lng": 72.88,
+      "country": "India"
     },
     "death": {
       "date": "1936-01-18",
       "place": "London",
       "lat": 51.51,
-      "lng": -0.13
+      "lng": -0.13,
+      "country": "United Kingdom"
     },
     "hints": {
       "century": "19th century–20th century",
@@ -2739,13 +2935,15 @@
       "date": "1707-04-15",
       "place": "Basel",
       "lat": 47.56,
-      "lng": 7.59
+      "lng": 7.59,
+      "country": "Switzerland"
     },
     "death": {
       "date": "1783-09-18",
       "place": "Saint Petersburg",
       "lat": 59.95,
-      "lng": 30.32
+      "lng": 30.32,
+      "country": "Russia"
     },
     "hints": {
       "century": "18th century",
@@ -2766,13 +2964,15 @@
       "date": "1828-02-08",
       "place": "Nantes",
       "lat": 47.22,
-      "lng": -1.55
+      "lng": -1.55,
+      "country": "France"
     },
     "death": {
       "date": "1905-03-24",
       "place": "Amiens",
       "lat": 49.89,
-      "lng": 2.3
+      "lng": 2.3,
+      "country": "France"
     },
     "hints": {
       "century": "19th century–20th century",
@@ -2793,13 +2993,15 @@
       "date": "1954-07-28",
       "place": "Sabaneta",
       "lat": 8.75,
-      "lng": -69.93
+      "lng": -69.93,
+      "country": "Venezuela"
     },
     "death": {
       "date": "2013-03-05",
       "place": "Hospital Militar de Caracas",
       "lat": 10.5,
-      "lng": -66.94
+      "lng": -66.94,
+      "country": "Venezuela"
     },
     "hints": {
       "century": "20th century–21st century",
@@ -2822,13 +3024,15 @@
       "date": "1728-10-27",
       "place": "Marton",
       "lat": 54.54,
-      "lng": -1.21
+      "lng": -1.21,
+      "country": "United Kingdom"
     },
     "death": {
       "date": "1779-02-14",
       "place": "Kealakekua Bay",
       "lat": 19.48,
-      "lng": -155.93
+      "lng": -155.93,
+      "country": "United States of America"
     },
     "hints": {
       "century": "18th century",
@@ -2850,13 +3054,15 @@
       "date": "1533-09-17",
       "place": "Palace of Placentia",
       "lat": 51.48,
-      "lng": -0.01
+      "lng": -0.01,
+      "country": "United Kingdom"
     },
     "death": {
       "date": "1603-04-03",
       "place": "Richmond Palace",
       "lat": 51.46,
-      "lng": -0.31
+      "lng": -0.31,
+      "country": "United Kingdom"
     },
     "hints": {
       "century": "16th century–17th century",
@@ -2879,13 +3085,15 @@
       "date": "1561-02-01",
       "place": "London",
       "lat": 51.51,
-      "lng": -0.13
+      "lng": -0.13,
+      "country": "United Kingdom"
     },
     "death": {
       "date": "1626-04-19",
       "place": "Highgate",
       "lat": 51.57,
-      "lng": -0.14
+      "lng": -0.14,
+      "country": "United Kingdom"
     },
     "hints": {
       "century": "16th century–17th century",
@@ -2906,13 +3114,15 @@
       "date": "1899-08-13",
       "place": "Leytonstone",
       "lat": 51.57,
-      "lng": 0.01
+      "lng": 0.01,
+      "country": "United Kingdom"
     },
     "death": {
       "date": "1980-04-29",
       "place": "Bel Air",
       "lat": 34.08,
-      "lng": -118.45
+      "lng": -118.45,
+      "country": "United States of America"
     },
     "hints": {
       "century": "19th century–20th century",
@@ -2933,13 +3143,15 @@
       "date": "1872-05-18",
       "place": "Trellech",
       "lat": 51.75,
-      "lng": -2.73
+      "lng": -2.73,
+      "country": "United Kingdom"
     },
     "death": {
       "date": "1970-02-02",
       "place": "Plas Penrhyn",
       "lat": 52.92,
-      "lng": -4.1
+      "lng": -4.1,
+      "country": "United Kingdom"
     },
     "hints": {
       "century": "19th century–20th century",
@@ -2960,13 +3172,15 @@
       "date": "1942-06-19",
       "place": "Qasr Abu Hadi",
       "lat": 31.06,
-      "lng": 16.66
+      "lng": 16.66,
+      "country": "Libya"
     },
     "death": {
       "date": "2011-10-20",
       "place": "Sirte",
       "lat": 31.2,
-      "lng": 16.6
+      "lng": 16.6,
+      "country": "Libya"
     },
     "hints": {
       "century": "20th century–21st century",
@@ -2989,13 +3203,15 @@
       "date": "1883-06-05",
       "place": "Cambridge",
       "lat": 52.21,
-      "lng": 0.12
+      "lng": 0.12,
+      "country": "United Kingdom"
     },
     "death": {
       "date": "1946-04-21",
       "place": "Firle",
       "lat": 50.84,
-      "lng": 0.12
+      "lng": 0.12,
+      "country": "United Kingdom"
     },
     "hints": {
       "century": "19th century–20th century",
@@ -3016,13 +3232,15 @@
       "date": "1638-09-05",
       "place": "Château de Saint-Germain-en-Laye",
       "lat": 48.9,
-      "lng": 2.1
+      "lng": 2.1,
+      "country": "France"
     },
     "death": {
       "date": "1715-09-01",
       "place": "Palace of Versailles",
       "lat": 48.8,
-      "lng": 2.12
+      "lng": 2.12,
+      "country": "France"
     },
     "hints": {
       "century": "17th century–18th century",
@@ -3045,13 +3263,15 @@
       "date": "1908-01-09",
       "place": "6th arrondissement of Paris",
       "lat": 48.85,
-      "lng": 2.33
+      "lng": 2.33,
+      "country": "France"
     },
     "death": {
       "date": "1986-04-14",
       "place": "14th arrondissement of Paris",
       "lat": 48.83,
-      "lng": 2.33
+      "lng": 2.33,
+      "country": "France"
     },
     "hints": {
       "century": "20th century",
@@ -3073,13 +3293,15 @@
       "date": "1859-05-22",
       "place": "Edinburgh",
       "lat": 55.95,
-      "lng": -3.19
+      "lng": -3.19,
+      "country": "United Kingdom"
     },
     "death": {
       "date": "1930-07-07",
       "place": "Windlesham Manor",
       "lat": 51.04,
-      "lng": 0.15
+      "lng": 0.15,
+      "country": "United Kingdom"
     },
     "hints": {
       "century": "19th century–20th century",
@@ -3101,13 +3323,15 @@
       "date": "1940-10-09",
       "place": "Liverpool Maternity Hospital",
       "lat": 53.4,
-      "lng": -2.96
+      "lng": -2.96,
+      "country": "United Kingdom"
     },
     "death": {
       "date": "1980-12-08",
       "place": "New York City",
       "lat": 40.71,
-      "lng": -74.01
+      "lng": -74.01,
+      "country": "United States of America"
     },
     "hints": {
       "century": "20th century",
@@ -3128,13 +3352,15 @@
       "date": "1572-01-06",
       "place": "Weil der Stadt",
       "lat": 48.75,
-      "lng": 8.87
+      "lng": 8.87,
+      "country": "Germany"
     },
     "death": {
       "date": "1630-11-15",
       "place": "Regensburg",
       "lat": 49.02,
-      "lng": 12.08
+      "lng": 12.08,
+      "country": "Germany"
     },
     "hints": {
       "century": "16th century–17th century",
@@ -3155,13 +3381,15 @@
       "date": "1942-01-17",
       "place": "Louisville",
       "lat": 38.26,
-      "lng": -85.75
+      "lng": -85.75,
+      "country": "United States of America"
     },
     "death": {
       "date": "2016-06-03",
       "place": "Scottsdale",
       "lat": 33.49,
-      "lng": -111.93
+      "lng": -111.93,
+      "country": "United States of America"
     },
     "hints": {
       "century": "20th century–21st century",
@@ -3183,13 +3411,15 @@
       "date": "1879-11-07",
       "place": "Bereslavka",
       "lat": 47.89,
-      "lng": 32.29
+      "lng": 32.29,
+      "country": "Ukraine"
     },
     "death": {
       "date": "1940-08-21",
       "place": "Coyoacán",
       "lat": 19.35,
-      "lng": -99.16
+      "lng": -99.16,
+      "country": "Mexico"
     },
     "hints": {
       "century": "19th century–20th century",
