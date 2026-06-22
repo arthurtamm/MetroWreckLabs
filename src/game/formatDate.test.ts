@@ -9,4 +9,11 @@ describe('formatDate', () => {
   it('strips leading zeros from day', () => {
     expect(formatDate('1869-10-02')).toBe('2 Oct 1869')
   })
+  it('formats a BC year-only date', () => {
+    expect(formatDate('-0044')).toBe('44 BC')
+    expect(formatDate('-0570')).toBe('570 BC')
+  })
+  it('formats an AD year-only date', () => {
+    expect(formatDate('0323')).toBe('323')
+  })
 })
