@@ -44,10 +44,33 @@ function countryAt(lng, lat) {
   return null
 }
 
+// Points the low-res borders miss (islands, coastal/border cities). Manual,
+// because a nearest-polygon guess would wrongly assign Greek islands to Turkey.
+const OVERRIDES = {
+  'napoleon:death': 'Saint Helena',
+  'gandhi:birth': 'India',
+  'mustafa-kemal-ataturk:death': 'Turkey',
+  'muammar-gaddafi:death': 'Libya',
+  'aristotle:death': 'Greece',
+  'virgil:death': 'Italy',
+  'pythagoras:birth': 'Greece',
+  'hippocrates:birth': 'Greece',
+  'aesop:birth': 'Greece',
+  'ibn-battuta:birth': 'Morocco',
+  'epicurus:birth': 'Greece',
+  'sappho:birth': 'Greece',
+  'hannibal:birth': 'Tunisia',
+  'justinian-i:death': 'Turkey',
+  'anaxagoras:death': 'Turkey',
+  'demosthenes:death': 'Greece',
+  'eratosthenes:birth': 'Libya',
+  'saint-nicholas:birth': 'Turkey',
+}
+
 const unresolved = []
 for (const p of people) {
-  p.birth.country = countryAt(p.birth.lng, p.birth.lat)
-  p.death.country = countryAt(p.death.lng, p.death.lat)
+  p.birth.country = countryAt(p.birth.lng, p.birth.lat) ?? OVERRIDES[`${p.id}:birth`] ?? null
+  p.death.country = countryAt(p.death.lng, p.death.lat) ?? OVERRIDES[`${p.id}:death`] ?? null
   if (!p.birth.country) unresolved.push(`${p.id} BIRTH (${p.birth.lat},${p.birth.lng}) "${p.birth.place}"`)
   if (!p.death.country) unresolved.push(`${p.id} DEATH (${p.death.lat},${p.death.lng}) "${p.death.place}"`)
 }

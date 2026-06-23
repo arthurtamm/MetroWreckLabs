@@ -6695,5 +6695,3738 @@
       "лев троцкии",
       "леиба давидович бронштеин"
     ]
+  },
+  {
+    "id": "jesus-christ",
+    "name": "Jesus Christ",
+    "birth": {
+      "date": "-0005",
+      "place": "Bethlehem",
+      "lat": 31.7,
+      "lng": 35.21,
+      "country": "Palestine"
+    },
+    "death": {
+      "date": "0033",
+      "place": "Calvary",
+      "lat": 31.78,
+      "lng": 35.23,
+      "country": "Palestine"
+    },
+    "hints": {
+      "century": "1st century BC",
+      "gender": "male",
+      "nationality": "Jewish",
+      "profession": "Religious founder"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "jesus christ"
+    ]
+  },
+  {
+    "id": "aristotle",
+    "name": "Aristotle",
+    "birth": {
+      "date": "-0383",
+      "place": "Stageira",
+      "lat": 40.59,
+      "lng": 23.79,
+      "country": "Greece"
+    },
+    "death": {
+      "date": "-0321",
+      "place": "Chalcis",
+      "lat": 38.46,
+      "lng": 23.62,
+      "country": "Greece"
+    },
+    "hints": {
+      "century": "4th century BC",
+      "gender": "male",
+      "nationality": "Greek",
+      "profession": "Philosopher"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "aristotle"
+    ]
+  },
+  {
+    "id": "confucius",
+    "name": "Confucius",
+    "birth": {
+      "date": "-0550",
+      "place": "Qufu",
+      "lat": 35.6,
+      "lng": 116.98,
+      "country": "China"
+    },
+    "death": {
+      "date": "-0478",
+      "place": "Si River",
+      "lat": 35.23,
+      "lng": 116.65,
+      "country": "China"
+    },
+    "hints": {
+      "century": "6th century BC",
+      "gender": "male",
+      "nationality": "Chinese",
+      "profession": "Philosopher"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "confucius"
+    ]
+  },
+  {
+    "id": "plato",
+    "name": "Plato",
+    "birth": {
+      "date": "-0428",
+      "place": "Athens",
+      "lat": 37.98,
+      "lng": 23.73,
+      "country": "Greece"
+    },
+    "death": {
+      "date": "-0348",
+      "place": "Athens",
+      "lat": 37.98,
+      "lng": 23.73,
+      "country": "Greece"
+    },
+    "hints": {
+      "century": "5th century BC",
+      "gender": "male",
+      "nationality": "Greek",
+      "profession": "Philosopher"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "plato"
+    ]
+  },
+  {
+    "id": "muhammad",
+    "name": "Muhammad",
+    "birth": {
+      "date": "0571",
+      "place": "Mecca",
+      "lat": 21.42,
+      "lng": 39.83,
+      "country": "Saudi Arabia"
+    },
+    "death": {
+      "date": "0632",
+      "place": "Medina",
+      "lat": 24.47,
+      "lng": 39.61,
+      "country": "Saudi Arabia"
+    },
+    "hints": {
+      "century": "6th century",
+      "gender": "male",
+      "nationality": "Arab",
+      "profession": "Prophet"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "muhammad"
+    ]
+  },
+  {
+    "id": "julius-caesar",
+    "name": "Julius Caesar",
+    "birth": {
+      "date": "-0099",
+      "place": "Rome",
+      "lat": 41.89,
+      "lng": 12.48,
+      "country": "Italy"
+    },
+    "death": {
+      "date": "-0043",
+      "place": "Theatre of Pompey",
+      "lat": 41.9,
+      "lng": 12.47,
+      "country": "Italy"
+    },
+    "hints": {
+      "century": "1st century BC",
+      "gender": "male",
+      "nationality": "Roman",
+      "profession": "Roman statesman & general"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "julius caesar"
+    ]
+  },
+  {
+    "id": "socrates",
+    "name": "Socrates",
+    "birth": {
+      "date": "-0469",
+      "place": "Alopeke",
+      "lat": 37.95,
+      "lng": 23.75,
+      "country": "Greece"
+    },
+    "death": {
+      "date": "-0398",
+      "place": "Athens",
+      "lat": 37.98,
+      "lng": 23.73,
+      "country": "Greece"
+    },
+    "hints": {
+      "century": "5th century BC",
+      "gender": "male",
+      "nationality": "Greek",
+      "profession": "Philosopher"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "socrates"
+    ]
+  },
+  {
+    "id": "the-buddha",
+    "name": "The Buddha",
+    "birth": {
+      "date": "-0500",
+      "place": "Lumbini",
+      "lat": 27.48,
+      "lng": 83.28,
+      "country": "Nepal"
+    },
+    "death": {
+      "date": "-0500",
+      "place": "Kushinagar",
+      "lat": 26.74,
+      "lng": 83.89,
+      "country": "India"
+    },
+    "hints": {
+      "century": "5th century BC",
+      "gender": "male",
+      "nationality": "Indian",
+      "profession": "Religious founder"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "the buddha"
+    ]
+  },
+  {
+    "id": "dante-alighieri",
+    "name": "Dante Alighieri",
+    "birth": {
+      "date": "1265",
+      "place": "Florence",
+      "lat": 43.77,
+      "lng": 11.25,
+      "country": "Italy"
+    },
+    "death": {
+      "date": "1321",
+      "place": "Ravenna",
+      "lat": 44.42,
+      "lng": 12.2,
+      "country": "Italy"
+    },
+    "hints": {
+      "century": "13th century",
+      "gender": "male",
+      "nationality": "Italian",
+      "profession": "Poet"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "dante alighieri"
+    ]
+  },
+  {
+    "id": "alexander-the-great",
+    "name": "Alexander the Great",
+    "birth": {
+      "date": "-0355",
+      "place": "Pella",
+      "lat": 40.76,
+      "lng": 22.53,
+      "country": "Greece"
+    },
+    "death": {
+      "date": "-0322",
+      "place": "Babylon",
+      "lat": 32.54,
+      "lng": 44.42,
+      "country": "Iraq"
+    },
+    "hints": {
+      "century": "4th century BC",
+      "gender": "male",
+      "nationality": "Macedonian",
+      "profession": "Conqueror & king"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "alexander the great"
+    ]
+  },
+  {
+    "id": "augustus",
+    "name": "Augustus",
+    "birth": {
+      "date": "-0062",
+      "place": "Rome",
+      "lat": 41.89,
+      "lng": 12.48,
+      "country": "Italy"
+    },
+    "death": {
+      "date": "0014",
+      "place": "Nola",
+      "lat": 40.93,
+      "lng": 14.53,
+      "country": "Italy"
+    },
+    "hints": {
+      "century": "1st century BC",
+      "gender": "male",
+      "nationality": "Roman",
+      "profession": "Roman emperor"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "augustus"
+    ]
+  },
+  {
+    "id": "virgil",
+    "name": "Virgil",
+    "birth": {
+      "date": "-0069",
+      "place": "Andes",
+      "lat": 45.13,
+      "lng": 10.82,
+      "country": "Italy"
+    },
+    "death": {
+      "date": "-0018",
+      "place": "Brindisi",
+      "lat": 40.64,
+      "lng": 17.95,
+      "country": "Italy"
+    },
+    "hints": {
+      "century": "1st century BC",
+      "gender": "male",
+      "nationality": "Roman",
+      "profession": "Poet"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "virgil"
+    ]
+  },
+  {
+    "id": "archimedes",
+    "name": "Archimedes",
+    "birth": {
+      "date": "-0286",
+      "place": "Syracuse",
+      "lat": 37.08,
+      "lng": 15.28,
+      "country": "Italy"
+    },
+    "death": {
+      "date": "-0211",
+      "place": "Syracuse",
+      "lat": 37.08,
+      "lng": 15.28,
+      "country": "Italy"
+    },
+    "hints": {
+      "century": "3rd century BC",
+      "gender": "male",
+      "nationality": "Greek",
+      "profession": "Mathematician"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "archimedes"
+    ]
+  },
+  {
+    "id": "augustine-of-hippo",
+    "name": "Augustine of Hippo",
+    "birth": {
+      "date": "0354",
+      "place": "Thagaste",
+      "lat": 36.29,
+      "lng": 7.95,
+      "country": "Algeria"
+    },
+    "death": {
+      "date": "0430",
+      "place": "Hippo Regius",
+      "lat": 36.88,
+      "lng": 7.76,
+      "country": "Algeria"
+    },
+    "hints": {
+      "century": "4th century",
+      "gender": "male",
+      "nationality": "Roman",
+      "profession": "Theologian & philosopher"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "augustine of hippo"
+    ]
+  },
+  {
+    "id": "sophocles",
+    "name": "Sophocles",
+    "birth": {
+      "date": "-0495",
+      "place": "Colonus",
+      "lat": 38,
+      "lng": 23.72,
+      "country": "Greece"
+    },
+    "death": {
+      "date": "-0405",
+      "place": "Atene",
+      "lat": 37.68,
+      "lng": 23.96,
+      "country": "Greece"
+    },
+    "hints": {
+      "century": "5th century BC",
+      "gender": "male",
+      "nationality": "Greek",
+      "profession": "Playwright"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "sophocles"
+    ]
+  },
+  {
+    "id": "marco-polo",
+    "name": "Marco Polo",
+    "birth": {
+      "date": "1254",
+      "place": "Venice",
+      "lat": 45.44,
+      "lng": 12.33,
+      "country": "Italy"
+    },
+    "death": {
+      "date": "1324",
+      "place": "Venice",
+      "lat": 45.44,
+      "lng": 12.33,
+      "country": "Italy"
+    },
+    "hints": {
+      "century": "13th century",
+      "gender": "male",
+      "nationality": "Italian",
+      "profession": "Explorer"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "marco polo"
+    ]
+  },
+  {
+    "id": "pythagoras",
+    "name": "Pythagoras",
+    "birth": {
+      "date": "-0582",
+      "place": "Samos",
+      "lat": 37.69,
+      "lng": 26.94,
+      "country": "Greece"
+    },
+    "death": {
+      "date": "-0490",
+      "place": "Metapontum",
+      "lat": 40.42,
+      "lng": 16.82,
+      "country": "Italy"
+    },
+    "hints": {
+      "century": "6th century BC",
+      "gender": "male",
+      "nationality": "Greek",
+      "profession": "Mathematician"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "pythagoras"
+    ]
+  },
+  {
+    "id": "thomas-aquinas",
+    "name": "Thomas Aquinas",
+    "birth": {
+      "date": "1225",
+      "place": "castle of the counts of Aquino",
+      "lat": 41.55,
+      "lng": 13.67,
+      "country": "Italy"
+    },
+    "death": {
+      "date": "1274",
+      "place": "Fossanova Abbey",
+      "lat": 41.44,
+      "lng": 13.2,
+      "country": "Italy"
+    },
+    "hints": {
+      "century": "13th century",
+      "gender": "male",
+      "nationality": "Italian",
+      "profession": "Theologian & philosopher"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "thomas aquinas"
+    ]
+  },
+  {
+    "id": "genghis-khan",
+    "name": "Genghis Khan",
+    "birth": {
+      "date": "1162",
+      "place": "Delüün Boldog",
+      "lat": 49.02,
+      "lng": 111.62,
+      "country": "Mongolia"
+    },
+    "death": {
+      "date": "1227",
+      "place": "Yinchuan",
+      "lat": 38.48,
+      "lng": 106.22,
+      "country": "China"
+    },
+    "hints": {
+      "century": "12th century",
+      "gender": "male",
+      "nationality": "Mongol",
+      "profession": "Conqueror & emperor"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "genghis khan"
+    ]
+  },
+  {
+    "id": "cicero",
+    "name": "Cicero",
+    "birth": {
+      "date": "-0106",
+      "place": "Arpino",
+      "lat": 41.65,
+      "lng": 13.61,
+      "country": "Italy"
+    },
+    "death": {
+      "date": "-0042",
+      "place": "Formia",
+      "lat": 41.26,
+      "lng": 13.61,
+      "country": "Italy"
+    },
+    "hints": {
+      "century": "2nd century BC",
+      "gender": "male",
+      "nationality": "Roman",
+      "profession": "Statesman & orator"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "cicero"
+    ]
+  },
+  {
+    "id": "ovid",
+    "name": "Ovid",
+    "birth": {
+      "date": "-0042",
+      "place": "Sulmona",
+      "lat": 42.05,
+      "lng": 13.93,
+      "country": "Italy"
+    },
+    "death": {
+      "date": "0017",
+      "place": "Tomis",
+      "lat": 44.17,
+      "lng": 28.66,
+      "country": "Romania"
+    },
+    "hints": {
+      "century": "1st century BC",
+      "gender": "male",
+      "nationality": "Roman",
+      "profession": "Poet"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "ovid"
+    ]
+  },
+  {
+    "id": "li-bai",
+    "name": "Li Bai",
+    "birth": {
+      "date": "0701",
+      "place": "Jiangyou",
+      "lat": 31.78,
+      "lng": 104.74,
+      "country": "China"
+    },
+    "death": {
+      "date": "0762",
+      "place": "Dangtu County",
+      "lat": 31.55,
+      "lng": 118.49,
+      "country": "China"
+    },
+    "hints": {
+      "century": "8th century",
+      "gender": "male",
+      "nationality": "Chinese",
+      "profession": "Poet"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "li bai"
+    ]
+  },
+  {
+    "id": "herodotus",
+    "name": "Herodotus",
+    "birth": {
+      "date": "-0483",
+      "place": "Halicarnassus",
+      "lat": 37.04,
+      "lng": 27.42,
+      "country": "Turkey"
+    },
+    "death": {
+      "date": "-0424",
+      "place": "Thurii",
+      "lat": 39.75,
+      "lng": 16.45,
+      "country": "Italy"
+    },
+    "hints": {
+      "century": "5th century BC",
+      "gender": "male",
+      "nationality": "Greek",
+      "profession": "Historian"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "herodotus"
+    ]
+  },
+  {
+    "id": "qin-shi-huang",
+    "name": "Qin Shi Huang",
+    "birth": {
+      "date": "-0258",
+      "place": "Handan",
+      "lat": 36.61,
+      "lng": 114.49,
+      "country": "China"
+    },
+    "death": {
+      "date": "-0209",
+      "place": "Guangzong County",
+      "lat": 37.07,
+      "lng": 115.14,
+      "country": "China"
+    },
+    "hints": {
+      "century": "3rd century BC",
+      "gender": "male",
+      "nationality": "Chinese",
+      "profession": "Emperor"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "qin shi huang"
+    ]
+  },
+  {
+    "id": "paul-the-apostle",
+    "name": "Paul the Apostle",
+    "birth": {
+      "date": "0005",
+      "place": "Tarsus",
+      "lat": 36.92,
+      "lng": 34.9,
+      "country": "Turkey"
+    },
+    "death": {
+      "date": "0066",
+      "place": "Rome",
+      "lat": 41.89,
+      "lng": 12.48,
+      "country": "Italy"
+    },
+    "hints": {
+      "century": "1st century",
+      "gender": "male",
+      "nationality": "Jewish",
+      "profession": "Apostle & theologian"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "paul the apostle"
+    ]
+  },
+  {
+    "id": "avicenna",
+    "name": "Avicenna",
+    "birth": {
+      "date": "0980",
+      "place": "Afshona",
+      "lat": 39.99,
+      "lng": 64.38,
+      "country": "Uzbekistan"
+    },
+    "death": {
+      "date": "1037",
+      "place": "Hamadan",
+      "lat": 34.8,
+      "lng": 48.52,
+      "country": "Iran"
+    },
+    "hints": {
+      "century": "10th century",
+      "gender": "male",
+      "nationality": "Persian",
+      "profession": "Physician & philosopher"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "avicenna"
+    ]
+  },
+  {
+    "id": "charlemagne",
+    "name": "Charlemagne",
+    "birth": {
+      "date": "0748",
+      "place": "Francia",
+      "lat": 47.24,
+      "lng": 6.02,
+      "country": "France"
+    },
+    "death": {
+      "date": "0814",
+      "place": "Aachen",
+      "lat": 50.78,
+      "lng": 6.08,
+      "country": "Belgium"
+    },
+    "hints": {
+      "century": "8th century",
+      "gender": "male",
+      "nationality": "Frankish",
+      "profession": "Frankish emperor"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "charlemagne"
+    ]
+  },
+  {
+    "id": "geoffrey-chaucer",
+    "name": "Geoffrey Chaucer",
+    "birth": {
+      "date": "1343",
+      "place": "London",
+      "lat": 51.51,
+      "lng": -0.13,
+      "country": "United Kingdom"
+    },
+    "death": {
+      "date": "1400",
+      "place": "London",
+      "lat": 51.51,
+      "lng": -0.13,
+      "country": "United Kingdom"
+    },
+    "hints": {
+      "century": "14th century",
+      "gender": "male",
+      "nationality": "English",
+      "profession": "Poet"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "geoffrey chaucer"
+    ]
+  },
+  {
+    "id": "ashoka",
+    "name": "Ashoka",
+    "birth": {
+      "date": "-0303",
+      "place": "Patna",
+      "lat": 25.61,
+      "lng": 85.14,
+      "country": "India"
+    },
+    "death": {
+      "date": "-0231",
+      "place": "Patna",
+      "lat": 25.61,
+      "lng": 85.14,
+      "country": "India"
+    },
+    "hints": {
+      "century": "4th century BC",
+      "gender": "male",
+      "nationality": "Indian",
+      "profession": "Emperor"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "ashoka"
+    ]
+  },
+  {
+    "id": "marcus-aurelius",
+    "name": "Marcus Aurelius",
+    "birth": {
+      "date": "0121",
+      "place": "Rome",
+      "lat": 41.89,
+      "lng": 12.48,
+      "country": "Italy"
+    },
+    "death": {
+      "date": "0180",
+      "place": "Vindobona",
+      "lat": 48.21,
+      "lng": 16.37,
+      "country": "Austria"
+    },
+    "hints": {
+      "century": "2nd century",
+      "gender": "male",
+      "nationality": "Roman",
+      "profession": "Roman emperor & philosopher"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "marcus aurelius"
+    ]
+  },
+  {
+    "id": "hippocrates",
+    "name": "Hippocrates",
+    "birth": {
+      "date": "-0459",
+      "place": "Kos",
+      "lat": 36.9,
+      "lng": 27.29,
+      "country": "Greece"
+    },
+    "death": {
+      "date": "-0369",
+      "place": "Larissa",
+      "lat": 39.64,
+      "lng": 22.42,
+      "country": "Greece"
+    },
+    "hints": {
+      "century": "5th century BC",
+      "gender": "male",
+      "nationality": "Greek",
+      "profession": "Physician"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "hippocrates"
+    ]
+  },
+  {
+    "id": "cleopatra",
+    "name": "Cleopatra",
+    "birth": {
+      "date": "-0068",
+      "place": "Alexandria",
+      "lat": 31.2,
+      "lng": 29.89,
+      "country": "Egypt"
+    },
+    "death": {
+      "date": "-0029",
+      "place": "Alexandria",
+      "lat": 31.2,
+      "lng": 29.89,
+      "country": "Egypt"
+    },
+    "hints": {
+      "century": "1st century BC",
+      "gender": "female",
+      "nationality": "Egyptian",
+      "profession": "Pharaoh"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "cleopatra"
+    ]
+  },
+  {
+    "id": "horace",
+    "name": "Horace",
+    "birth": {
+      "date": "-0064",
+      "place": "Venosa",
+      "lat": 40.97,
+      "lng": 15.82,
+      "country": "Italy"
+    },
+    "death": {
+      "date": "-0007",
+      "place": "Rome",
+      "lat": 41.89,
+      "lng": 12.48,
+      "country": "Italy"
+    },
+    "hints": {
+      "century": "1st century BC",
+      "gender": "male",
+      "nationality": "Roman",
+      "profession": "Poet"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "horace"
+    ]
+  },
+  {
+    "id": "aesop",
+    "name": "Aesop",
+    "birth": {
+      "date": "-0619",
+      "place": "Samos",
+      "lat": 37.69,
+      "lng": 26.94,
+      "country": "Greece"
+    },
+    "death": {
+      "date": "-0563",
+      "place": "Delphi",
+      "lat": 38.48,
+      "lng": 22.5,
+      "country": "Greece"
+    },
+    "hints": {
+      "century": "7th century BC",
+      "gender": "male",
+      "nationality": "Greek",
+      "profession": "Fabulist"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "aesop"
+    ]
+  },
+  {
+    "id": "omar-khayyam",
+    "name": "Omar Khayyam",
+    "birth": {
+      "date": "1048",
+      "place": "Nishapur",
+      "lat": 36.21,
+      "lng": 58.8,
+      "country": "Iran"
+    },
+    "death": {
+      "date": "1131",
+      "place": "Nishapur",
+      "lat": 36.21,
+      "lng": 58.8,
+      "country": "Iran"
+    },
+    "hints": {
+      "century": "11th century",
+      "gender": "male",
+      "nationality": "Persian",
+      "profession": "Poet & mathematician"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "omar khayyám",
+      "omar khayyam"
+    ]
+  },
+  {
+    "id": "ibn-battuta",
+    "name": "Ibn Battuta",
+    "birth": {
+      "date": "1304",
+      "place": "Tangier",
+      "lat": 35.78,
+      "lng": -5.8,
+      "country": "Morocco"
+    },
+    "death": {
+      "date": "1368",
+      "place": "Fez",
+      "lat": 34.04,
+      "lng": -5,
+      "country": "Morocco"
+    },
+    "hints": {
+      "century": "14th century",
+      "gender": "male",
+      "nationality": "Arab",
+      "profession": "Explorer"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "ibn battuta"
+    ]
+  },
+  {
+    "id": "ibn-khaldun",
+    "name": "Ibn Khaldun",
+    "birth": {
+      "date": "1332",
+      "place": "Tunis",
+      "lat": 36.8,
+      "lng": 10.18,
+      "country": "Tunisia"
+    },
+    "death": {
+      "date": "1406",
+      "place": "Cairo",
+      "lat": 30.04,
+      "lng": 31.24,
+      "country": "Egypt"
+    },
+    "hints": {
+      "century": "14th century",
+      "gender": "male",
+      "nationality": "Arab",
+      "profession": "Historian & philosopher"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "ibn khaldun"
+    ]
+  },
+  {
+    "id": "hafez",
+    "name": "Hafez",
+    "birth": {
+      "date": "1325",
+      "place": "Shiraz",
+      "lat": 29.61,
+      "lng": 52.54,
+      "country": "Iran"
+    },
+    "death": {
+      "date": "1389",
+      "place": "Shiraz",
+      "lat": 29.61,
+      "lng": 52.54,
+      "country": "Iran"
+    },
+    "hints": {
+      "century": "14th century",
+      "gender": "male",
+      "nationality": "Persian",
+      "profession": "Poet"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "hafez"
+    ]
+  },
+  {
+    "id": "abu-nuwas",
+    "name": "Abu Nuwas",
+    "birth": {
+      "date": "0762",
+      "place": "Ahvaz",
+      "lat": 31.32,
+      "lng": 48.68,
+      "country": "Iran"
+    },
+    "death": {
+      "date": "0814",
+      "place": "Baghdad",
+      "lat": 33.32,
+      "lng": 44.37,
+      "country": "Iraq"
+    },
+    "hints": {
+      "century": "8th century",
+      "gender": "male",
+      "nationality": "Arab",
+      "profession": "Poet"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "abu nuwas"
+    ]
+  },
+  {
+    "id": "petrarch",
+    "name": "Petrarch",
+    "birth": {
+      "date": "1304",
+      "place": "Arezzo",
+      "lat": 43.46,
+      "lng": 11.88,
+      "country": "Italy"
+    },
+    "death": {
+      "date": "1374",
+      "place": "Arquà Petrarca",
+      "lat": 45.27,
+      "lng": 11.72,
+      "country": "Italy"
+    },
+    "hints": {
+      "century": "14th century",
+      "gender": "male",
+      "nationality": "Italian",
+      "profession": "Poet"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "petrarch"
+    ]
+  },
+  {
+    "id": "thales",
+    "name": "Thales",
+    "birth": {
+      "date": "-0624",
+      "place": "Miletus",
+      "lat": 37.53,
+      "lng": 27.28,
+      "country": "Turkey"
+    },
+    "death": {
+      "date": "-0545",
+      "place": "Miletus",
+      "lat": 37.53,
+      "lng": 27.28,
+      "country": "Turkey"
+    },
+    "hints": {
+      "century": "7th century BC",
+      "gender": "male",
+      "nationality": "Greek",
+      "profession": "Philosopher"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "thales"
+    ]
+  },
+  {
+    "id": "timur",
+    "name": "Timur",
+    "birth": {
+      "date": "1336",
+      "place": "Shahrisabz",
+      "lat": 39.05,
+      "lng": 66.83,
+      "country": "Uzbekistan"
+    },
+    "death": {
+      "date": "1405",
+      "place": "Otrar",
+      "lat": 42.85,
+      "lng": 68.3,
+      "country": "Kazakhstan"
+    },
+    "hints": {
+      "century": "14th century",
+      "gender": "male",
+      "nationality": "Mongol",
+      "profession": "Conqueror"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "timur"
+    ]
+  },
+  {
+    "id": "rumi",
+    "name": "Rumi",
+    "birth": {
+      "date": "1207",
+      "place": "Vakhsh",
+      "lat": 37.71,
+      "lng": 68.83,
+      "country": "Tajikistan"
+    },
+    "death": {
+      "date": "1273",
+      "place": "Konya",
+      "lat": 37.87,
+      "lng": 32.49,
+      "country": "Turkey"
+    },
+    "hints": {
+      "century": "13th century",
+      "gender": "male",
+      "nationality": "Persian",
+      "profession": "Poet & mystic"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "rumi"
+    ]
+  },
+  {
+    "id": "murasaki-shikibu",
+    "name": "Murasaki Shikibu",
+    "birth": {
+      "date": "0970",
+      "place": "Heian-kyō",
+      "lat": 35,
+      "lng": 135.77,
+      "country": "Japan"
+    },
+    "death": {
+      "date": "1100",
+      "place": "Heian-kyō",
+      "lat": 35,
+      "lng": 135.77,
+      "country": "Japan"
+    },
+    "hints": {
+      "century": "10th century",
+      "gender": "female",
+      "nationality": "Japanese",
+      "profession": "Novelist & poet"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "murasaki shikibu"
+    ]
+  },
+  {
+    "id": "seneca",
+    "name": "Seneca",
+    "birth": {
+      "date": "-0004",
+      "place": "Corduba",
+      "lat": 37.88,
+      "lng": -4.78,
+      "country": "Spain"
+    },
+    "death": {
+      "date": "0065",
+      "place": "Rome",
+      "lat": 41.89,
+      "lng": 12.48,
+      "country": "Italy"
+    },
+    "hints": {
+      "century": "1st century BC",
+      "gender": "male",
+      "nationality": "Roman",
+      "profession": "Philosopher & playwright"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "seneca"
+    ]
+  },
+  {
+    "id": "constantine-the-great",
+    "name": "Constantine the Great",
+    "birth": {
+      "date": "0272",
+      "place": "Niš",
+      "lat": 43.32,
+      "lng": 21.9,
+      "country": "Republic of Serbia"
+    },
+    "death": {
+      "date": "0337",
+      "place": "Nicomedia",
+      "lat": 40.76,
+      "lng": 29.92,
+      "country": "Turkey"
+    },
+    "hints": {
+      "century": "3rd century",
+      "gender": "male",
+      "nationality": "Roman",
+      "profession": "Roman emperor"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "constantine the great"
+    ]
+  },
+  {
+    "id": "euripides",
+    "name": "Euripides",
+    "birth": {
+      "date": "-0480",
+      "place": "Salamis Island",
+      "lat": 37.94,
+      "lng": 23.49,
+      "country": "Greece"
+    },
+    "death": {
+      "date": "-0406",
+      "place": "Pella",
+      "lat": 40.76,
+      "lng": 22.53,
+      "country": "Greece"
+    },
+    "hints": {
+      "century": "5th century BC",
+      "gender": "male",
+      "nationality": "Greek",
+      "profession": "Playwright"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "euripides"
+    ]
+  },
+  {
+    "id": "saladin",
+    "name": "Saladin",
+    "birth": {
+      "date": "1138",
+      "place": "Tikrit Castle",
+      "lat": 34.6,
+      "lng": 43.69,
+      "country": "Iraq"
+    },
+    "death": {
+      "date": "1193",
+      "place": "Damascus",
+      "lat": 33.51,
+      "lng": 36.29,
+      "country": "Syria"
+    },
+    "hints": {
+      "century": "12th century",
+      "gender": "male",
+      "nationality": "Kurdish",
+      "profession": "Sultan & military leader"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "saladin"
+    ]
+  },
+  {
+    "id": "aeschylus",
+    "name": "Aeschylus",
+    "birth": {
+      "date": "-0524",
+      "place": "Elefsina",
+      "lat": 38.04,
+      "lng": 23.55,
+      "country": "Greece"
+    },
+    "death": {
+      "date": "-0455",
+      "place": "Gela",
+      "lat": 37.07,
+      "lng": 14.25,
+      "country": "Italy"
+    },
+    "hints": {
+      "century": "6th century BC",
+      "gender": "male",
+      "nationality": "Greek",
+      "profession": "Playwright"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "aeschylus"
+    ]
+  },
+  {
+    "id": "saint-peter",
+    "name": "Saint Peter",
+    "birth": {
+      "date": "0000",
+      "place": "Bethsaida",
+      "lat": 32.91,
+      "lng": 35.63,
+      "country": "Israel"
+    },
+    "death": {
+      "date": "0065",
+      "place": "Roma",
+      "lat": 41.89,
+      "lng": 12.49,
+      "country": "Italy"
+    },
+    "hints": {
+      "century": "0th century",
+      "gender": "male",
+      "nationality": "Jewish",
+      "profession": "Apostle"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "saint peter"
+    ]
+  },
+  {
+    "id": "democritus",
+    "name": "Democritus",
+    "birth": {
+      "date": "-0460",
+      "place": "Miletus",
+      "lat": 37.53,
+      "lng": 27.28,
+      "country": "Turkey"
+    },
+    "death": {
+      "date": "-0360",
+      "place": "Greece",
+      "lat": 38.5,
+      "lng": 23,
+      "country": "Greece"
+    },
+    "hints": {
+      "century": "5th century BC",
+      "gender": "male",
+      "nationality": "Greek",
+      "profession": "Philosopher"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "democritus"
+    ]
+  },
+  {
+    "id": "zheng-he",
+    "name": "Zheng He",
+    "birth": {
+      "date": "1371",
+      "place": "Kunming",
+      "lat": 25.04,
+      "lng": 102.71,
+      "country": "China"
+    },
+    "death": {
+      "date": "1435",
+      "place": "Nanjing",
+      "lat": 32.06,
+      "lng": 118.78,
+      "country": "China"
+    },
+    "hints": {
+      "century": "14th century",
+      "gender": "male",
+      "nationality": "Chinese",
+      "profession": "Explorer"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "zheng he"
+    ]
+  },
+  {
+    "id": "umar-ibn-al-khattab",
+    "name": "Umar ibn al-Khattab",
+    "birth": {
+      "date": "0586",
+      "place": "Mecca",
+      "lat": 21.42,
+      "lng": 39.83,
+      "country": "Saudi Arabia"
+    },
+    "death": {
+      "date": "0644",
+      "place": "Medina",
+      "lat": 24.47,
+      "lng": 39.61,
+      "country": "Saudi Arabia"
+    },
+    "hints": {
+      "century": "6th century",
+      "gender": "male",
+      "nationality": "Arab",
+      "profession": "Caliph"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "umar ibn al-khattāb",
+      "umar ibn al-khattab"
+    ]
+  },
+  {
+    "id": "ali-ibn-abi-talib",
+    "name": "Ali ibn Abi Talib",
+    "birth": {
+      "date": "0599",
+      "place": "Mecca",
+      "lat": 21.42,
+      "lng": 39.83,
+      "country": "Saudi Arabia"
+    },
+    "death": {
+      "date": "0661",
+      "place": "Kufa",
+      "lat": 32.03,
+      "lng": 44.4,
+      "country": "Iraq"
+    },
+    "hints": {
+      "century": "6th century",
+      "gender": "male",
+      "nationality": "Arab",
+      "profession": "Caliph"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "alī ibn abī ṭālib",
+      "ali ibn abi talib"
+    ]
+  },
+  {
+    "id": "giovanni-boccaccio",
+    "name": "Giovanni Boccaccio",
+    "birth": {
+      "date": "1313",
+      "place": "Florence",
+      "lat": 43.77,
+      "lng": 11.25,
+      "country": "Italy"
+    },
+    "death": {
+      "date": "1375",
+      "place": "Certaldo",
+      "lat": 43.55,
+      "lng": 11.04,
+      "country": "Italy"
+    },
+    "hints": {
+      "century": "14th century",
+      "gender": "male",
+      "nationality": "Italian",
+      "profession": "Poet"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "giovanni boccaccio"
+    ]
+  },
+  {
+    "id": "epicurus",
+    "name": "Epicurus",
+    "birth": {
+      "date": "-0341",
+      "place": "Samos",
+      "lat": 37.69,
+      "lng": 26.94,
+      "country": "Greece"
+    },
+    "death": {
+      "date": "-0269",
+      "place": "Athens",
+      "lat": 37.98,
+      "lng": 23.73,
+      "country": "Greece"
+    },
+    "hints": {
+      "century": "4th century BC",
+      "gender": "male",
+      "nationality": "Greek",
+      "profession": "Philosopher"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "epicurus"
+    ]
+  },
+  {
+    "id": "cyrus-the-great",
+    "name": "Cyrus the Great",
+    "birth": {
+      "date": "-0599",
+      "place": "Anshan Persia",
+      "lat": 30.01,
+      "lng": 52.41,
+      "country": "Iran"
+    },
+    "death": {
+      "date": "-0529",
+      "place": "Syr Darya",
+      "lat": 40.9,
+      "lng": 71.76,
+      "country": "Uzbekistan"
+    },
+    "hints": {
+      "century": "6th century BC",
+      "gender": "male",
+      "nationality": "Persian",
+      "profession": "Persian king"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "cyrus the great"
+    ]
+  },
+  {
+    "id": "aristophanes",
+    "name": "Aristophanes",
+    "birth": {
+      "date": "-0444",
+      "place": "Classical Athens",
+      "lat": 37.97,
+      "lng": 23.72,
+      "country": "Greece"
+    },
+    "death": {
+      "date": "-0384",
+      "place": "Classical Athens",
+      "lat": 37.97,
+      "lng": 23.72,
+      "country": "Greece"
+    },
+    "hints": {
+      "century": "5th century BC",
+      "gender": "male",
+      "nationality": "Greek",
+      "profession": "Playwright"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "aristophanes"
+    ]
+  },
+  {
+    "id": "sappho",
+    "name": "Sappho",
+    "birth": {
+      "date": "-0650",
+      "place": "Lesbos",
+      "lat": 39.21,
+      "lng": 26.28,
+      "country": "Greece"
+    },
+    "death": {
+      "date": "-0569",
+      "place": "Lefkada",
+      "lat": 38.81,
+      "lng": 20.71,
+      "country": "Greece"
+    },
+    "hints": {
+      "century": "7th century BC",
+      "gender": "female",
+      "nationality": "Greek",
+      "profession": "Poet"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "sappho"
+    ]
+  },
+  {
+    "id": "heraclitus",
+    "name": "Heraclitus",
+    "birth": {
+      "date": "-0534",
+      "place": "Ephesus",
+      "lat": 37.94,
+      "lng": 27.35,
+      "country": "Turkey"
+    },
+    "death": {
+      "date": "-0470",
+      "place": "Ephesus",
+      "lat": 37.94,
+      "lng": 27.35,
+      "country": "Turkey"
+    },
+    "hints": {
+      "century": "6th century BC",
+      "gender": "male",
+      "nationality": "Greek",
+      "profession": "Philosopher"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "heraclitus"
+    ]
+  },
+  {
+    "id": "tacitus",
+    "name": "Tacitus",
+    "birth": {
+      "date": "0055",
+      "place": "Gallia Narbonensis",
+      "lat": 44,
+      "lng": 4,
+      "country": "France"
+    },
+    "death": {
+      "date": "0120",
+      "place": "Roman Empire",
+      "lat": 41.9,
+      "lng": 12.5,
+      "country": "Italy"
+    },
+    "hints": {
+      "century": "1st century",
+      "gender": "male",
+      "nationality": "Roman",
+      "profession": "Historian"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "tacitus"
+    ]
+  },
+  {
+    "id": "sima-qian",
+    "name": "Sima Qian",
+    "birth": {
+      "date": "-0144",
+      "place": "Hejin",
+      "lat": 35.59,
+      "lng": 110.71,
+      "country": "China"
+    },
+    "death": {
+      "date": "-0085",
+      "place": "People's Republic of China",
+      "lat": 35.84,
+      "lng": 103.45,
+      "country": "China"
+    },
+    "hints": {
+      "century": "2nd century BC",
+      "gender": "male",
+      "nationality": "Chinese",
+      "profession": "Historian"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "sima qian"
+    ]
+  },
+  {
+    "id": "al-ghazali",
+    "name": "Al-Ghazali",
+    "birth": {
+      "date": "1058",
+      "place": "Tus",
+      "lat": 36.49,
+      "lng": 59.52,
+      "country": "Iran"
+    },
+    "death": {
+      "date": "1111",
+      "place": "Tus",
+      "lat": 36.49,
+      "lng": 59.52,
+      "country": "Iran"
+    },
+    "hints": {
+      "century": "11th century",
+      "gender": "male",
+      "nationality": "Persian",
+      "profession": "Theologian"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "al-ghazali"
+    ]
+  },
+  {
+    "id": "chanakya-kautilya",
+    "name": "Chanakya",
+    "birth": {
+      "date": "-0374",
+      "place": "Taxila",
+      "lat": 33.75,
+      "lng": 72.82,
+      "country": "Pakistan"
+    },
+    "death": {
+      "date": "-0282",
+      "place": "Patna",
+      "lat": 25.61,
+      "lng": 85.14,
+      "country": "India"
+    },
+    "hints": {
+      "century": "4th century BC",
+      "gender": "male",
+      "nationality": "Indian",
+      "profession": "Philosopher"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "chanakya kautilya",
+      "chanakya"
+    ]
+  },
+  {
+    "id": "francis-of-assisi",
+    "name": "Francis of Assisi",
+    "birth": {
+      "date": "1182",
+      "place": "Assisi",
+      "lat": 43.07,
+      "lng": 12.61,
+      "country": "Italy"
+    },
+    "death": {
+      "date": "1226",
+      "place": "Portiuncula",
+      "lat": 43.06,
+      "lng": 12.58,
+      "country": "Italy"
+    },
+    "hints": {
+      "century": "12th century",
+      "gender": "male",
+      "nationality": "Italian",
+      "profession": "Friar"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "francis of assisi"
+    ]
+  },
+  {
+    "id": "du-fu",
+    "name": "Du Fu",
+    "birth": {
+      "date": "0712",
+      "place": "Gongyi",
+      "lat": 34.75,
+      "lng": 112.99,
+      "country": "China"
+    },
+    "death": {
+      "date": "0770",
+      "place": "Tanzhou",
+      "lat": 28.24,
+      "lng": 113.13,
+      "country": "China"
+    },
+    "hints": {
+      "century": "8th century",
+      "gender": "male",
+      "nationality": "Chinese",
+      "profession": "Poet"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "du fu"
+    ]
+  },
+  {
+    "id": "ptolemy",
+    "name": "Ptolemy",
+    "birth": {
+      "date": "0100",
+      "place": "Ptolemais Hermiou",
+      "lat": 26.48,
+      "lng": 31.8,
+      "country": "Egypt"
+    },
+    "death": {
+      "date": "0170",
+      "place": "Alexandria",
+      "lat": 31.2,
+      "lng": 29.89,
+      "country": "Egypt"
+    },
+    "hints": {
+      "century": "1st century",
+      "gender": "male",
+      "nationality": "Greek",
+      "profession": "Astronomer"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "ptolemy"
+    ]
+  },
+  {
+    "id": "hannibal",
+    "name": "Hannibal",
+    "birth": {
+      "date": "-0246",
+      "place": "Carthage",
+      "lat": 36.85,
+      "lng": 10.32,
+      "country": "Tunisia"
+    },
+    "death": {
+      "date": "-0182",
+      "place": "Gebze",
+      "lat": 40.8,
+      "lng": 29.43,
+      "country": "Turkey"
+    },
+    "hints": {
+      "century": "3rd century BC",
+      "gender": "male",
+      "nationality": "Carthaginian",
+      "profession": "General"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "hannibal"
+    ]
+  },
+  {
+    "id": "nero",
+    "name": "Nero",
+    "birth": {
+      "date": "0037",
+      "place": "Antium",
+      "lat": 41.45,
+      "lng": 12.63,
+      "country": "Italy"
+    },
+    "death": {
+      "date": "0068",
+      "place": "Rome",
+      "lat": 41.89,
+      "lng": 12.48,
+      "country": "Italy"
+    },
+    "hints": {
+      "century": "1st century",
+      "gender": "male",
+      "nationality": "Roman",
+      "profession": "Roman emperor"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "nero"
+    ]
+  },
+  {
+    "id": "galen",
+    "name": "Galen",
+    "birth": {
+      "date": "0129",
+      "place": "Pergamon",
+      "lat": 39.12,
+      "lng": 27.18,
+      "country": "Turkey"
+    },
+    "death": {
+      "date": "0300",
+      "place": "Rome",
+      "lat": 41.89,
+      "lng": 12.48,
+      "country": "Italy"
+    },
+    "hints": {
+      "century": "2nd century",
+      "gender": "male",
+      "nationality": "Greek",
+      "profession": "Physician"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "galen"
+    ]
+  },
+  {
+    "id": "thucydides",
+    "name": "Thucydides",
+    "birth": {
+      "date": "-0460",
+      "place": "Halimous",
+      "lat": 37.91,
+      "lng": 23.73,
+      "country": "Greece"
+    },
+    "death": {
+      "date": "-0394",
+      "place": "Athens",
+      "lat": 37.98,
+      "lng": 23.73,
+      "country": "Greece"
+    },
+    "hints": {
+      "century": "5th century BC",
+      "gender": "male",
+      "nationality": "Greek",
+      "profession": "Historian"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "thucydides"
+    ]
+  },
+  {
+    "id": "averroes",
+    "name": "Averroes",
+    "birth": {
+      "date": "1126",
+      "place": "Córdoba",
+      "lat": 37.89,
+      "lng": -4.78,
+      "country": "Spain"
+    },
+    "death": {
+      "date": "1198",
+      "place": "Marrakech",
+      "lat": 31.63,
+      "lng": -7.98,
+      "country": "Morocco"
+    },
+    "hints": {
+      "century": "12th century",
+      "gender": "male",
+      "nationality": "Arab",
+      "profession": "Philosopher"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "averroes"
+    ]
+  },
+  {
+    "id": "caligula",
+    "name": "Caligula",
+    "birth": {
+      "date": "0012",
+      "place": "Antium",
+      "lat": 41.45,
+      "lng": 12.63,
+      "country": "Italy"
+    },
+    "death": {
+      "date": "0041",
+      "place": "Palatine Hill",
+      "lat": 41.89,
+      "lng": 12.49,
+      "country": "Italy"
+    },
+    "hints": {
+      "century": "1st century",
+      "gender": "male",
+      "nationality": "Roman",
+      "profession": "Roman emperor"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "caligula"
+    ]
+  },
+  {
+    "id": "ferdowsi",
+    "name": "Ferdowsi",
+    "birth": {
+      "date": "0940",
+      "place": "Tus",
+      "lat": 36.49,
+      "lng": 59.52,
+      "country": "Iran"
+    },
+    "death": {
+      "date": "1020",
+      "place": "Tus",
+      "lat": 36.49,
+      "lng": 59.52,
+      "country": "Iran"
+    },
+    "hints": {
+      "century": "10th century",
+      "gender": "male",
+      "nationality": "Persian",
+      "profession": "Poet"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "ferdowsi"
+    ]
+  },
+  {
+    "id": "abu-bakr",
+    "name": "Abu Bakr",
+    "birth": {
+      "date": "0573",
+      "place": "Mecca",
+      "lat": 21.42,
+      "lng": 39.83,
+      "country": "Saudi Arabia"
+    },
+    "death": {
+      "date": "0634",
+      "place": "Medina",
+      "lat": 24.47,
+      "lng": 39.61,
+      "country": "Saudi Arabia"
+    },
+    "hints": {
+      "century": "6th century",
+      "gender": "male",
+      "nationality": "Arab",
+      "profession": "Caliph"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "abu bakr"
+    ]
+  },
+  {
+    "id": "xenophon",
+    "name": "Xenophon",
+    "birth": {
+      "date": "-0429",
+      "place": "Erchia",
+      "lat": 37.97,
+      "lng": 23.92,
+      "country": "Greece"
+    },
+    "death": {
+      "date": "-0353",
+      "place": "Corinth",
+      "lat": 37.94,
+      "lng": 22.93,
+      "country": "Greece"
+    },
+    "hints": {
+      "century": "5th century BC",
+      "gender": "male",
+      "nationality": "Greek",
+      "profession": "Historian"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "xenophon"
+    ]
+  },
+  {
+    "id": "zhu-xi",
+    "name": "Zhu Xi",
+    "birth": {
+      "date": "1130",
+      "place": "Youxi County",
+      "lat": 26.17,
+      "lng": 118.18,
+      "country": "China"
+    },
+    "death": {
+      "date": "1200",
+      "place": "People's Republic of China",
+      "lat": 35.84,
+      "lng": 103.45,
+      "country": "China"
+    },
+    "hints": {
+      "century": "12th century",
+      "gender": "male",
+      "nationality": "Chinese",
+      "profession": "Philosopher"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "zhu xi"
+    ]
+  },
+  {
+    "id": "fibonacci",
+    "name": "Fibonacci",
+    "birth": {
+      "date": "1170",
+      "place": "Pisa",
+      "lat": 43.72,
+      "lng": 10.4,
+      "country": "Italy"
+    },
+    "death": {
+      "date": "1240",
+      "place": "Pisa",
+      "lat": 43.72,
+      "lng": 10.4,
+      "country": "Italy"
+    },
+    "hints": {
+      "century": "12th century",
+      "gender": "male",
+      "nationality": "Italian",
+      "profession": "Mathematician"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "fibonacci"
+    ]
+  },
+  {
+    "id": "hammurabi",
+    "name": "Hammurabi",
+    "birth": {
+      "date": "-1809",
+      "place": "Babylonia",
+      "lat": 32.5,
+      "lng": 44.5,
+      "country": "Iraq"
+    },
+    "death": {
+      "date": "-1749",
+      "place": "Babylonia",
+      "lat": 32.5,
+      "lng": 44.5,
+      "country": "Iraq"
+    },
+    "hints": {
+      "century": "19th century BC",
+      "gender": "male",
+      "nationality": "Babylonian",
+      "profession": "King"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "hammurabi"
+    ]
+  },
+  {
+    "id": "brahmagupta",
+    "name": "Brahmagupta",
+    "birth": {
+      "date": "0598",
+      "place": "Bhinmal",
+      "lat": 25,
+      "lng": 72.25,
+      "country": "India"
+    },
+    "death": {
+      "date": "0670",
+      "place": "Ujjain",
+      "lat": 23.18,
+      "lng": 75.78,
+      "country": "India"
+    },
+    "hints": {
+      "century": "6th century",
+      "gender": "male",
+      "nationality": "Indian",
+      "profession": "Mathematician"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "brahmagupta"
+    ]
+  },
+  {
+    "id": "lucretius",
+    "name": "Lucretius",
+    "birth": {
+      "date": "-0093",
+      "place": "Pompeii",
+      "lat": 40.75,
+      "lng": 14.49,
+      "country": "Italy"
+    },
+    "death": {
+      "date": "-0054",
+      "place": "Rome",
+      "lat": 41.89,
+      "lng": 12.48,
+      "country": "Italy"
+    },
+    "hints": {
+      "century": "1st century BC",
+      "gender": "male",
+      "nationality": "Roman",
+      "profession": "Poet"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "lucretius"
+    ]
+  },
+  {
+    "id": "diogenes-of-sinope",
+    "name": "Diogenes of Sinope",
+    "birth": {
+      "date": "-0399",
+      "place": "Sinope",
+      "lat": 42.03,
+      "lng": 35.14,
+      "country": "Turkey"
+    },
+    "death": {
+      "date": "-0322",
+      "place": "Ancient Corinth",
+      "lat": 37.91,
+      "lng": 22.88,
+      "country": "Greece"
+    },
+    "hints": {
+      "century": "4th century BC",
+      "gender": "male",
+      "nationality": "Greek",
+      "profession": "Philosopher"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "diogenes of sinope"
+    ]
+  },
+  {
+    "id": "nagarjuna",
+    "name": "Nagarjuna",
+    "birth": {
+      "date": "0150",
+      "place": "South India",
+      "lat": 13,
+      "lng": 77,
+      "country": "India"
+    },
+    "death": {
+      "date": "0250",
+      "place": "India",
+      "lat": 22.8,
+      "lng": 83,
+      "country": "India"
+    },
+    "hints": {
+      "century": "2nd century",
+      "gender": "male",
+      "nationality": "Indian",
+      "profession": "Philosopher"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "nagarjuna"
+    ]
+  },
+  {
+    "id": "justinian-i",
+    "name": "Justinian I",
+    "birth": {
+      "date": "0482",
+      "place": "Taurision (Serbia)",
+      "lat": 41.9,
+      "lng": 21.61,
+      "country": "North Macedonia"
+    },
+    "death": {
+      "date": "0565",
+      "place": "Constantinople",
+      "lat": 41.01,
+      "lng": 28.98,
+      "country": "Turkey"
+    },
+    "hints": {
+      "century": "5th century",
+      "gender": "male",
+      "nationality": "Byzantine",
+      "profession": "Byzantine emperor"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "justinian i"
+    ]
+  },
+  {
+    "id": "tiberius",
+    "name": "Tiberius",
+    "birth": {
+      "date": "-0041",
+      "place": "Rome",
+      "lat": 41.89,
+      "lng": 12.48,
+      "country": "Italy"
+    },
+    "death": {
+      "date": "0037",
+      "place": "Miseno",
+      "lat": 40.79,
+      "lng": 14.09,
+      "country": "Italy"
+    },
+    "hints": {
+      "century": "1st century BC",
+      "gender": "male",
+      "nationality": "Roman",
+      "profession": "Roman emperor"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "tiberius"
+    ]
+  },
+  {
+    "id": "pericles",
+    "name": "Pericles",
+    "birth": {
+      "date": "-0493",
+      "place": "Athens",
+      "lat": 37.98,
+      "lng": 23.73,
+      "country": "Greece"
+    },
+    "death": {
+      "date": "-0428",
+      "place": "Athens",
+      "lat": 37.98,
+      "lng": 23.73,
+      "country": "Greece"
+    },
+    "hints": {
+      "century": "5th century BC",
+      "gender": "male",
+      "nationality": "Greek",
+      "profession": "Statesman"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "pericles"
+    ]
+  },
+  {
+    "id": "catullus",
+    "name": "Catullus",
+    "birth": {
+      "date": "-0083",
+      "place": "Verona",
+      "lat": 45.44,
+      "lng": 10.99,
+      "country": "Italy"
+    },
+    "death": {
+      "date": "-0053",
+      "place": "Rome",
+      "lat": 41.89,
+      "lng": 12.48,
+      "country": "Italy"
+    },
+    "hints": {
+      "century": "1st century BC",
+      "gender": "male",
+      "nationality": "Roman",
+      "profession": "Poet"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "catullus"
+    ]
+  },
+  {
+    "id": "epictetus",
+    "name": "Epictetus",
+    "birth": {
+      "date": "0050",
+      "place": "Hierapolis",
+      "lat": 37.92,
+      "lng": 29.13,
+      "country": "Turkey"
+    },
+    "death": {
+      "date": "0138",
+      "place": "Nicopolis",
+      "lat": 39.01,
+      "lng": 20.73,
+      "country": "Greece"
+    },
+    "hints": {
+      "century": "1st century",
+      "gender": "male",
+      "nationality": "Greek",
+      "profession": "Philosopher"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "epictetus"
+    ]
+  },
+  {
+    "id": "saadi",
+    "name": "Saadi",
+    "birth": {
+      "date": "1210",
+      "place": "Shiraz",
+      "lat": 29.61,
+      "lng": 52.54,
+      "country": "Iran"
+    },
+    "death": {
+      "date": "1292",
+      "place": "Shiraz",
+      "lat": 29.61,
+      "lng": 52.54,
+      "country": "Iran"
+    },
+    "hints": {
+      "century": "13th century",
+      "gender": "male",
+      "nationality": "Persian",
+      "profession": "Poet"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "saadi"
+    ]
+  },
+  {
+    "id": "solon",
+    "name": "Solon",
+    "birth": {
+      "date": "-0629",
+      "place": "Classical Athens",
+      "lat": 37.97,
+      "lng": 23.72,
+      "country": "Greece"
+    },
+    "death": {
+      "date": "-0559",
+      "place": "Cyprus",
+      "lat": 35,
+      "lng": 33,
+      "country": "Cyprus"
+    },
+    "hints": {
+      "century": "7th century BC",
+      "gender": "male",
+      "nationality": "Greek",
+      "profession": "Statesman"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "solon"
+    ]
+  },
+  {
+    "id": "trajan",
+    "name": "Trajan",
+    "birth": {
+      "date": "0053",
+      "place": "Italica",
+      "lat": 37.44,
+      "lng": -6.04,
+      "country": "Spain"
+    },
+    "death": {
+      "date": "0117",
+      "place": "Selinus",
+      "lat": 36.26,
+      "lng": 32.28,
+      "country": "Turkey"
+    },
+    "hints": {
+      "century": "1st century",
+      "gender": "male",
+      "nationality": "Roman",
+      "profession": "Roman emperor"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "trajan"
+    ]
+  },
+  {
+    "id": "tutankhamun",
+    "name": "Tutankhamun",
+    "birth": {
+      "date": "-1342",
+      "place": "Amarna",
+      "lat": 27.66,
+      "lng": 30.91,
+      "country": "Egypt"
+    },
+    "death": {
+      "date": "-1323",
+      "place": "Thebes",
+      "lat": 25.72,
+      "lng": 32.61,
+      "country": "Egypt"
+    },
+    "hints": {
+      "century": "14th century BC",
+      "gender": "male",
+      "nationality": "Egyptian",
+      "profession": "Pharaoh"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "tutankhamun"
+    ]
+  },
+  {
+    "id": "hypatia",
+    "name": "Hypatia",
+    "birth": {
+      "date": "0360",
+      "place": "Alexandria",
+      "lat": 31.2,
+      "lng": 29.89,
+      "country": "Egypt"
+    },
+    "death": {
+      "date": "0415",
+      "place": "Alexandria",
+      "lat": 31.2,
+      "lng": 29.89,
+      "country": "Egypt"
+    },
+    "hints": {
+      "century": "4th century",
+      "gender": "female",
+      "nationality": "Greek",
+      "profession": "Mathematician"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "hypatia"
+    ]
+  },
+  {
+    "id": "william-the-conqueror",
+    "name": "William the Conqueror",
+    "birth": {
+      "date": "1028",
+      "place": "Falaise",
+      "lat": 48.9,
+      "lng": -0.2,
+      "country": "France"
+    },
+    "death": {
+      "date": "1087",
+      "place": "Rouen",
+      "lat": 49.44,
+      "lng": 1.1,
+      "country": "France"
+    },
+    "hints": {
+      "century": "11th century",
+      "gender": "male",
+      "nationality": "Norman",
+      "profession": "King"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "william the conqueror"
+    ]
+  },
+  {
+    "id": "richard-i-of-england",
+    "name": "Richard I of England",
+    "birth": {
+      "date": "1157",
+      "place": "Beaumont Palace",
+      "lat": 51.76,
+      "lng": -1.26,
+      "country": "United Kingdom"
+    },
+    "death": {
+      "date": "1199",
+      "place": "Châlus",
+      "lat": 45.66,
+      "lng": 0.98,
+      "country": "France"
+    },
+    "hints": {
+      "century": "12th century",
+      "gender": "male",
+      "nationality": "English",
+      "profession": "King"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "richard i of england"
+    ]
+  },
+  {
+    "id": "anaxagoras",
+    "name": "Anaxagoras",
+    "birth": {
+      "date": "-0499",
+      "place": "Klazomenai",
+      "lat": 38.37,
+      "lng": 26.79,
+      "country": "Turkey"
+    },
+    "death": {
+      "date": "-0427",
+      "place": "Lampsacus",
+      "lat": 40.35,
+      "lng": 26.7,
+      "country": "Turkey"
+    },
+    "hints": {
+      "century": "5th century BC",
+      "gender": "male",
+      "nationality": "Greek",
+      "profession": "Philosopher"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "anaxagoras"
+    ]
+  },
+  {
+    "id": "gregory-i",
+    "name": "Gregory I",
+    "birth": {
+      "date": "0540",
+      "place": "Rome",
+      "lat": 41.89,
+      "lng": 12.48,
+      "country": "Italy"
+    },
+    "death": {
+      "date": "0604",
+      "place": "Rome",
+      "lat": 41.89,
+      "lng": 12.48,
+      "country": "Italy"
+    },
+    "hints": {
+      "century": "6th century",
+      "gender": "male",
+      "nationality": "Roman",
+      "profession": "Pope"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "gregory i"
+    ]
+  },
+  {
+    "id": "vespasian",
+    "name": "Vespasian",
+    "birth": {
+      "date": "0009",
+      "place": "Falacrine",
+      "lat": 42.59,
+      "lng": 13.17,
+      "country": "Italy"
+    },
+    "death": {
+      "date": "0079",
+      "place": "Aquae Cutiliae",
+      "lat": 42.38,
+      "lng": 13.01,
+      "country": "Italy"
+    },
+    "hints": {
+      "century": "1st century",
+      "gender": "male",
+      "nationality": "Roman",
+      "profession": "Roman emperor"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "vespasian"
+    ]
+  },
+  {
+    "id": "hadrian",
+    "name": "Hadrian",
+    "birth": {
+      "date": "0076",
+      "place": "Italica",
+      "lat": 37.44,
+      "lng": -6.04,
+      "country": "Spain"
+    },
+    "death": {
+      "date": "0138",
+      "place": "Baia",
+      "lat": 40.82,
+      "lng": 14.07,
+      "country": "Italy"
+    },
+    "hints": {
+      "century": "1st century",
+      "gender": "male",
+      "nationality": "Roman",
+      "profession": "Roman emperor"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "hadrian"
+    ]
+  },
+  {
+    "id": "anaximander",
+    "name": "Anaximander",
+    "birth": {
+      "date": "-0609",
+      "place": "Miletus",
+      "lat": 37.53,
+      "lng": 27.28,
+      "country": "Turkey"
+    },
+    "death": {
+      "date": "-0545",
+      "place": "Miletus",
+      "lat": 37.53,
+      "lng": 27.28,
+      "country": "Turkey"
+    },
+    "hints": {
+      "century": "7th century BC",
+      "gender": "male",
+      "nationality": "Greek",
+      "profession": "Philosopher"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "anaximander"
+    ]
+  },
+  {
+    "id": "demosthenes",
+    "name": "Demosthenes",
+    "birth": {
+      "date": "-0383",
+      "place": "Upper Paiania",
+      "lat": 37.97,
+      "lng": 23.84,
+      "country": "Greece"
+    },
+    "death": {
+      "date": "-0321",
+      "place": "Poros",
+      "lat": 37.52,
+      "lng": 23.47,
+      "country": "Greece"
+    },
+    "hints": {
+      "century": "4th century BC",
+      "gender": "male",
+      "nationality": "Greek",
+      "profession": "Orator"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "demosthenes"
+    ]
+  },
+  {
+    "id": "moshe-ben-maimon",
+    "name": "Maimonides",
+    "birth": {
+      "date": "1138",
+      "place": "Córdoba",
+      "lat": 37.89,
+      "lng": -4.78,
+      "country": "Spain"
+    },
+    "death": {
+      "date": "1204",
+      "place": "Cairo",
+      "lat": 30.04,
+      "lng": 31.24,
+      "country": "Egypt"
+    },
+    "hints": {
+      "century": "12th century",
+      "gender": "male",
+      "nationality": "Jewish",
+      "profession": "Philosopher"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "moshe ben maimon",
+      "maimonides"
+    ]
+  },
+  {
+    "id": "kublai-khan",
+    "name": "Kublai Khan",
+    "birth": {
+      "date": "1215",
+      "place": "Mongol Empire",
+      "lat": 47.1,
+      "lng": 109.17,
+      "country": "Mongolia"
+    },
+    "death": {
+      "date": "1294",
+      "place": "Khanbaliq",
+      "lat": 39.93,
+      "lng": 116.4,
+      "country": "China"
+    },
+    "hints": {
+      "century": "13th century",
+      "gender": "male",
+      "nationality": "Mongol",
+      "profession": "Emperor"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "kublai khan"
+    ]
+  },
+  {
+    "id": "hildegard-of-bingen",
+    "name": "Hildegard of Bingen",
+    "birth": {
+      "date": "1098",
+      "place": "Bermersheim vor der Höhe",
+      "lat": 49.78,
+      "lng": 8.1,
+      "country": "Germany"
+    },
+    "death": {
+      "date": "1179",
+      "place": "Kloster Rupertsberg",
+      "lat": 49.97,
+      "lng": 7.89,
+      "country": "Germany"
+    },
+    "hints": {
+      "century": "11th century",
+      "gender": "female",
+      "nationality": "German",
+      "profession": "Mystic & composer"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "hildegard of bingen"
+    ]
+  },
+  {
+    "id": "eratosthenes",
+    "name": "Eratosthenes",
+    "birth": {
+      "date": "-0275",
+      "place": "Cyrene",
+      "lat": 32.82,
+      "lng": 21.86,
+      "country": "Libya"
+    },
+    "death": {
+      "date": "-0193",
+      "place": "Alexandria",
+      "lat": 31.2,
+      "lng": 29.89,
+      "country": "Egypt"
+    },
+    "hints": {
+      "century": "3rd century BC",
+      "gender": "male",
+      "nationality": "Greek",
+      "profession": "Mathematician"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "eratosthenes"
+    ]
+  },
+  {
+    "id": "claudius",
+    "name": "Claudius",
+    "birth": {
+      "date": "-0009",
+      "place": "Lugdunum",
+      "lat": 45.76,
+      "lng": 4.82,
+      "country": "France"
+    },
+    "death": {
+      "date": "0054",
+      "place": "Rome",
+      "lat": 41.89,
+      "lng": 12.48,
+      "country": "Italy"
+    },
+    "hints": {
+      "century": "1st century BC",
+      "gender": "male",
+      "nationality": "Roman",
+      "profession": "Emperor"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "claudius"
+    ]
+  },
+  {
+    "id": "al-biruni",
+    "name": "Al-Biruni",
+    "birth": {
+      "date": "0973",
+      "place": "Kath",
+      "lat": 41.66,
+      "lng": 60.3,
+      "country": "Uzbekistan"
+    },
+    "death": {
+      "date": "1048",
+      "place": "Ghazni",
+      "lat": 33.55,
+      "lng": 68.42,
+      "country": "Afghanistan"
+    },
+    "hints": {
+      "century": "10th century",
+      "gender": "male",
+      "nationality": "Persian",
+      "profession": "Scholar"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "al-biruni"
+    ]
+  },
+  {
+    "id": "jerome",
+    "name": "Saint Jerome",
+    "birth": {
+      "date": "0345",
+      "place": "Dalmatia",
+      "lat": 43.81,
+      "lng": 16.22,
+      "country": "Croatia"
+    },
+    "death": {
+      "date": "0420",
+      "place": "Bethlehem",
+      "lat": 31.7,
+      "lng": 35.21,
+      "country": "Palestine"
+    },
+    "hints": {
+      "century": "4th century",
+      "gender": "male",
+      "nationality": "Roman",
+      "profession": "Church Father"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "jerome",
+      "saint jerome"
+    ]
+  },
+  {
+    "id": "donatello",
+    "name": "Donatello",
+    "birth": {
+      "date": "1386",
+      "place": "Florence",
+      "lat": 43.77,
+      "lng": 11.25,
+      "country": "Italy"
+    },
+    "death": {
+      "date": "1466",
+      "place": "Florence",
+      "lat": 43.77,
+      "lng": 11.25,
+      "country": "Italy"
+    },
+    "hints": {
+      "century": "14th century",
+      "gender": "male",
+      "nationality": "Italian",
+      "profession": "Sculptor"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "donatello"
+    ]
+  },
+  {
+    "id": "uthman-ibn-affan",
+    "name": "Uthman ibn Affan",
+    "birth": {
+      "date": "0575",
+      "place": "Mecca",
+      "lat": 21.42,
+      "lng": 39.83,
+      "country": "Saudi Arabia"
+    },
+    "death": {
+      "date": "0656",
+      "place": "Medina",
+      "lat": 24.47,
+      "lng": 39.61,
+      "country": "Saudi Arabia"
+    },
+    "hints": {
+      "century": "6th century",
+      "gender": "male",
+      "nationality": "Arab",
+      "profession": "Caliph"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "uthman ibn affan"
+    ]
+  },
+  {
+    "id": "cato-the-elder",
+    "name": "Cato the Elder",
+    "birth": {
+      "date": "-0233",
+      "place": "Tusculum",
+      "lat": 41.8,
+      "lng": 12.71,
+      "country": "Italy"
+    },
+    "death": {
+      "date": "-0148",
+      "place": "Rome",
+      "lat": 41.89,
+      "lng": 12.48,
+      "country": "Italy"
+    },
+    "hints": {
+      "century": "3rd century BC",
+      "gender": "male",
+      "nationality": "Roman",
+      "profession": "Statesman"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "cato the elder"
+    ]
+  },
+  {
+    "id": "aisha",
+    "name": "Aisha",
+    "birth": {
+      "date": "0614",
+      "place": "Mecca",
+      "lat": 21.42,
+      "lng": 39.83,
+      "country": "Saudi Arabia"
+    },
+    "death": {
+      "date": "0678",
+      "place": "Medina",
+      "lat": 24.47,
+      "lng": 39.61,
+      "country": "Saudi Arabia"
+    },
+    "hints": {
+      "century": "7th century",
+      "gender": "female",
+      "nationality": "Arab",
+      "profession": "Wife of Muhammad"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "aisha"
+    ]
+  },
+  {
+    "id": "akhenaten",
+    "name": "Akhenaten",
+    "birth": {
+      "date": "-1400",
+      "place": "Thebes",
+      "lat": 25.72,
+      "lng": 32.61,
+      "country": "Egypt"
+    },
+    "death": {
+      "date": "-1335",
+      "place": "Amarna",
+      "lat": 27.66,
+      "lng": 30.91,
+      "country": "Egypt"
+    },
+    "hints": {
+      "century": "14th century BC",
+      "gender": "male",
+      "nationality": "Egyptian",
+      "profession": "Pharaoh"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "akhenaten"
+    ]
+  },
+  {
+    "id": "nefertiti",
+    "name": "Nefertiti",
+    "birth": {
+      "date": "-1369",
+      "place": "Thebes",
+      "lat": 25.72,
+      "lng": 32.61,
+      "country": "Egypt"
+    },
+    "death": {
+      "date": "-1329",
+      "place": "Amarna",
+      "lat": 27.66,
+      "lng": 30.91,
+      "country": "Egypt"
+    },
+    "hints": {
+      "century": "14th century BC",
+      "gender": "female",
+      "nationality": "Egyptian",
+      "profession": "Queen"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "nefertiti"
+    ]
+  },
+  {
+    "id": "ibn-al-haytham",
+    "name": "Ibn al-Haytham",
+    "birth": {
+      "date": "0965",
+      "place": "Basra",
+      "lat": 30.52,
+      "lng": 47.81,
+      "country": "Iraq"
+    },
+    "death": {
+      "date": "1039",
+      "place": "Cairo",
+      "lat": 30.04,
+      "lng": 31.24,
+      "country": "Egypt"
+    },
+    "hints": {
+      "century": "10th century",
+      "gender": "male",
+      "nationality": "Arab",
+      "profession": "Scientist"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "ibn al-haytham"
+    ]
+  },
+  {
+    "id": "leif-erikson",
+    "name": "Leif Erikson",
+    "birth": {
+      "date": "0972",
+      "place": "Eiríksstaðir",
+      "lat": 65.06,
+      "lng": -21.54,
+      "country": "Iceland"
+    },
+    "death": {
+      "date": "1020",
+      "place": "Brattahlíð",
+      "lat": 61.16,
+      "lng": -45.52,
+      "country": "Greenland"
+    },
+    "hints": {
+      "century": "10th century",
+      "gender": "male",
+      "nationality": "Norse",
+      "profession": "Explorer"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "leif erikson"
+    ]
+  },
+  {
+    "id": "saint-nicholas",
+    "name": "Saint Nicholas",
+    "birth": {
+      "date": "0250",
+      "place": "Patara",
+      "lat": 36.26,
+      "lng": 29.31,
+      "country": "Turkey"
+    },
+    "death": {
+      "date": "0350",
+      "place": "Myra",
+      "lat": 36.26,
+      "lng": 29.99,
+      "country": "Turkey"
+    },
+    "hints": {
+      "century": "3rd century",
+      "gender": "male",
+      "nationality": "Byzantine",
+      "profession": "Bishop"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "saint nicholas"
+    ]
+  },
+  {
+    "id": "osman-i",
+    "name": "Osman I",
+    "birth": {
+      "date": "1258",
+      "place": "Söğüt",
+      "lat": 40.02,
+      "lng": 30.18,
+      "country": "Turkey"
+    },
+    "death": {
+      "date": "1326",
+      "place": "Söğüt",
+      "lat": 40.02,
+      "lng": 30.18,
+      "country": "Turkey"
+    },
+    "hints": {
+      "century": "13th century",
+      "gender": "male",
+      "nationality": "Turkish",
+      "profession": "Sultan"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "osman i"
+    ]
+  },
+  {
+    "id": "alfred-the-great",
+    "name": "Alfred the Great",
+    "birth": {
+      "date": "0849",
+      "place": "Wantage",
+      "lat": 51.59,
+      "lng": -1.43,
+      "country": "United Kingdom"
+    },
+    "death": {
+      "date": "0899",
+      "place": "Winchester",
+      "lat": 51.06,
+      "lng": -1.31,
+      "country": "United Kingdom"
+    },
+    "hints": {
+      "century": "9th century",
+      "gender": "male",
+      "nationality": "English",
+      "profession": "King"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "alfred the great"
+    ]
+  },
+  {
+    "id": "peter-abelard",
+    "name": "Peter Abelard",
+    "birth": {
+      "date": "1079",
+      "place": "Le Pallet",
+      "lat": 47.14,
+      "lng": -1.34,
+      "country": "France"
+    },
+    "death": {
+      "date": "1142",
+      "place": "Chalon-sur-Saône",
+      "lat": 46.78,
+      "lng": 4.85,
+      "country": "France"
+    },
+    "hints": {
+      "century": "11th century",
+      "gender": "male",
+      "nationality": "French",
+      "profession": "Philosopher"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "peter abelard"
+    ]
+  },
+  {
+    "id": "frederick-barbarossa",
+    "name": "Frederick Barbarossa",
+    "birth": {
+      "date": "1122",
+      "place": "Haguenau",
+      "lat": 48.82,
+      "lng": 7.79,
+      "country": "France"
+    },
+    "death": {
+      "date": "1190",
+      "place": "River Göksu",
+      "lat": 36.3,
+      "lng": 34.05,
+      "country": "Turkey"
+    },
+    "hints": {
+      "century": "12th century",
+      "gender": "male",
+      "nationality": "German",
+      "profession": "Emperor"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "frederick barbarossa"
+    ]
+  },
+  {
+    "id": "fatima",
+    "name": "Fatima",
+    "birth": {
+      "date": "0604",
+      "place": "Mecca",
+      "lat": 21.42,
+      "lng": 39.83,
+      "country": "Saudi Arabia"
+    },
+    "death": {
+      "date": "0632",
+      "place": "Medina",
+      "lat": 24.47,
+      "lng": 39.61,
+      "country": "Saudi Arabia"
+    },
+    "hints": {
+      "century": "7th century",
+      "gender": "female",
+      "nationality": "Arab",
+      "profession": "Daughter of Muhammad"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "fatima"
+    ]
+  },
+  {
+    "id": "titus",
+    "name": "Titus",
+    "birth": {
+      "date": "0039",
+      "place": "Rome",
+      "lat": 41.89,
+      "lng": 12.48,
+      "country": "Italy"
+    },
+    "death": {
+      "date": "0081",
+      "place": "Aquae Cutiliae",
+      "lat": 42.38,
+      "lng": 13.01,
+      "country": "Italy"
+    },
+    "hints": {
+      "century": "1st century",
+      "gender": "male",
+      "nationality": "Roman",
+      "profession": "Emperor"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "titus"
+    ]
+  },
+  {
+    "id": "husayn-ibn-ali",
+    "name": "Husayn ibn Ali",
+    "birth": {
+      "date": "0626",
+      "place": "Medina",
+      "lat": 24.47,
+      "lng": 39.61,
+      "country": "Saudi Arabia"
+    },
+    "death": {
+      "date": "0680",
+      "place": "Karbala",
+      "lat": 32.62,
+      "lng": 44.03,
+      "country": "Iraq"
+    },
+    "hints": {
+      "century": "7th century",
+      "gender": "male",
+      "nationality": "Arab",
+      "profession": "Islamic martyr"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "husayn ibn ali"
+    ]
+  },
+  {
+    "id": "aryabhata",
+    "name": "Aryabhata",
+    "birth": {
+      "date": "0476",
+      "place": "Pataliputra",
+      "lat": 25.61,
+      "lng": 85.14,
+      "country": "India"
+    },
+    "death": {
+      "date": "0550",
+      "place": "Pataliputra",
+      "lat": 25.61,
+      "lng": 85.14,
+      "country": "India"
+    },
+    "hints": {
+      "century": "5th century",
+      "gender": "male",
+      "nationality": "Indian",
+      "profession": "Mathematician"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "aryabhata"
+    ]
+  },
+  {
+    "id": "farabi",
+    "name": "Al-Farabi",
+    "birth": {
+      "date": "0870",
+      "place": "Otrar",
+      "lat": 42.85,
+      "lng": 68.3,
+      "country": "Kazakhstan"
+    },
+    "death": {
+      "date": "0951",
+      "place": "Damascus",
+      "lat": 33.51,
+      "lng": 36.29,
+      "country": "Syria"
+    },
+    "hints": {
+      "century": "9th century",
+      "gender": "male",
+      "nationality": "Persian",
+      "profession": "Philosopher"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "farabi",
+      "al-farabi"
+    ]
+  },
+  {
+    "id": "domitian",
+    "name": "Domitian",
+    "birth": {
+      "date": "0051",
+      "place": "Rome",
+      "lat": 41.89,
+      "lng": 12.48,
+      "country": "Italy"
+    },
+    "death": {
+      "date": "0096",
+      "place": "Rome",
+      "lat": 41.89,
+      "lng": 12.48,
+      "country": "Italy"
+    },
+    "hints": {
+      "century": "1st century",
+      "gender": "male",
+      "nationality": "Roman",
+      "profession": "Emperor"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "domitian"
+    ]
+  },
+  {
+    "id": "william-of-ockham",
+    "name": "William of Ockham",
+    "birth": {
+      "date": "1287",
+      "place": "Ockham",
+      "lat": 51.3,
+      "lng": -0.46,
+      "country": "United Kingdom"
+    },
+    "death": {
+      "date": "1349",
+      "place": "Munich",
+      "lat": 48.14,
+      "lng": 11.57,
+      "country": "Germany"
+    },
+    "hints": {
+      "century": "13th century",
+      "gender": "male",
+      "nationality": "English",
+      "profession": "Philosopher"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "william of ockham"
+    ]
+  },
+  {
+    "id": "harun-al-rashid",
+    "name": "Harun al-Rashid",
+    "birth": {
+      "date": "0766",
+      "place": "Ray",
+      "lat": 35.6,
+      "lng": 51.43,
+      "country": "Iran"
+    },
+    "death": {
+      "date": "0809",
+      "place": "Tus",
+      "lat": 36.49,
+      "lng": 59.52,
+      "country": "Iran"
+    },
+    "hints": {
+      "century": "8th century",
+      "gender": "male",
+      "nationality": "Arab",
+      "profession": "Caliph"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "harun al-rashid"
+    ]
+  },
+  {
+    "id": "abu-bakr-al-razi",
+    "name": "Rhazes",
+    "birth": {
+      "date": "0866",
+      "place": "Ray",
+      "lat": 35.6,
+      "lng": 51.43,
+      "country": "Iran"
+    },
+    "death": {
+      "date": "0925",
+      "place": "Ray",
+      "lat": 35.6,
+      "lng": 51.43,
+      "country": "Iran"
+    },
+    "hints": {
+      "century": "9th century",
+      "gender": "male",
+      "nationality": "Persian",
+      "profession": "Physician"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "abu bakr al-razi",
+      "rhazes"
+    ]
+  },
+  {
+    "id": "urban-ii",
+    "name": "Pope Urban II",
+    "birth": {
+      "date": "1035",
+      "place": "Châtillon-sur-Marne",
+      "lat": 49.1,
+      "lng": 3.76,
+      "country": "France"
+    },
+    "death": {
+      "date": "1099",
+      "place": "Rome",
+      "lat": 41.89,
+      "lng": 12.48,
+      "country": "Italy"
+    },
+    "hints": {
+      "century": "11th century",
+      "gender": "male",
+      "nationality": "French",
+      "profession": "Pope"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "urban ii",
+      "pope urban ii"
+    ]
+  },
+  {
+    "id": "giotto",
+    "name": "Giotto",
+    "birth": {
+      "date": "1276",
+      "place": "Vicchio",
+      "lat": 43.93,
+      "lng": 11.47,
+      "country": "Italy"
+    },
+    "death": {
+      "date": "1337",
+      "place": "Florence",
+      "lat": 43.77,
+      "lng": 11.25,
+      "country": "Italy"
+    },
+    "hints": {
+      "century": "13th century",
+      "gender": "male",
+      "nationality": "Italian",
+      "profession": "Painter"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "giotto"
+    ]
+  },
+  {
+    "id": "nebuchadnezzar-ii",
+    "name": "Nebuchadnezzar II",
+    "birth": {
+      "date": "-0641",
+      "place": "Uruk",
+      "lat": 31.33,
+      "lng": 45.64,
+      "country": "Iraq"
+    },
+    "death": {
+      "date": "-0561",
+      "place": "Babylon",
+      "lat": 32.54,
+      "lng": 44.42,
+      "country": "Iraq"
+    },
+    "hints": {
+      "century": "7th century BC",
+      "gender": "male",
+      "nationality": "Babylonian",
+      "profession": "King"
+    },
+    "bio": "",
+    "acceptedAnswers": [
+      "nebuchadnezzar ii"
+    ]
   }
 ]
