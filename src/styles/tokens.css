@@ -1,0 +1,31 @@
+/*
+ * Platform design tokens. NYT-Games-inspired: white ground, hairline rules,
+ * a serif display face, two ink levels.
+ *
+ * Contrast note: Wordle's own muted gray (#787c7e) is 4.27:1 on white and
+ * fails WCAG AA for body text. --muted is darkened to #6e7276 (4.8:1) and
+ * carries ALL secondary text, uppercase labels included. --disabled is for
+ * non-informative marks only, never for text that carries meaning.
+ */
+:root {
+  --bg: #ffffff;
+  --surface: #f6f7f8;
+  --border: #d3d6da;
+  --rule: #eceef0;
+
+  --text: #111111;
+  --muted: #6e7276;
+  --disabled: #a0a4a8;
+
+  --born: #6aaa64;
+  --died: #c9433f;
+
+  --land: #dfe3e7;
+  --coast: #b9c0c7;
+
+  --font-display: Georgia, 'Times New Roman', serif;
+  --font-ui: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  --col: 600px;
+  --radius: 8px;
+}
