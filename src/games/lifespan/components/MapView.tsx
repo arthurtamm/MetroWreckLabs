@@ -14,8 +14,8 @@ const countries = countriesData as unknown as GeoJsonObject
  * --land, --coast, --born and --died.
  */
 export const MAP_COLORS = {
-  land: '#dfe3e7',
-  coast: '#b9c0c7',
+  land: '#d4dae0',
+  coast: '#a9b2bb',
   born: '#6aaa64',
   died: '#c9433f',
 } as const
