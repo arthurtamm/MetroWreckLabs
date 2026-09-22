@@ -209,7 +209,7 @@ disappears for screen-reader users.
 
 ## Testing
 
-The 49 existing tests are the safety net for the move. They assert behavior through roles and
+The 46 existing tests are the safety net for the move. They assert behavior through roles and
 text, never classNames, so they survive the restyle; if they stay green after `git mv`, the
 refactor is proven. Baseline is captured before anything moves.
 
@@ -237,10 +237,10 @@ never be confused with a broken move. Each step ends green.
 
 0. **Housekeeping.** Commit the pending changes to `scripts/enrich-aliases.mjs` and
    `src/data/people.json` as their own change; a large `git mv` mixed with data edits is very
-   hard to review. Capture the baseline: `npm test` (49 passing), `npm run build`, note bundle
+   hard to review. Capture the baseline: `npm test` (46 passing), `npm run build`, note bundle
    size.
 1. **Move.** `git mv` the three directories; `App.tsx` → `Lifespan.tsx`; `main.tsx` renders it
-   directly. App looks identical, 49 tests green, build works. Pure refactor.
+   directly. App looks identical, 46 tests green, build works. Pure refactor.
 2. **Registry + router + Shell**, TDD. Hub exists but plain. Navigation works.
 3. **Tokens + white theme.** `tokens.css`, `base.css`, rewrite `lifespan.css`, restyle the map.
    Verify in the browser, tune land contrast, screenshot.
