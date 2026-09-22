@@ -4,7 +4,7 @@
 
 **Goal:** Turn the single-game app into a games platform — a hub menu, hash routing, a lazy-loaded game registry, and a white NYT-Games-style visual design — so that adding game 2 costs one folder plus one registry entry.
 
-**Architecture:** `src/platform/` owns the shell (hash router, header, hub, how-to-play modal) and a registry (`games.tsx`) that is the single source of truth for which games exist. Each game is a self-contained folder under `src/games/` loaded via `React.lazy`, so the hub ships ~40 KB instead of the current 1.36 MB. Styling is driven entirely by CSS custom properties in `src/styles/tokens.css`.
+**Architecture:** `src/platform/` owns the shell (hash router, header, hub, how-to-play modal) and a registry (`games.tsx`) that is the single source of truth for which games exist. Each game is a self-contained folder under `src/games/` loaded via `React.lazy`, so the hub ships 62.8 kB gzip instead of the current 357.6 kB. Styling is driven entirely by CSS custom properties in `src/styles/tokens.css`.
 
 **Tech Stack:** React 19, TypeScript (strict), Vite 6, Vitest 4 + Testing Library, Leaflet / react-leaflet. No new dependencies.
 
@@ -819,7 +819,17 @@ Run: `npm test`
 Expected: `Tests 72 passed (72)`
 
 Run: `npm run build`
-Expected: **two or more JS chunks.** The entry `index-*.js` should now be roughly 40–60 kB, with a separate `Lifespan-*.js` chunk carrying ~1.3 MB. If there is still only one large chunk, the dynamic `import()` in `games.tsx` is being defeated — check that nothing imports `Lifespan` statically.
+Expected: **two or more JS chunks.** Measured on the real build: entry `index-*.js`
+at 198.83 kB raw / 62.60 kB gzip (most of it React's own runtime, which
+necessarily lives in the entry), plus a separate `Lifespan-*.js` at 1,163.84 kB
+raw / 295.61 kB gzip carrying Leaflet and the JSON data. Leaflet's stylesheet
+splits out too, as `Lifespan-*.css` at 17.97 kB.
+
+The gate is that the game's payload is **not** in the entry chunk — the hub's
+cost drops from 357.6 kB gzip to 62.8 kB. If there is still only one large
+chunk, the dynamic `import()` in `games.tsx` is being defeated: check that
+nothing imports `Lifespan` statically (`grep -rn "games/lifespan/Lifespan" src`
+should show only the registry's dynamic import).
 
 - [ ] **Step 9: Commit**
 

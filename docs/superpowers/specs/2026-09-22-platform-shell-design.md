@@ -36,8 +36,10 @@ and "game" is the thing this milestone has to get right.
 The current bundle is **1.3 MB**, of which ~1.2 MB is `countries.json` (819 KB) and
 `people.json` (375 KB) — data only Lifespan needs. Loaded eagerly, the hub would pay Lifespan's
 full cost before the player has chosen anything, and the cost would grow with every game added.
-Vite code-splits on the dynamic `import()` in each registry entry, so the hub ships ~40 KB and a
-game's payload arrives when it is opened.
+Vite code-splits on the dynamic `import()` in each registry entry, so a game's payload arrives
+only when it is opened. Measured after implementation: the hub's entry chunk is 198.83 kB raw /
+62.60 kB gzip (mostly React's own runtime) against the game's 1,163.84 kB raw / 295.61 kB gzip —
+the hub's download drops from 357.6 kB gzip to 62.8 kB, a 5.7x reduction.
 
 ## Structure
 
