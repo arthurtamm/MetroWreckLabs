@@ -5,6 +5,7 @@ import people from './data/people.json'
 import type { Person } from './data/types'
 import { MapView } from './components/MapView'
 import { GuessInput } from './components/GuessInput'
+import { GuessDots } from './components/GuessDots'
 import { HintPanel } from './components/HintPanel'
 import { GuessHistory } from './components/GuessHistory'
 import { ResultScreen } from './components/ResultScreen'
@@ -89,12 +90,10 @@ export default function Lifespan() {
 
         {state.status === 'playing' ? (
           <>
+            <GuessDots used={state.guesses.length} max={MAX_GUESSES} />
             <GuessInput disabled={false} onGuess={handleGuess} />
             {notice && <p className="guess-notice">{notice}</p>}
-            <HintPanel
-              hints={revealedHints(person, wrongCount(state))}
-              guessesLeft={MAX_GUESSES - state.guesses.length}
-            />
+            <HintPanel hints={revealedHints(person, wrongCount(state))} />
             <GuessHistory guesses={state.guesses} />
           </>
         ) : (

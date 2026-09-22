@@ -1,17 +1,17 @@
 import type { RevealedHint } from '../game/hints'
-import { MAX_GUESSES } from '../game/constants'
 
 interface Props {
   hints: RevealedHint[]
-  guessesLeft: number
 }
 
-export function HintPanel({ hints, guessesLeft }: Props) {
+export function HintPanel({ hints }: Props) {
   return (
     <div className="hint-panel">
-      <div className="guesses-left">{guessesLeft} of {MAX_GUESSES} guesses left</div>
+      <div className="label">Hints unlocked</div>
       {hints.length === 0 ? (
-        <p className="hint-empty">No hints yet — guess from the map, or a wrong guess unlocks a clue.</p>
+        <p className="hint-empty">
+          No hints yet — guess from the map, or a wrong guess unlocks a clue.
+        </p>
       ) : (
         <ul className="hints">
           {hints.map((h) => (

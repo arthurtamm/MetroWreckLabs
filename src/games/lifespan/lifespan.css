@@ -114,6 +114,18 @@
 }
 .result-actions button:first-child { background: var(--text); color: var(--bg); }
 
+.guess-dots { display: flex; gap: 6px; justify-content: center; }
+.guess-dots i {
+  display: block;
+  width: 28px;
+  height: 5px;
+  border-radius: 3px;
+  background: var(--border);
+}
+.guess-dots i.used { background: var(--died); }
+
+.hint-panel .label { margin-bottom: 9px; }
+
 @media (max-width: 480px) {
   .map { height: 36vh; }
 }
