@@ -1,5 +1,6 @@
 import { useMemo, useReducer, useState } from 'react'
-import './App.css'
+import './lifespan.css'
+import 'leaflet/dist/leaflet.css'
 import people from './data/people.json'
 import type { Person } from './data/types'
 import { MapView } from './components/MapView'
@@ -30,7 +31,7 @@ function pickRandom(): Person {
   return ALL[Math.floor(Math.random() * ALL.length)]
 }
 
-export default function App() {
+export default function Lifespan() {
   const [mode, setMode] = useState<Mode>('daily')
   const daily = useMemo(pickDaily, [])
   const [endlessPerson, setEndlessPerson] = useState<Person>(pickRandom)
