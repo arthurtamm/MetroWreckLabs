@@ -64,9 +64,8 @@ export default function Lifespan() {
   // Mode switches and "Play again" call dispatch({ type: 'reset', person })
   // explicitly (see handlers below) to re-init the round for the new person.
   return (
-    <div className="app">
-      <header className="app-header">
-        <h1>MetroWreckLabs</h1>
+    <div className="lifespan">
+      <div className="lifespan-modes">
         <ModeToggle
           mode={mode}
           onChange={(m) => {
@@ -76,7 +75,7 @@ export default function Lifespan() {
             dispatch({ type: 'reset', person: next })
           }}
         />
-      </header>
+      </div>
 
       <MapView birth={person.birth} death={person.death} />
 
