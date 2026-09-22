@@ -1,9 +1,13 @@
 # MetroWreckLabs
 
-A daily "guess the mystery person" map game. A green pin marks where someone was
-born (with the date) and a red pin where they died — deduce who they are in 6 guesses.
-Each wrong guess unlocks a new hint, from least to most helpful
-(century → gender → nationality → profession → initials).
+A platform for daily puzzle games. The hub lists the games; each game lives in
+its own module and is code-split so opening the hub doesn't download all of them.
+
+## Games
+
+- **Lifespan** (`#/lifespan`) — a green pin marks where someone was born and a
+  red pin where they died. Deduce who they are in 6 guesses; each wrong guess
+  unlocks a hint (gender & nationality → profession → initials).
 
 ## Develop
 
@@ -14,7 +18,7 @@ npm run test     # run unit + component tests
 npm run build    # static production build → dist/
 ```
 
-## Modes
+## Lifespan modes
 
 - **Daily** — the same person for everyone, chosen deterministically from the date.
 - **Endless** — a random person each round.
@@ -45,7 +49,26 @@ a runtime check. For each person the agent should confirm/correct:
 A handy split is to batch the dataset (~45 people per agent) and have each emit a
 JSON patch keyed by `id`, then apply the patches and de-duplicate by canonical name.
 
+## Adding a game
+
+1. Create `src/games/<id>/` with a default-exported React component.
+2. Add one entry to `GAMES` in `src/platform/games.tsx` — `id`, `name`,
+   `tagline`, `tiles`, `howToPlay`, `status: 'live'`, and
+   `load: () => import('../games/<id>/<Component>')`.
+
+That's the whole integration. The hub row, the `#/<id>` route, the header, and
+the how-to-play modal all come from that entry. Use `status: 'soon'` (and no
+`load`) to list a game before it's playable.
+
+## Structure
+
+- `src/platform/` — shell, hash router, hub, game registry, how-to-play modal
+- `src/games/<id>/` — one self-contained game, lazy-loaded
+- `src/styles/` — design tokens and base styles
+
 ## Design docs
 
 - Spec: `docs/superpowers/specs/2026-06-21-metrowrecklabs-design.md`
 - Implementation plan: `docs/superpowers/plans/2026-06-21-metrowrecklabs.md`
+- Platform spec: `docs/superpowers/specs/2026-09-22-platform-shell-design.md`
+- Platform plan: `docs/superpowers/plans/2026-09-22-platform-shell.md`
