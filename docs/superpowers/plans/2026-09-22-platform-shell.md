@@ -267,6 +267,12 @@ import { describe, it, expect } from 'vitest'
 import { GAMES, findGame, type GameMeta } from './games'
 
 describe('GAMES registry', () => {
+  // Several tests below assert inside a loop over GAMES; without this they
+  // would pass vacuously on an empty registry.
+  it('is not empty', () => {
+    expect(GAMES.length).toBeGreaterThan(0)
+  })
+
   it('has unique ids', () => {
     const ids = GAMES.map((g) => g.id)
     expect(new Set(ids).size).toBe(ids.length)
@@ -388,10 +394,10 @@ export function findGame(games: GameMeta[], id: string): GameMeta | undefined {
 - [ ] **Step 4: Run test to verify it passes**
 
 Run: `npx vitest run src/platform/games.test.tsx`
-Expected: PASS, 8 tests
+Expected: PASS, 9 tests
 
 Run: `npm test`
-Expected: `Tests 60 passed (60)`
+Expected: `Tests 61 passed (61)`
 
 - [ ] **Step 5: Commit**
 
@@ -564,7 +570,7 @@ Run: `npx vitest run src/platform/Hub.test.tsx`
 Expected: PASS, 5 tests
 
 Run: `npm test`
-Expected: `Tests 65 passed (65)`
+Expected: `Tests 66 passed (66)`
 
 - [ ] **Step 6: Commit**
 
@@ -810,7 +816,7 @@ wrapper, so no other change is needed.
 - [ ] **Step 8: Verify the whole suite and the code split**
 
 Run: `npm test`
-Expected: `Tests 71 passed (71)`
+Expected: `Tests 72 passed (72)`
 
 Run: `npm run build`
 Expected: **two or more JS chunks.** The entry `index-*.js` should now be roughly 40–60 kB, with a separate `Lifespan-*.js` chunk carrying ~1.3 MB. If there is still only one large chunk, the dynamic `import()` in `games.tsx` is being defeated — check that nothing imports `Lifespan` statically.
@@ -1031,7 +1037,7 @@ Run: `npx vitest run src/platform/Shell.test.tsx`
 Expected: PASS, 8 tests
 
 Run: `npm test`
-Expected: `Tests 78 passed (78)`
+Expected: `Tests 79 passed (79)`
 
 - [ ] **Step 9: Commit**
 
@@ -1288,7 +1294,7 @@ git rm src/index.css
 - [ ] **Step 5: Verify**
 
 Run: `npm test`
-Expected: `Tests 78 passed (78)`
+Expected: `Tests 79 passed (79)`
 
 Run: `npm run build`
 Expected: `✓ built`
@@ -1302,7 +1308,13 @@ Start the dev server via the Browser pane (`preview_start`, not a shell command)
 - the back arrow returns to the hub
 - the ⓘ opens the modal; Escape closes it
 
-Check `read_console_messages` for errors. The game itself is still dark at this point — that is Task 8.
+Check `read_console_messages` for errors.
+
+Expect the *game* screen to look broken at this point, and do not treat that as a
+regression: Task 5 renamed its wrapper from `.app` to `.lifespan`, so the old
+dark stylesheet's wrapper and header rules no longer match, while its map, chip
+and mode-toggle rules still do. The game is therefore partly unstyled and still
+dark in places until Task 8 restyles it.
 
 - [ ] **Step 7: Commit**
 
@@ -1489,7 +1501,7 @@ Replace the whole of `src/games/lifespan/lifespan.css`:
 - [ ] **Step 3: Verify**
 
 Run: `npm test`
-Expected: `Tests 78 passed (78)`
+Expected: `Tests 79 passed (79)`
 
 Run: `npm run build`
 Expected: `✓ built`
@@ -1687,7 +1699,7 @@ Also add a top margin to the hints label inside the panel, appended to the same 
 - [ ] **Step 8: Verify**
 
 Run: `npm test`
-Expected: `Tests 82 passed (82)`
+Expected: `Tests 83 passed (83)`
 
 Run: `npm run build`
 Expected: `✓ built` — no `noUnusedLocals` error
@@ -1808,7 +1820,7 @@ Finally, append the new spec and plan to the `## Design docs` list:
 - [ ] **Step 6: Final verification**
 
 Run: `npm test`
-Expected: `Tests 82 passed (82)`
+Expected: `Tests 83 passed (83)`
 
 Run: `npm run build`
 Expected: `✓ built`, with a small entry chunk and a separate large `Lifespan-*.js`
@@ -1833,13 +1845,13 @@ Vite scaffolding assets."
 |---|---|---|
 | 1 Move | 46 | bundle unchanged; pure refactor |
 | 2 Router | 52 | — |
-| 3 Registry | 60 | — |
-| 4 Hub | 65 | — |
-| 5 Shell | 71 | **build emits 2+ chunks; entry ~40–60 kB** |
-| 6 Modal | 78 | — |
-| 7 Tokens | 78 | browser: hub is white, navigation works |
-| 8 Lifespan restyle | 78 | browser: land/ocean contrast approved by user |
-| 9 Guess dots | 82 | browser: dots fill as guesses are spent |
-| 10 Polish | 82 | browser: full round, favicon, title |
+| 3 Registry | 61 | — |
+| 4 Hub | 66 | — |
+| 5 Shell | 72 | **build emits 2+ chunks; entry ~40–60 kB** |
+| 6 Modal | 79 | — |
+| 7 Tokens | 79 | browser: hub is white, navigation works |
+| 8 Lifespan restyle | 79 | browser: land/ocean contrast approved by user |
+| 9 Guess dots | 83 | browser: dots fill as guesses are spent |
+| 10 Polish | 83 | browser: full round, favicon, title |
 
 **The acceptance test for the whole plan:** adding game 2 touches exactly one new folder under `src/games/` and one entry in `src/platform/games.tsx`. If anything else needs editing, the boundary leaked and it's worth fixing before game 2 is built on top of it.
