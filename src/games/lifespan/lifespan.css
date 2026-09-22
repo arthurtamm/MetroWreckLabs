@@ -1,45 +1,119 @@
-.app { max-width: 720px; margin: 0 auto; min-height: 100vh; display: flex; flex-direction: column; }
-.app-header { display: flex; align-items: center; justify-content: space-between; padding: 12px 16px; }
-.app-header h1 { font-size: 20px; margin: 0; }
+.lifespan { display: flex; flex-direction: column; }
 
-.mode-toggle { display: flex; gap: 4px; background: var(--panel); border-radius: 8px; padding: 4px; }
-.mode-toggle button { background: transparent; color: var(--muted); border: 0; padding: 6px 14px; border-radius: 6px; }
-.mode-toggle button.active { background: var(--panel-2); color: var(--text); }
+/* Mode toggle: an underlined segmented control, centered under the header. */
+.lifespan-modes { display: flex; justify-content: center; padding: 12px 16px 0; }
+.mode-toggle { display: flex; gap: 22px; }
+.mode-toggle button {
+  background: none;
+  border: 0;
+  padding: 4px 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--muted);
+  border-bottom: 2px solid transparent;
+}
+.mode-toggle button.active { color: var(--text); border-bottom-color: var(--text); }
 
-.map { height: 45vh; min-height: 280px; width: 100%; }
-/* Ocean background for the label-free vector map (no raster tiles). */
-.map.leaflet-container { background: #0a2a43; }
+/* The ocean is white like the page, so hairlines define the map band. */
+.map {
+  height: 42vh;
+  min-height: 260px;
+  width: 100%;
+  margin-top: 14px;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+.map.leaflet-container { background: var(--bg); }
 
-/* Birth/death dates as colored chips below the map (replaces map tooltips). */
-.date-legend { display: flex; flex-wrap: wrap; gap: 8px; padding: 12px 16px 0; }
-.date-legend .chip { display: inline-flex; align-items: center; gap: 7px; padding: 6px 12px; border-radius: 999px; font-size: 13px; font-weight: 500; }
-.date-legend .chip::before { content: '●'; font-size: 10px; }
-.date-legend .chip.born { background: rgba(52, 211, 153, 0.14); color: #6ee7b7; border: 1px solid rgba(52, 211, 153, 0.4); }
-.date-legend .chip.died { background: rgba(248, 113, 113, 0.14); color: #fca5a5; border: 1px solid rgba(248, 113, 113, 0.4); }
+.date-legend { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; padding: 14px 16px 0; }
+.date-legend .chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 6px 13px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 12.5px;
+  font-weight: 600;
+}
+.date-legend .chip::before { content: ''; width: 8px; height: 8px; border-radius: 50%; }
+.date-legend .chip.born::before { background: var(--born); }
+.date-legend .chip.died::before { background: var(--died); }
 
-.controls { padding: 16px; display: flex; flex-direction: column; gap: 12px; }
-.puzzle-no { margin: 0; color: var(--muted); font-size: 13px; }
+.controls { padding: 16px; display: flex; flex-direction: column; gap: 14px; }
+.puzzle-no {
+  margin: 0;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
 
-.guess-notice { margin: 0; color: #fbbf24; font-size: 13px; }
+.guess-notice { margin: 0; color: var(--died); font-size: 13px; text-align: center; }
 
-.guess-input input { width: 100%; padding: 12px; border-radius: 8px; border: 1px solid var(--border); background: var(--panel); color: var(--text); font-size: 16px; }
+.guess-input input {
+  width: 100%;
+  padding: 13px 14px;
+  border: 2px solid var(--text);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: inherit;
+  font-size: 16px;
+}
+.guess-input input::placeholder { color: var(--muted); }
 
-.hint-panel { background: var(--panel); border: 1px solid var(--border); border-radius: 8px; padding: 12px; }
-.guesses-left { font-size: 13px; color: var(--muted); margin-bottom: 8px; }
-.hints, .guess-history { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.hint-panel { border: 1px solid var(--border); border-radius: var(--radius); padding: 14px; }
+.hints, .guess-history { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 7px; }
+.hints li { font-size: 13.5px; }
 .hint-label { color: var(--muted); }
-.hint-empty { color: var(--muted); margin: 0; }
+.hint-empty { color: var(--muted); margin: 0; font-size: 13px; }
 
-.guess-history li { background: var(--panel-2); border-radius: 6px; padding: 8px 10px; }
+.guess-history li {
+  background: var(--surface);
+  border-radius: 6px;
+  padding: 10px 12px;
+  font-size: 13.5px;
+  font-weight: 600;
+}
 
-.result-screen { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 20px; text-align: center; }
-.result-screen .answer { font-size: 18px; }
-.result-screen .bio { color: var(--muted); }
-.share-preview { background: var(--bg); border-radius: 8px; padding: 12px; white-space: pre-wrap; font-family: inherit; }
-.result-actions { display: flex; gap: 8px; justify-content: center; }
-.result-actions button { padding: 10px 18px; border-radius: 8px; border: 1px solid var(--border); background: var(--panel-2); color: var(--text); }
+.result-screen {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 24px 20px;
+  text-align: center;
+}
+.result-screen h2 {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+.result-screen .answer { font-family: var(--font-display); font-size: 18px; margin: 0 0 8px; }
+.result-screen .bio { color: var(--muted); font-size: 13.5px; line-height: 1.55; }
+.share-preview {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 13px;
+  white-space: pre-wrap;
+  font-family: inherit;
+  font-size: 13px;
+  text-align: left;
+}
+.result-actions { display: flex; gap: 10px; justify-content: center; }
+.result-actions button {
+  padding: 11px 20px;
+  border-radius: 999px;
+  border: 1px solid var(--text);
+  background: var(--bg);
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 700;
+}
+.result-actions button:first-child { background: var(--text); color: var(--bg); }
 
 @media (max-width: 480px) {
-  .map { height: 38vh; }
-  .app-header { flex-direction: column; gap: 8px; align-items: stretch; }
+  .map { height: 36vh; }
 }
