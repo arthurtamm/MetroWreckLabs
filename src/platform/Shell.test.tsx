@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach } from 'vitest'
-import { render, screen } from '@testing-library/react'
+import { render, screen, fireEvent } from '@testing-library/react'
 import { Shell } from './Shell'
 import type { GameMeta } from './games'
 
@@ -56,5 +56,21 @@ describe('Shell', () => {
     await screen.findByText('alpha game body')
     expect(screen.getByText('Alpha')).toBeInTheDocument()
     expect(screen.getByRole('link', { name: /back to all games/i })).toHaveAttribute('href', '#/')
+  })
+
+  it('opens how-to-play for the active game', async () => {
+    setHash('#/alpha')
+    render(<Shell games={games} />)
+    await screen.findByText('alpha game body')
+
+    fireEvent.click(screen.getByRole('button', { name: /how to play/i }))
+    expect(screen.getByRole('dialog', { name: /how to play alpha/i })).toBeInTheDocument()
+    expect(screen.getByText('alpha rules')).toBeInTheDocument()
+  })
+
+  it('opens a platform-level how-to-play on the hub', () => {
+    render(<Shell games={games} />)
+    fireEvent.click(screen.getByRole('button', { name: /how to play/i }))
+    expect(screen.getByRole('dialog', { name: /how to play metrowrecklabs/i })).toBeInTheDocument()
   })
 })

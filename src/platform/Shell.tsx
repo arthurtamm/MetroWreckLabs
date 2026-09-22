@@ -1,7 +1,8 @@
-import { Suspense, lazy, type ComponentType } from 'react'
+import { Suspense, lazy, useState, type ComponentType } from 'react'
 import { GAMES, findGame, type GameMeta } from './games'
 import { Hub } from './Hub'
 import { useHashRoute } from './router'
+import { HowToPlay } from './HowToPlay'
 import './platform.css'
 
 type LiveGame = Extract<GameMeta, { status: 'live' }>
@@ -36,6 +37,9 @@ export function Shell({ games = GAMES }: Props) {
   const active = found?.status === 'live' ? found : undefined
   const Game = active ? lazyFor(active) : null
 
+  const [helpRoute, setHelpRoute] = useState<string | null>(null)
+  const helpOpen = helpRoute === route
+
   return (
     <div className="shell">
       <header className="shell-header">
@@ -50,7 +54,13 @@ export function Shell({ games = GAMES }: Props) {
             <a className="shell-wordmark" href="#/">MetroWreckLabs</a>
           </>
         )}
-        <span className="shell-action" />
+        <button
+          className="shell-action"
+          onClick={() => setHelpRoute(route)}
+          aria-label={active ? `How to play ${active.name}` : 'How to play'}
+        >
+          ⓘ
+        </button>
       </header>
 
       <main className="shell-main">
@@ -62,6 +72,17 @@ export function Shell({ games = GAMES }: Props) {
           <Hub games={games} />
         )}
       </main>
+
+      {helpOpen && (
+        <HowToPlay
+          title={active ? active.name : 'MetroWreckLabs'}
+          onClose={() => setHelpRoute(null)}
+        >
+          {active ? active.howToPlay : (
+            <p>Pick a game from the list — there's a new puzzle in each one every day.</p>
+          )}
+        </HowToPlay>
+      )}
     </div>
   )
 }
