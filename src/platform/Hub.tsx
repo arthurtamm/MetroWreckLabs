@@ -24,7 +24,7 @@ export function Hub({ games = GAMES, today = new Date() }: Props) {
 
       <ul className="hub-list">
         {games.map((game) => (
-          <li key={game.id} className={game.status === 'soon' ? 'hub-row soon' : 'hub-row'}>
+          <li key={game.id} className="hub-row">
             <GameTile tiles={game.tiles} dimmed={game.status === 'soon'} />
 
             <div className="hub-row-text">

@@ -101,7 +101,7 @@
 }
 .modal {
   background: var(--bg);
-  border-radius: 12px;
+  border-radius: var(--radius-lg);
   max-width: 440px;
   width: 100%;
   max-height: 80vh;
