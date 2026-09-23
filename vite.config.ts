@@ -1,5 +1,5 @@
 /// <reference types="vitest" />
-import { defineConfig } from 'vitest/config'
+import { defineConfig, configDefaults } from 'vitest/config'
 import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
@@ -12,5 +12,10 @@ export default defineConfig(({ command }) => ({
     environment: 'jsdom',
     globals: true,
     setupFiles: './src/test/setup.ts',
+    // Git worktrees live at .claude/worktrees/<name>/ — inside the repo, so
+    // Vitest would otherwise collect each worktree's copy of the suite too.
+    // Two copies of the same jsdom tests then race over shared globals like
+    // window.location.hash and fail confusingly.
+    exclude: [...configDefaults.exclude, '**/.claude/worktrees/**'],
   },
 }))
