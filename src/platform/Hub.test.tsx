@@ -6,12 +6,12 @@ import type { GameMeta } from './games'
 const games: GameMeta[] = [
   {
     id: 'alpha', name: 'Alpha', tagline: 'The first game', status: 'live',
-    tiles: ['born', 'border', 'border', 'died'], howToPlay: <p>alpha rules</p>,
+    tiles: ['tile-green', 'tile-gray', 'tile-gray', 'tile-red'], howToPlay: <p>alpha rules</p>,
     load: async () => ({ default: () => <p>alpha game</p> }),
   },
   {
     id: 'beta', name: 'Beta', tagline: 'Not yet', status: 'soon',
-    tiles: ['border', 'border', 'border', 'border'], howToPlay: <p>beta rules</p>,
+    tiles: ['tile-gray', 'tile-gray', 'tile-gray', 'tile-gray'], howToPlay: <p>beta rules</p>,
   },
 ]
 

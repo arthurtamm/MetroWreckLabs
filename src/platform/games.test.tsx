@@ -46,7 +46,7 @@ describe('findGame', () => {
   const games: GameMeta[] = [
     {
       id: 'alpha', name: 'Alpha', tagline: 'First', status: 'soon',
-      tiles: ['born', 'border', 'border', 'died'], howToPlay: <p>rules</p>,
+      tiles: ['tile-green', 'tile-gray', 'tile-gray', 'tile-red'], howToPlay: <p>rules</p>,
     },
   ]
 

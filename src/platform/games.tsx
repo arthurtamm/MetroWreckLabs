@@ -1,7 +1,7 @@
 import type { ComponentType, ReactNode } from 'react'
 
-/** Names of color tokens in styles/tokens.css, used by the 2x2 game tile. */
-export type TileToken = 'born' | 'died' | 'border' | 'surface'
+/** Names of tile color tokens in styles/tokens.css, used by the 2x2 game tile. */
+export type TileToken = 'tile-green' | 'tile-red' | 'tile-gray' | 'tile-sand'
 
 interface GameBase {
   /** URL segment: #/<id>. Lowercase, hyphens only. */
@@ -25,7 +25,7 @@ export const GAMES: GameMeta[] = [
     id: 'lifespan',
     name: 'Lifespan',
     tagline: 'Two pins, two dates. Who were they?',
-    tiles: ['born', 'border', 'border', 'died'],
+    tiles: ['tile-green', 'tile-gray', 'tile-gray', 'tile-red'],
     status: 'live',
     // Dynamic import: Vite splits the game (with Leaflet and its JSON data)
     // into a chunk that the hub never downloads.

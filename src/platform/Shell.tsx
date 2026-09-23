@@ -1,4 +1,4 @@
-import { Suspense, lazy, useState, type ComponentType } from 'react'
+import { Suspense, lazy, useCallback, useEffect, useState, type ComponentType } from 'react'
 import { GAMES, findGame, type GameMeta } from './games'
 import { Hub } from './Hub'
 import { useHashRoute } from './router'
@@ -37,8 +37,20 @@ export function Shell({ games = GAMES }: Props) {
   const active = found?.status === 'live' ? found : undefined
   const Game = active ? lazyFor(active) : null
 
-  const [helpRoute, setHelpRoute] = useState<string | null>(null)
-  const helpOpen = helpRoute === route
+  const [helpOpen, setHelpOpen] = useState(false)
+
+  // A route change should always close the modal — including navigation via
+  // browser Back/Forward, which fires hashchange without going through
+  // closeHelp. Without this, reopening on Forward would resurrect a modal
+  // for whatever route happened to be current when it was last closed.
+  useEffect(() => {
+    setHelpOpen(false)
+  }, [route])
+
+  // Stable identity: HowToPlay's focus effect depends on [onClose], so a
+  // fresh arrow every render would re-run it (and re-steal focus) on any
+  // Shell re-render while the modal is open.
+  const closeHelp = useCallback(() => setHelpOpen(false), [])
 
   return (
     <div className="shell">
@@ -56,7 +68,7 @@ export function Shell({ games = GAMES }: Props) {
         )}
         <button
           className="shell-action"
-          onClick={() => setHelpRoute(route)}
+          onClick={() => setHelpOpen(true)}
           aria-label={active ? `How to play ${active.name}` : 'How to play'}
         >
           ⓘ
@@ -76,7 +88,7 @@ export function Shell({ games = GAMES }: Props) {
       {helpOpen && (
         <HowToPlay
           title={active ? active.name : 'MetroWreckLabs'}
-          onClose={() => setHelpRoute(null)}
+          onClose={closeHelp}
         >
           {active ? active.howToPlay : (
             <p>Pick a game from the list — there's a new puzzle in each one every day.</p>

@@ -53,7 +53,9 @@ JSON patch keyed by `id`, then apply the patches and de-duplicate by canonical n
 
 1. Create `src/games/<id>/` with a default-exported React component.
 2. Add one entry to `GAMES` in `src/platform/games.tsx` — `id`, `name`,
-   `tagline`, `tiles`, `howToPlay`, `status: 'live'`, and
+   `tagline`, `tiles` (pick four colors from the neutral tile palette in
+   `src/styles/tokens.css`; only adding a genuinely new tile color also
+   touches that file), `howToPlay`, `status: 'live'`, and
    `load: () => import('../games/<id>/<Component>')`.
 
 That's the whole integration. The hub row, the `#/<id>` route, the header, and

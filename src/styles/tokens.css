@@ -23,6 +23,13 @@
   --land: #d4dae0;
   --coast: #a9b2bb;
 
+  /* Neutral tile palette: any game picks tile colors from here without
+     borrowing another game's domain vocabulary (e.g. Lifespan's born/died). */
+  --tile-green: #6aaa64;
+  --tile-red: #c9433f;
+  --tile-gray: #d3d6da;
+  --tile-sand: #c8b653;
+
   --font-display: Georgia, 'Times New Roman', serif;
   --font-ui: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
 

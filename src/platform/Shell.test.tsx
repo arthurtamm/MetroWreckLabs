@@ -1,17 +1,17 @@
 import { describe, it, expect, beforeEach } from 'vitest'
-import { render, screen, fireEvent } from '@testing-library/react'
+import { render, screen, fireEvent, act } from '@testing-library/react'
 import { Shell } from './Shell'
 import type { GameMeta } from './games'
 
 const games: GameMeta[] = [
   {
     id: 'alpha', name: 'Alpha', tagline: 'The first game', status: 'live',
-    tiles: ['born', 'border', 'border', 'died'], howToPlay: <p>alpha rules</p>,
+    tiles: ['tile-green', 'tile-gray', 'tile-gray', 'tile-red'], howToPlay: <p>alpha rules</p>,
     load: async () => ({ default: () => <p>alpha game body</p> }),
   },
   {
     id: 'beta', name: 'Beta', tagline: 'Not yet', status: 'soon',
-    tiles: ['border', 'border', 'border', 'border'], howToPlay: <p>beta rules</p>,
+    tiles: ['tile-gray', 'tile-gray', 'tile-gray', 'tile-gray'], howToPlay: <p>beta rules</p>,
   },
 ]
 
@@ -72,5 +72,29 @@ describe('Shell', () => {
     render(<Shell games={games} />)
     fireEvent.click(screen.getByRole('button', { name: /how to play/i }))
     expect(screen.getByRole('dialog', { name: /how to play metrowrecklabs/i })).toBeInTheDocument()
+  })
+
+  it('does not reopen help after navigating away and back (browser Forward)', async () => {
+    setHash('#/alpha')
+    render(<Shell games={games} />)
+    await screen.findByText('alpha game body')
+
+    fireEvent.click(screen.getByRole('button', { name: /how to play/i }))
+    expect(screen.getByRole('dialog', { name: /how to play alpha/i })).toBeInTheDocument()
+
+    // Back to the hub, then Forward to #/alpha again — both fire hashchange
+    // directly, the way browser history navigation does, bypassing onClose.
+    // jsdom does not reliably deliver its own hashchange event synchronously
+    // for assertion purposes, so dispatch it explicitly.
+    act(() => {
+      window.location.hash = '#/'
+      window.dispatchEvent(new HashChangeEvent('hashchange'))
+    })
+    act(() => {
+      window.location.hash = '#/alpha'
+      window.dispatchEvent(new HashChangeEvent('hashchange'))
+    })
+
+    expect(screen.queryByRole('dialog')).not.toBeInTheDocument()
   })
 })
