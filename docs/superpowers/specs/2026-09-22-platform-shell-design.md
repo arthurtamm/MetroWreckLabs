@@ -94,7 +94,7 @@ interface Base {
   id: string        // URL segment: #/lifespan
   name: string
   tagline: string
-  tiles: [string, string, string, string]   // 2x2 icon; token names, resolved to var(--<name>)
+  tiles: [TileToken, TileToken, TileToken, TileToken]  // 2x2 icon; resolved to var(--<token>)
   howToPlay: ReactNode
 }
 
@@ -107,7 +107,7 @@ export const GAMES: GameMeta[] = [
     id: 'lifespan',
     name: 'Lifespan',
     tagline: 'Two pins, two dates. Who were they?',
-    tiles: ['born', 'border', 'border', 'died'],
+    tiles: ['tile-green', 'tile-gray', 'tile-gray', 'tile-red'],
     status: 'live',
     load: () => import('../games/lifespan/Lifespan'),
     howToPlay: <><p>A green pin marks where they were born, a red pin where they died.</p>
@@ -141,6 +141,11 @@ degrades gracefully — game 2's URL may get shared before game 2 exists.
   --border: #d3d6da;    --rule: #eceef0;
   --text: #111111;      --muted: #6e7276;      --disabled: #a0a4a8;
   --born: #6aaa64;      --died: #c9433f;
+
+  /* Neutral tile palette — game icons pick from these so no game has to borrow
+     another game's domain vocabulary to colour its own icon. */
+  --tile-green: #6aaa64; --tile-red: #c9433f;
+  --tile-gray: #d3d6da;  --tile-sand: #c8b653;
   --land: #dfe3e7;      --coast: #b9c0c7;
   --font-display: Georgia, 'Times New Roman', serif;
   --font-ui: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
@@ -199,8 +204,9 @@ focusable no-op buttons. No hamburger — there is no menu behind it.
 
 **Game (Lifespan)** — `←` back, centered "Lifespan", ⓘ; Daily/Endless as a centered segmented
 control; map band; `DAILY NO. 94` uppercase label; born/died as outlined pills with a colored dot
-(replacing today's translucent fills); six progress dots; 2px-black-bordered input with a black
-pill `Guess` button; bordered hints panel with an uppercase header; light-gray guess rows.
+(replacing today's translucent fills); six progress dots; 2px-black-bordered input (submitted
+with Enter — the approved "Stream" layout has no separate Guess button); bordered hints panel
+with an uppercase header; light-gray guess rows.
 
 **Result** — the emoji headlines (`🎉 Solved!`, `💀 Out of guesses`) become Georgia type; share
 text in a `--surface` block; black pill `Share` beside an outlined `Play again`.
