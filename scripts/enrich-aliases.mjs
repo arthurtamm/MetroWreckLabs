@@ -81,7 +81,7 @@ function collectNames(e) {
 }
 
 async function main() {
-  const people = JSON.parse(readFileSync('src/data/people.json', 'utf8'))
+  const people = JSON.parse(readFileSync('src/games/lifespan/data/people.json', 'utf8'))
   const unmatched = []
   let enriched = 0
 
@@ -120,7 +120,7 @@ async function main() {
     await sleep(350)
   }
 
-  writeFileSync('src/data/people.json', JSON.stringify(people, null, 2) + '\n')
+  writeFileSync('src/games/lifespan/data/people.json', JSON.stringify(people, null, 2) + '\n')
   const total = people.reduce((n, p) => n + p.acceptedAnswers.length, 0)
   console.log(`Enriched ${enriched}/${people.length} from Wikidata.`)
   console.log(`Unmatched (kept existing answers): ${unmatched.length} -> ${unmatched.join(', ') || 'none'}`)

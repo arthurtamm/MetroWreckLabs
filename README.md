@@ -25,7 +25,7 @@ npm run build    # static production build → dist/
 
 ## Data
 
-`src/data/people.json` is the curated dataset (~145 people), harvested once from
+`src/games/lifespan/data/people.json` is the curated dataset (~145 people), harvested once from
 Wikidata via `node scripts/harvest-wikidata.mjs` and reviewed/cleaned. The live
 game reads this static file — there is no backend. Note: because everything runs
 client-side, the answer is technically discoverable in the page source (acceptable

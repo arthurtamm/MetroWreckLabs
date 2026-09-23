@@ -145,12 +145,12 @@ async function main() {
     await sleep(1000)
   }
 
-  const existing = JSON.parse(readFileSync('src/data/people.json', 'utf8'))
+  const existing = JSON.parse(readFileSync('src/games/lifespan/data/people.json', 'utf8'))
   const original = existing.slice(0, 8) // the 8 hand-verified originals
   const originalIds = new Set(original.map((p) => p.id))
   const harvested = [...byId.values()].filter((p) => !originalIds.has(p.id))
   const merged = [...original, ...harvested].slice(0, TARGET)
-  writeFileSync('src/data/people.json', JSON.stringify(merged, null, 2) + '\n')
+  writeFileSync('src/games/lifespan/data/people.json', JSON.stringify(merged, null, 2) + '\n')
   console.log(`Wrote ${merged.length} people (${harvested.length} harvested).`)
 }
 

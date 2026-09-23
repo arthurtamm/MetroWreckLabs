@@ -76,7 +76,7 @@ const slug = (name) =>
   name.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
 
 async function main() {
-  const existing = JSON.parse(readFileSync('src/data/people.json', 'utf8'))
+  const existing = JSON.parse(readFileSync('src/games/lifespan/data/people.json', 'utf8'))
   const norm = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim()
   const existingIds = new Set(existing.map((p) => p.id))
   const existingNames = new Set(existing.map((p) => norm(p.name)))

@@ -5,8 +5,8 @@
 // Run: node scripts/add-countries.mjs
 import { readFileSync, writeFileSync } from 'node:fs'
 
-const people = JSON.parse(readFileSync('src/data/people.json', 'utf8'))
-const countries = JSON.parse(readFileSync('src/data/countries.json', 'utf8'))
+const people = JSON.parse(readFileSync('src/games/lifespan/data/people.json', 'utf8'))
+const countries = JSON.parse(readFileSync('src/games/lifespan/data/countries.json', 'utf8'))
 
 // Ray-casting point-in-ring (even-odd). Coordinates are [lng, lat].
 function pointInRing(x, y, ring) {
@@ -75,7 +75,7 @@ for (const p of people) {
   if (!p.death.country) unresolved.push(`${p.id} DEATH (${p.death.lat},${p.death.lng}) "${p.death.place}"`)
 }
 
-writeFileSync('src/data/people.json', JSON.stringify(people, null, 2) + '\n')
+writeFileSync('src/games/lifespan/data/people.json', JSON.stringify(people, null, 2) + '\n')
 
 const sameCountry = people.filter(
   (p) => p.birth.country && p.death.country && p.birth.country === p.death.country,
